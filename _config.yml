@@ -1,0 +1,9 @@
+baseurl: '/fewd29'
+permalink: /:categories/:title/
+relative_permalinks: false
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - 'autolink'
+    - 'smart'
+    - 'hard_wrap'
