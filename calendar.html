@@ -1,0 +1,30 @@
+---
+layout: default
+title: Calendar
+permalink: /calendar/
+---
+
+<table style="width: 100%">
+  <thead>
+    <tr>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for month in site.data.course.calendar %}
+      {% for i in (month.start..month.end) %}
+        {% capture date %}{{ month.month }} {{ i }}, {{ month.year }}{% endcapture %}
+        {% capture dow %}{{ date | date_to_xmlschema | date:"%A" }}{% endcapture %}
+        {% unless dow == "Saturday" or dow == "Sunday" %}
+          {% if dow == "Monday" %}<tr>{% endif %}
+            <td>{{ month.month }} {{ i }}</td>
+          {% if dow == "Friday" %}</tr>{% endif %}
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>

@@ -1,0 +1,104 @@
+---
+sidebar: |
+  Useful Links
+  ------------
+  
+  * [Chat Room](http://tlk.io/fewd19)
+  * [Schoology](http://classroom.generalassemb.ly/course/65186631/materials)
+notes:
+  - colors
+  - images
+  - css-placement
+  - programming
+---
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.data.course.abbreviation }} {{ site.data.course.iteration }} @ GA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/charter/stylesheet.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/franklin/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6747292/744824/css/fonts.css" />
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+	<script>window.onload = function(){ document.body.className += " loaded"; }</script>
+</head>
+<body>
+
+<header id="page-header">
+  <h2><a href="http://generalassemb.ly/">General Assembly</a></h2>
+	<h1>
+		<a href="{{ site.baseurl }}/">
+			{{ site.data.course.title }} {{ site.data.course.iteration }}
+		</a>
+	</h1>
+  <nav>
+    <ul>
+      <li><a href="{{ site.baseurl }}/about/">About</a></li>
+      <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="main">
+{{ content }}
+</section>
+
+<nav id="main-nav">
+	<ul>
+		<li><a href="{{ site.baseurl }}/about/">About the Course</a></li>
+		<li><a href="{{ site.baseurl }}/contact/">Get in Touch</a></li>
+	</ul>
+</nav>
+
+<aside id="secondary">
+	
+	<h2>On the Agenda</h2>
+	<ul>
+		{% for post in site.categories.agenda limit:5 %}
+			<li>
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
+				<small>{{ post.date | date: "%b. %-d, %Y" }}</small>
+			</li>
+		{% endfor %}
+		<li>
+			<a href="{{ site.baseurl }}/agenda/">All</a>
+		</li>
+	</ul>
+	
+	<h2>Homework Assignments</h2>
+	<ul>
+		{% for post in site.categories.homework limit:3 %}
+			<li>
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
+				<small>due {{ post.date | date: "%b. %-d, %Y" }}</small>
+			</li>
+		{% endfor %}
+		<li>
+			<a href="{{ site.baseurl }}/homework/">All</a>
+		</li>
+	</ul>
+	
+	<h2>Notes</h2>
+	<ul>
+	{% for note in page.notes %}
+		{% capture url %}/notes/{{ note }}/{% endcapture %}
+		{% for page in site.pages %}
+			{% if page.url == url %}
+				<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+	</ul>
+	
+	{{ page.sidebar | markdownify }}
+
+</aside>
+
+<footer></footer>
+
+</body>
+</html>

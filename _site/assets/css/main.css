@@ -1,0 +1,195 @@
+/* General */
+
+body {
+	font-family: Charter, serif;
+	font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif;
+	font-size: 75%;
+	line-height: 1.5;
+	padding: 0 0 10%;
+}
+
+#main, #main-nav, #secondary {
+	margin: 0 5%;
+}
+
+a {
+	color: inherit;
+}
+.loaded a {
+	-webkit-transition: color 300ms;
+	-moz-transition: color 300ms;
+	transition: color 300ms;
+}
+.loaded header h1 a {
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+}
+a:hover, a:focus, a:active {
+	color: #E00;
+	outline: none;
+}
+
+h1 {
+	font-weight: 800;
+	border-bottom: 1px solid #CCC;
+}
+h1 small {
+	float: right;
+	margin-top: .2em;
+	font-weight: bold;
+}
+h2 {
+	margin-top: 1.5em;
+}
+h3 {
+	margin-top: 1.5em;
+}
+h4 {
+	margin-top: 2em;
+	font-weight: 800;
+	color: #888;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+ul {
+	list-style: square;
+}
+
+small {
+	color: #AAA;
+	white-space: nowrap;
+}
+
+/* 
+header h1 {
+	border-bottom: none;
+	margin: 0;
+	padding: 0;
+}
+header h1 a {
+	text-decoration: none;
+	display: block;
+	background: #444;
+	color: white;
+	padding: 0 5%;
+}
+header h1 a small {
+	color: #AAA;
+	font-size: 1em;
+	font-weight: normal;
+	float: none;
+}
+header h1 a:hover {
+	color: white;
+	background: #333;
+}
+ */
+
+#page-header {
+  background: yellow;
+  padding: 1em 5%;
+  box-shadow: inset 0 -5px 5px -5px rgba(0,0,0,.25);
+}
+
+#main {
+}
+
+footer {
+	clear: both;
+}
+
+pre, code {
+	font-family: monospace;
+}
+
+pre {
+	
+}
+
+code {
+	border: 1px solid rgba(0,0,0,.125);
+	background: rgba(0,0,0,.025);
+	border-radius: 5px;
+	padding: 1px 2px;
+}
+
+pre code {
+	border: none;
+	background: none;
+	padding: 0;
+}
+
+#secondary {
+	color: #555;
+}
+#secondary h2 {
+	font-weight: normal;
+	font-size: 1em;
+	border-bottom: 1px solid rgba(0,0,0,.125);
+	padding: .2em 0;
+	margin-top: 2em;
+}
+#secondary ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#secondary ul li {
+	margin: 0;
+	padding: 0;
+}
+#main-nav {
+	color: #555;
+	border-top: 2px solid black;
+	padding: .5em 0;
+	margin-top: 5em;
+	margin-bottom: 1.5em;
+	font-weight: bold;
+}
+
+.highlight {
+	border: 1px solid rgba(0,0,0,.125);
+	background: rgba(0,0,0,.025);
+	padding: 0 1em;
+	border-radius: 5px;
+	margin: 1em 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Bigger Screens */
+
+@media screen and (min-width: 30em) {
+	body {
+		font-size: 100%;
+	}
+}
+@media screen and (min-width: 55em) {
+	#main {
+		float: left;
+		width: 60%;
+		margin-right: 0;
+	}
+	#main-nav {
+		margin-top: 2em;
+		border-top: none;
+	}
+	#main-nav, #secondary {
+		float: right;
+		clear: right;
+		width: 25%;
+	}
+	#secondary h2:first-child {
+		margin-top: 0;
+	}
+}

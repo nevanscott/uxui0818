@@ -1,0 +1,28 @@
+title: Front-end Web Development
+abbreviation: FEWD
+iteration: 29
+city: New York
+location: GA West, Studio 2
+start_date: March 31, 2014
+end_date: June 11, 2014
+calendar:
+  -
+    month: Mar
+    year: 2014
+    start: 30
+    end: 31
+  -
+    month: Apr
+    year: 2014
+    start: 1
+    end: 30
+  -
+    month: May
+    year: 2014
+    start: 1
+    end: 31
+  -
+    month: Jun
+    year: 2014
+    start: 1
+    end: 14

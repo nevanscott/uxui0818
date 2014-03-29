@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Basics - FEWD 29 @ GA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="/assets/fonts/charter/stylesheet.css">
+	<link rel="stylesheet" href="/assets/fonts/franklin/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6747292/744824/css/fonts.css" />
+	<link rel="stylesheet" href="/assets/css/normalize.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/syntax.css">
+	<script>window.onload = function(){ document.body.className += " loaded"; }</script>
+</head>
+<body>
+
+<header id="page-header">
+  <h2><a href="http://generalassemb.ly/">General Assembly</a></h2>
+	<h1>
+		<a href="/">
+			Front-end Web Development 29
+		</a>
+	</h1>
+  <nav>
+    <ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="main">
+<article>
+	<h1>
+		CSS Basics
+		<small>Oct. 7, 2013</small>
+	</h1>
+	<h2>Agenda</h2>
+
+<ul>
+<li>HTML Practice</li>
+<li>Intro to CSS</li>
+<li>Style &ldquo;Wendy Bite&rdquo; About Page <small>(as a class)</small></li>
+<li>Style &ldquo;Wendy Bite&rdquo; Résumé Page <small>(in pairs)</small></li>
+</ul>
+
+<p>For today&rsquo;s class, we will dive right into the relationship between HTML and CSS. While HTML is a great tool for describing the structure of the content on the page, CSS is great for instructing the browser how we want that content to be presented.</p>
+
+<p>HTML and CSS are both extremely powerful, so it is easy to learn the basics but difficult to master all the nuances. With that in mind, we&rsquo;ll start by working together to use the two in concert, and transition to working in pairs. After this class, your individual assignments will be to work with CSS to create styles for your own About Me pages.</p>
+
+<h2>Starter Files</h2>
+
+<p><strong>Nested Selectors</strong> (<a href="/starters/nested_selectors.zip">download</a>)<br>
+<strong>Box Model</strong> (<a href="/starters/box_model.zip">download</a>)<br>
+<strong>Wendy Bite</strong> (<a href="/starters/wendy_bite.zip">download</a>) (<a href="/projects/wendy_bite_markup/">markup preview</a>) (<a href="/projects/wendy_bite/">design preview</a>)</p>
+
+<h2>Before Class</h2>
+
+<p>Please take a look at the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML Element Reference</a> provided by the Mozilla Developer Network. MDN is a well-regarded resource for web developers, but its documentation can be sprawling and overly-detailed, especially for beginners. The HTML Element reference is more concise than some of the documentation, and can be very helpful in learning about the various tags. Don&rsquo;t worry about digging in too deeply, especially if some of the descriptions of the tags and their attributes seem confusing. It will simply be helpful to start getting familiar with looking at this type of documentation at this stage.</p>
+
+<p>As a starting point, try looking into the following elements:</p>
+
+<ul>
+<li><code>head</code></li>
+<li><code>body</code></li>
+<li><code>title</code></li>
+<li><code>p</code></li>
+<li><code>a</code></li>
+<li><code>img</code></li>
+<li><code>h1</code>, <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code></li>
+<li><code>ul</code>, <code>ol</code>, <code>li</code></li>
+<li><code>blockquote</code></li>
+<li><code>br</code>, <code>hr</code></li>
+<li><code>em</code>, <code>strong</code>, <code>small</code></li>
+</ul>
+
+<p>If you have some extra time, try looking up some newer HTML elements, such as:</p>
+
+<ul>
+<li><code>nav</code></li>
+<li><code>article</code></li>
+<li><code>header</code></li>
+<li><code>footer</code></li>
+<li><code>section</code></li>
+</ul>
+
+<p>If you have even more time, have a look at the <a href="http://dev.w3.org/html5/html-author/">HTML5 Reference</a> provided by the W3C. Try looking up the same HTML elements (tags) listed above.</p>
+
+<p>The W3C, or World Wide Web Consortium, is the governing body for most web standards, especially HTML and CSS. They are responsible for maintaining the specifications for these languages, and having a standards body (with all its ups and downs) is part of what makes the web on the one hand enormously successful, and on the other hand sometimes frustrating to author.</p>
+
+</article>
+
+</section>
+
+<nav id="main-nav">
+	<ul>
+		<li><a href="/about/">About the Course</a></li>
+		<li><a href="/contact/">Get in Touch</a></li>
+	</ul>
+</nav>
+
+<aside id="secondary">
+	
+	<h2>On the Agenda</h2>
+	<ul>
+		
+			<li>
+				<a href="/agenda/more-responsive/">More Responsive</a>
+				<small>Nov. 25, 2013</small>
+			</li>
+		
+			<li>
+				<a href="/agenda/workflow-and-refactoring/">Workflow and Refactoring</a>
+				<small>Nov. 13, 2013</small>
+			</li>
+		
+			<li>
+				<a href="/agenda/more-jquery/">More jQuery</a>
+				<small>Nov. 6, 2013</small>
+			</li>
+		
+			<li>
+				<a href="/agenda/jquery/">jQuery</a>
+				<small>Nov. 4, 2013</small>
+			</li>
+		
+			<li>
+				<a href="/agenda/functions/">Functions</a>
+				<small>Oct. 30, 2013</small>
+			</li>
+		
+		<li>
+			<a href="/agenda/">All</a>
+		</li>
+	</ul>
+	
+	<h2>Homework Assignments</h2>
+	<ul>
+		
+			<li>
+				<a href="/homework/responsive-wireframes/">Responsive Wireframes</a>
+				<small>due Nov. 25, 2013</small>
+			</li>
+		
+			<li>
+				<a href="/homework/divided-times/">Divided Times</a>
+				<small>due Nov. 18, 2013</small>
+			</li>
+		
+			<li>
+				<a href="/homework/final-project-proposal/">Final Project Proposal</a>
+				<small>due Nov. 6, 2013</small>
+			</li>
+		
+		<li>
+			<a href="/homework/">All</a>
+		</li>
+	</ul>
+	
+	<h2>Notes</h2>
+	<ul>
+	
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<li><a href="/notes/colors/">Colors in CSS</a></li>
+			
+		
+			
+		
+			
+		
+			
+		
+	
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<li><a href="/notes/images/">Images</a></li>
+			
+		
+			
+		
+	
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<li><a href="/notes/css-placement/">CSS Placement</a></li>
+			
+		
+			
+		
+			
+		
+	
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				<li><a href="/notes/programming/">About Programming</a></li>
+			
+		
+	
+	</ul>
+	
+	<h2>Useful Links</h2>
+
+<ul>
+<li><a href="http://tlk.io/fewd19">Chat Room</a></li>
+<li><a href="http://classroom.generalassemb.ly/course/65186631/materials">Schoology</a></li>
+</ul>
+
+
+</aside>
+
+<footer></footer>
+
+</body>
+</html>
