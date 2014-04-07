@@ -31,12 +31,12 @@
                 <span class="day">{{ i }}</span>
               </div>
               {% for post in site.categories.homework %}
-                {% assign post_date_xml = post.date | date_to_xmlschema %}
+                {% assign post_date_xml = post.date | date_to_string | date_to_xmlschema %}
                 {% if post_date_xml == date_xml %}
                   <div class="homework"><a href="{{ site.baseurl }}{{ post.url }}">HW: {{ post.title }}</a></div>
                 {% endif %}
                 {% if post.due_date %}
-                  {% assign due_date_xml = post.due_date | date_to_xmlschema %}
+                  {% assign due_date_xml = post.due_date | date_to_string | date_to_xmlschema %}
                   {% if due_date_xml == date_xml %}
                     <div class="homework"><a href="{{ site.baseurl }}{{ post.url }}">Due: {{ post.title }}</a></div>
                   {% endif %}
@@ -44,7 +44,7 @@
               {% endfor %}
               {% for post in site.categories.agenda %}
                 {% if post.class_date %}
-                  {% assign class_date_xml = post.class_date | date_to_xmlschema %}
+                  {% assign class_date_xml = post.class_date | date_to_string | date_to_xmlschema %}
                   {% if class_date_xml == date_xml %}
                     <div class="agenda"><a href="{{ site.baseurl }}{{ post.url }}">Agenda: {{ post.title }}</a></div>
                   {% endif %}

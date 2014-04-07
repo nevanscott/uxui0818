@@ -1,7 +1,7 @@
 ---
 layout: homework
 title: About Me Markup
-due_date: April 7, 2014
+due_date: April 7, 2014 6:30pm
 ---
 
 Assignment
