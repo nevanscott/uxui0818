@@ -25,8 +25,8 @@ Starter Files
 **Wendy Bite** ([download]({{ site.baseurl }}/starters/wendy_bite.zip)) ([markup preview]({{ site.baseurl }}/projects/wendy_bite_markup/)) ([design preview]({{ site.baseurl }}/projects/wendy_bite/))
 
 
-Before Class
-------------
+When you get to class
+---------------------
 
 Please take a look at the [HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) provided by the Mozilla Developer Network. MDN is a well-regarded resource for web developers, but its documentation can be sprawling and overly-detailed, especially for beginners. The HTML Element reference is more concise than some of the documentation, and can be very helpful in learning about the various tags. Don't worry about digging in too deeply, especially if some of the descriptions of the tags and their attributes seem confusing. It will simply be helpful to start getting familiar with looking at this type of documentation at this stage.
 

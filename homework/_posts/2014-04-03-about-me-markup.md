@@ -8,9 +8,6 @@ Assignment
 ----------
 
 * Make your own 2-page About Me website.
-* Watch General Assembly's *Programming For Non Programmers* <a href="https://generalassemb.ly/online/videos/programming-for-non-programmers-get-started-with-html"> Get Started With HTML</a> video. <small>(You should have received an email with access to Front Row.)</small>
-* Watch the *Don't Fear The Internet* videos: <a href="http://www.dontfeartheinternet.com/the-basics/not-tubes">Not a Series of Tubes</a> and <a href="http://www.dontfeartheinternet.com/html/html">HTML</a>.
-
 
 Details
 -------
@@ -65,7 +62,7 @@ Likewise, we could put the following somewhere in our `resume.html` file:
 We'll discuss all of this more on Monday.
 
 
-## Optional
+## Optional Reading & Viewing
 
 ### What Web Developers Do
 
