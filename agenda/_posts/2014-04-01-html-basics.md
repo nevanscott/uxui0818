@@ -19,9 +19,9 @@ In this class, we're at an advantage: we have a built-in group of peers. Everyon
 
 For most classes, we'll have some files to get you started on work we might do together, in groups or pairs, or individually as labs. For today, here are the first installments:
 
-**GA Press Release** ([download]({{ site.baseurl }}/starters/ga_press_release.zip)) ([preview]({{ site.baseurl }}/projects/ga_press_release/))
+### GA Press Release <small>([download]({{ site.baseurl }}/starters/ga_press_release.zip)) ([preview]({{ site.baseurl }}/projects/ga_press_release/))</small>
 
-**Cookie Recipe** ([download]({{ site.baseurl }}/starters/cookie_recipe.zip)) ([preview]({{ site.baseurl }}/projects/cookie_recipe/))
+### Cookie Recipe <small>([download]({{ site.baseurl }}/starters/cookie_recipe.zip)) ([preview]({{ site.baseurl }}/projects/cookie_recipe/))</small>
 
 We'll discuss what to do with these in class. For now don't sweat it.
 
