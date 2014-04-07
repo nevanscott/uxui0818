@@ -19,6 +19,7 @@ a {
 }
 a:hover, a:focus, a:active {
 	outline: none;
+	color: #900;
 }
 
 .current a {
@@ -59,6 +60,10 @@ ul {
 small {
 	color: #AAA;
 	white-space: nowrap;
+	font-weight: normal;
+}
+small a {
+  color: #888;
 }
 
 /* 
@@ -206,7 +211,9 @@ table.calendar {
   text-decoration: none;
 }
 .calendar a:hover {
+/* 
   background: rgba(0,0,0,.2);
+ */
 }
 
 /* Bigger Screens */

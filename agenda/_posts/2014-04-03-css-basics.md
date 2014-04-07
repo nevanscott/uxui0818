@@ -20,9 +20,11 @@ HTML and CSS are both extremely powerful, so it is easy to learn the basics but 
 Starter Files
 -------------
 
-**Nested Selectors** ([download]({{ site.baseurl }}/starters/nested_selectors.zip))
-**Box Model** ([download]({{ site.baseurl }}/starters/box_model.zip))
-**Wendy Bite** ([download]({{ site.baseurl }}/starters/wendy_bite.zip)) ([markup preview]({{ site.baseurl }}/projects/wendy_bite_markup/)) ([design preview]({{ site.baseurl }}/projects/wendy_bite/))
+### Nested Selectors <small>([download]({{ site.baseurl }}/starters/nested_selectors.zip)) ([preview](http://codepen.io/nevan/details/gHDoc))</small>
+
+### Box Model <small>([download]({{ site.baseurl }}/starters/box_model.zip)) ([preview](http://codepen.io/nevan/details/fJdxG/))</small>
+
+### Wendy Bite <small>([download]({{ site.baseurl }}/starters/wendy_bite.zip)) ([markup preview]({{ site.baseurl }}/projects/wendy_bite_markup/)) ([design preview]({{ site.baseurl }}/projects/wendy_bite/))</small>
 
 
 When you get to class
