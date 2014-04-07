@@ -191,7 +191,7 @@ table.calendar {
   border-left: 1px solid white;
 }
 .calendar td {
-  height: 8em;
+  height: 10em;
   vertical-align: top;
   width: 20%;
   padding: 1em;
