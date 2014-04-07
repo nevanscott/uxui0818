@@ -7,12 +7,12 @@ start_date: March 31, 2014
 end_date: June 11, 2014
 calendar:
   -
-    month: Mar
+    month: March
     year: 2014
     start: 30
     end: 31
   -
-    month: Apr
+    month: April
     year: 2014
     start: 1
     end: 30
@@ -22,7 +22,7 @@ calendar:
     start: 1
     end: 31
   -
-    month: Jun
+    month: June
     year: 2014
     start: 1
     end: 14

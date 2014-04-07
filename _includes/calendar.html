@@ -1,0 +1,59 @@
+<h1>Calendar</h1>
+<table class="calendar">
+  <thead>
+    <tr>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign now = site.time | date_to_xmlschema %}
+    {% assign today = now | date_to_string | date_to_xmlschema %}
+    {% for month in site.data.course.calendar %}
+      {% for i in (month.start..month.end) %}
+        {% capture date %}{{ month.month }} {{ i }}, {{ month.year }}{% endcapture %}
+        {% assign date_xml = date | date_to_xmlschema %}
+        {% capture dow %}{{ date_xml | date:"%A" }}{% endcapture %}
+        {% unless dow == "Saturday" or dow == "Sunday" %}
+          {% if dow == "Monday" %}<tr class="{% cycle 'odd', 'even' %}">{% endif %}
+            <td class="
+              {% if date_xml < today %}past{% endif %}
+              {% if date_xml == today %}today{% endif %}
+              {{ date_xml | date:"%B" | downcase }}
+            ">
+              <div class="date">
+                {% if dow == "Monday" or i == 1 or date_xml == today %}
+                <span class="month">{{ month.month }}</span>
+                {% endif %}
+                <span class="day">{{ i }}</span>
+              </div>
+              {% for post in site.categories.homework %}
+                {% assign post_date_xml = post.date | date_to_xmlschema %}
+                {% if post_date_xml == date_xml %}
+                  <div class="homework"><a href="{{ post.url }}">HW: {{ post.title }}</a></div>
+                {% endif %}
+                {% if post.due_date %}
+                  {% assign due_date_xml = post.due_date | date_to_xmlschema %}
+                  {% if due_date_xml == date_xml %}
+                    <div class="homework"><a href="{{ post.url }}">Due: {{ post.title }}</a></div>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              {% for post in site.categories.agenda %}
+                {% if post.class_date %}
+                  {% assign class_date_xml = post.class_date | date_to_xmlschema %}
+                  {% if class_date_xml == date_xml %}
+                    <div class="agenda"><a href="{{ post.url }}">Agenda: {{ post.title }}</a></div>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </td>
+          {% if dow == "Friday" %}</tr>{% endif %}
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>

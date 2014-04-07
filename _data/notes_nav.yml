@@ -1,0 +1,18 @@
+-
+  section: HTML
+  notes:
+    - images
+-
+  section: CSS
+  notes:
+    - colors
+    - css-placement
+-
+  section: JavaScript
+  notes:
+    - programming
+-
+  section: jQuery
+  notes:
+    - jquery-docs
+

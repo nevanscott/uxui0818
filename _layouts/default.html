@@ -10,6 +10,10 @@ notes:
   - images
   - css-placement
   - programming
+nav:
+  - about
+  - contact
+  - notes
 ---
 <!doctype html>
 <html>
@@ -29,24 +33,44 @@ notes:
 <body>
 
 <header id="page-header">
-  <h2><a href="http://generalassemb.ly/">General Assembly</a></h2>
-	<h1>
-		<a href="{{ site.baseurl }}/">
-			{{ site.data.course.title }} {{ site.data.course.iteration }}
-		</a>
-	</h1>
+  <div class="info">
+    <h2><a href="http://generalassemb.ly/">General Assembly</a></h2>
+    <h1>
+      <a href="{{ site.baseurl }}/">
+        {{ site.data.course.abbreviation }} {{ site.data.course.iteration }}
+      </a>
+    </h1>
+	</div>
+	{% comment %}
   <nav>
     <ul>
-      <li><a href="{{ site.baseurl }}/about/">About</a></li>
-      <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+      {% for item in page.nav %}
+        
+        {% assign item_url = item | prepend:"/" | append:"/" %}
+        
+        {% if item_url == page.url %}
+          {% assign c = "current" %}
+        {% else %}
+          {% assign c = "" %}
+        {% endif %}
+
+        {% for p in site.pages %}
+          {% if p.url == item_url %}
+            <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        
+      {% endfor %}
     </ul>
   </nav>
+  {% endcomment %}
 </header>
 
 <section id="main">
 {{ content }}
 </section>
 
+<!-- 
 <nav id="main-nav">
 	<ul>
 		<li><a href="{{ site.baseurl }}/about/">About the Course</a></li>
@@ -97,6 +121,7 @@ notes:
 	{{ page.sidebar | markdownify }}
 
 </aside>
+ -->
 
 <footer></footer>
 

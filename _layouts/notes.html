@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<aside id="notes-nav">
+  {% for section in site.data.notes_nav %}
+    <h4>{{ section.section }}</h4>
+    <ul>
+      {% for item in section.notes %}
+        
+        {% assign item_url = item | prepend:"/notes/" | append:"/" %}
+        
+        {% if item_url == page.url %}
+          {% assign c = "current" %}
+        {% else %}
+          {% assign c = "" %}
+        {% endif %}
+
+        {% for p in site.pages %}
+          {% if p.url == item_url %}
+            <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</aside>
