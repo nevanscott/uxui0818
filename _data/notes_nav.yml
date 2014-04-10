@@ -7,12 +7,12 @@
   notes:
     - colors
     - css-placement
--
-  section: JavaScript
-  notes:
-    - programming
--
-  section: jQuery
-  notes:
-    - jquery-docs
+#-
+#  section: JavaScript
+#  notes:
+#    - programming
+#-
+#  section: jQuery
+#  notes:
+#    - jquery-docs
 

@@ -24,6 +24,7 @@ a:hover, a:focus, a:active {
 
 .current a {
   font-weight: bold;
+  text-decoration: none;
 }
 
 h1, h2, h3 {
@@ -164,7 +165,7 @@ nav ul li {
 }
 
 article {
-  max-width: 40em;
+  max-width: 45em;
 }
 
 table.calendar {
@@ -211,9 +212,6 @@ table.calendar {
   text-decoration: none;
 }
 .calendar a:hover {
-/* 
-  background: rgba(0,0,0,.2);
- */
 }
 
 /* Bigger Screens */
@@ -227,4 +225,12 @@ table.calendar {
 	}
 }
 @media screen and (min-width: 55em) {
+  article {
+    float: left;
+    width: 65%;
+  }
+  #notes-nav {
+    float: right;
+    width: 30%;
+  }
 }

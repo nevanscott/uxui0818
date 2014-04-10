@@ -11,8 +11,7 @@ notes:
   - css-placement
   - programming
 nav:
-  - about
-  - contact
+  - HOME
   - notes
 ---
 <!doctype html>
@@ -41,12 +40,11 @@ nav:
       </a>
     </h1>
 	</div>
-	{% comment %}
   <nav>
     <ul>
       {% for item in page.nav %}
         
-        {% assign item_url = item | prepend:"/" | append:"/" %}
+        {% assign item_url = item | prepend:"/" | append:"/" | replace:"HOME/","" %}
         
         {% if item_url == page.url %}
           {% assign c = "current" %}
@@ -63,7 +61,6 @@ nav:
       {% endfor %}
     </ul>
   </nav>
-  {% endcomment %}
 </header>
 
 <section id="main">
