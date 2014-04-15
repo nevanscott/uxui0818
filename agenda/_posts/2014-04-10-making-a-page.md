@@ -1,7 +1,7 @@
 ---
 layout: agenda
 title: Making a Page
-class_date: April 14, 2014
+class_date: April 16, 2014
 ---
 
 
