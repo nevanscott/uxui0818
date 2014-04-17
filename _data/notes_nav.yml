@@ -1,12 +1,16 @@
 -
   section: HTML
   notes:
+    - starter-elements
     - images
+    - filenames
 -
   section: CSS
   notes:
+    - starter-properties
     - colors
     - css-placement
+    - reset-and-normalize
 #-
 #  section: JavaScript
 #  notes:
