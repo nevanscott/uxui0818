@@ -4,7 +4,7 @@ title: Starter Properties
 permalink: /notes/starter-properties/
 ---
 
-The following elements should serve you well as an initial set to become familiar with:
+The following properties should serve you well as an initial set to become familiar with:
 
 * `background`
 * `border`
