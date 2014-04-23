@@ -1,6 +1,7 @@
 ---
 layout: agenda
 title: Layout Lab
+class_date: April 23, 2014
 ---
 
 Agenda
