@@ -15,8 +15,9 @@
   section: JavaScript
   notes:
     - functions
-#-
-#  section: jQuery
-#  notes:
-#    - jquery-docs
+-
+  section: jQuery
+  notes:
+    - jquery-function
+    - dom-manipulation
 
