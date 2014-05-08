@@ -11,10 +11,10 @@
     - colors
     - css-placement
     - reset-and-normalize
-#-
-#  section: JavaScript
-#  notes:
-#    - programming
+-
+  section: JavaScript
+  notes:
+    - functions
 #-
 #  section: jQuery
 #  notes:
