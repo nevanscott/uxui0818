@@ -54,8 +54,19 @@ h4 {
 	letter-spacing: .1em;
 }
 
+p {
+  margin: 1.5em 0;
+}
+
 ul {
 	list-style: square;
+}
+
+li {
+  margin: .75em 0;
+}
+li p {
+  margin: .75em 0;
 }
 
 small {
@@ -137,13 +148,15 @@ code {
 	border: 1px solid rgba(0,0,0,.125);
 	background: rgba(0,0,0,.025);
 	border-radius: 5px;
-	padding: 1px 2px;
+	padding: 1px 5px;
+	font-size: 1.2em;
 }
 
 pre code {
 	border: none;
 	background: none;
 	padding: 0;
+	font-size: 1em;
 }
 
 .highlight {
