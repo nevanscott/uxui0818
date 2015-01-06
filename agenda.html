@@ -5,11 +5,11 @@ nav_title: Agenda
 permalink: /agenda/
 ---
 
+<ol>
 {% for post in site.agenda %}
-<article>
-	<h2>
+	<li>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
 		<small>{{ post.class_date | date: "%b. %-d, %Y" }}</small>
-	</h2>
-</article>
+	</li>
 {% endfor %}
+</ol>

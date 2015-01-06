@@ -5,11 +5,11 @@ nav_title: Homework
 permalink: /homework/
 ---
 
+<ol>
 {% for post in site.homework %}
-<article>
-	<h2>
+	<li>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
 		<small>due {{ post.due | date: "%b. %-d, %Y" }}</small>
-	</h2>
-</article>
+	</li>
 {% endfor %}
+</ol>
