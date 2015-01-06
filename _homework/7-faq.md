@@ -1,0 +1,62 @@
+---
+title: FAQ Page
+assigned: Jan 6, 2015
+due: Monday, May 12, 2014 at 6:30pm
+---
+
+Assignment
+----------
+
+* Move forward with the FAQ page we started together in class ([on Codepen](http://codepen.io/nevan/pen/Cbsej/)).
+
+
+### Suggested next steps
+
+1. Get the second question working, so that it can hide and show its answer.
+2. Make it so that when a user open an answer, any other answers that were already open get closed by default.
+3. Hide all the questions when the page loads.
+4. Reveal the questions for a given theme when the user clicks on that theme.
+
+
+### Hints
+
+* Take everything one step at a time. Get something small working before moving on to the next thing.
+* While working on the behavior in JS, it is perfectly acceptable to go back and revise your HTML or your CSS.
+* You may want to consider adding more structure in the HTML, something like:
+  
+  ```html
+  <h1>FAQ</h1>
+  <div class="faq">
+      <h2 class="theme" id="t1">Polar Bears</h2>
+      <div class="group" id="g1">
+        <h3 class="question" id="q1">How much does a polar bear weigh?</h3>
+        <p class="answer" id="a1">Enough to break the ice.</p>
+      </div>
+      <h2 class="theme" id="t2">Pink Elephants</h2>
+      <div class="group" id="g2">
+        <h3 class="question" id="q2">What kind of beer bottle can you find a pink elephant on?</h3>
+        <p class="answer" id="a2">Delirium Tremens.</p>
+      </div>
+  </div>
+  ```
+  
+  With a setup like this, I recommend using the `class`es for styling, and the `id`s for manipulation in jQuery.
+
+
+
+Further Reading
+---------------
+
+Please take some time to start looking at the [jQuery documentation](http://api.jquery.com). Oscar Otero also has a really nice table of contents for the docs at his [jQuery Cheatsheet](http://oscarotero.com/jquery/).
+
+As a starting point, I recommend looking into these:
+
+* `.toggleClass()` -- turn a given class off or on
+* `.hasClass()` -- check if the element has a given class
+* `.hide()` -- visually hide the element
+* `.show()` -- visually show the element
+* `.slideUp()` -- animate to hide the element
+* `.slideDown()` -- animate to show the element
+* `.siblings()` -- find the element's siblings
+* `.removeClass()` -- remove a given class from the element
+* `.addClass()` -- add a given class to the element

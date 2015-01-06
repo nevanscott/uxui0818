@@ -5,7 +5,26 @@ layout: default
 <article>
 	<h1>
 		{{ page.title | textilize | strip_html }}
-		<small>{{ page.class_date | date: "%B %-d, %Y" }}</small>
+		{% if page.class_date %}
+			<small>{{ page.class_date | date: "%B %-d, %Y" }}</small>
+		{% endif %}
 	</h1>
 	{{ content }}
 </article>
+
+<aside id="nav">
+	<h4>On the Agenda</h4>
+	<ol>
+		{% for post in site.agenda %}
+      {% if post.url == page.url %}
+        {% assign c = "current" %}
+      {% else %}
+        {% assign c = "" %}
+      {% endif %}
+			<li class="{{ c }}">
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
+				<small>{{ post.class_date | date: "%b. %-d, %Y" }}</small>
+			</li>
+		{% endfor %}
+	</ol>
+</aside>

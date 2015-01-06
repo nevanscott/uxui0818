@@ -1,28 +1,28 @@
 title: Front-end Web Development
 abbreviation: FEWD
-iteration: 29
+iteration: 49
 city: New York
 location: GA West, Studio 2
-start_date: March 31, 2014
-end_date: June 11, 2014
+nav:
+  - HOME
+  - agenda
+  - homework
+  - notes
+start_date: January 6, 2015
+end_date: March 17, 2015
 calendar:
   -
+    month: January
+    year: 2015
+    start: 5
+    end: 31
+  -
+    month: February
+    year: 2015
+    start: 1
+    end: 28
+  -
     month: March
-    year: 2014
-    start: 30
-    end: 31
-  -
-    month: April
-    year: 2014
+    year: 2015
     start: 1
-    end: 30
-  -
-    month: May
-    year: 2014
-    start: 1
-    end: 31
-  -
-    month: June
-    year: 2014
-    start: 1
-    end: 14
+    end: 20

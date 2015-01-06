@@ -1,5 +1,24 @@
-baseurl: '/fewd29'
 permalink: /:categories/:title/
+collections:
+  agenda:
+    output: true
+    permalink: /:collection/:title/
+  homework:
+    output: true
+    permalink: /:collection/:title/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "agenda"
+    values:
+      layout: "agenda"
+  -
+    scope:
+      path: ""
+      type: "homework"
+    values:
+      layout: "homework"
 relative_permalinks: false
 markdown: redcarpet
 future: false

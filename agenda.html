@@ -1,0 +1,15 @@
+---
+layout: agenda
+title: On the Agenda
+nav_title: Agenda
+permalink: /agenda/
+---
+
+{% for post in site.agenda %}
+<article>
+	<h2>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
+		<small>{{ post.class_date | date: "%b. %-d, %Y" }}</small>
+	</h2>
+</article>
+{% endfor %}

@@ -1,16 +1,15 @@
 ---
-layout: default
-title: Homework
+layout: homework
+title: Homework Assignments
+nav_title: Homework
 permalink: /homework/
 ---
 
-<h1>Homework Assignments</h1>
-
-{% for post in site.categories.homework %}
+{% for post in site.homework %}
 <article>
 	<h2>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
-		<small>due {{ post.due_date | date: "%b. %-d, %Y" }}</small>
+		<small>due {{ post.due | date: "%b. %-d, %Y" }}</small>
 	</h2>
 </article>
 {% endfor %}

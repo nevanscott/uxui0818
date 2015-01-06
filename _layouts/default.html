@@ -1,20 +1,4 @@
 ---
-sidebar: |
-  Useful Links
-  ------------
-  
-  * [Chat Room](http://tlk.io/fewd19)
-  * [Schoology](http://classroom.generalassemb.ly/course/65186631/materials)
-notes:
-  - colors
-  - images
-  - css-placement
-  - programming
-nav:
-  - HOME
-  - agenda
-  - homework
-  - notes
 ---
 <!doctype html>
 <html>
@@ -43,7 +27,7 @@ nav:
 	</div>
   <nav>
     <ul>
-      {% for item in page.nav %}
+      {% for item in site.data.course.nav %}
         
         {% assign item_url = item | prepend:"/" | append:"/" | replace:"HOME/","" %}
         {% assign url_parts = page.url | split:"/" %}
@@ -59,7 +43,7 @@ nav:
 
         {% for p in site.pages %}
           {% if p.url == item_url %}
-            <li class="{{ c }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+            <li class="{{ c }}"><a href="{{ site.baseurl }}{{ p.url }}">{% if p.nav_title %}{{ p.nav_title }}{% else %}{{ p.title }}{% endif %}</a></li>
           {% endif %}
         {% endfor %}
         
@@ -71,59 +55,6 @@ nav:
 <section id="main">
 {{ content }}
 </section>
-
-<!-- 
-<nav id="main-nav">
-	<ul>
-		<li><a href="{{ site.baseurl }}/about/">About the Course</a></li>
-		<li><a href="{{ site.baseurl }}/contact/">Get in Touch</a></li>
-	</ul>
-</nav>
-
-<aside id="secondary">
-	
-	<h2>On the Agenda</h2>
-	<ul>
-		{% for post in site.categories.agenda limit:5 %}
-			<li>
-				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
-				<small>{{ post.date | date: "%b. %-d, %Y" }}</small>
-			</li>
-		{% endfor %}
-		<li>
-			<a href="{{ site.baseurl }}/agenda/">All</a>
-		</li>
-	</ul>
-	
-	<h2>Homework Assignments</h2>
-	<ul>
-		{% for post in site.categories.homework limit:3 %}
-			<li>
-				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
-				<small>due {{ post.date | date: "%b. %-d, %Y" }}</small>
-			</li>
-		{% endfor %}
-		<li>
-			<a href="{{ site.baseurl }}/homework/">All</a>
-		</li>
-	</ul>
-	
-	<h2>Notes</h2>
-	<ul>
-	{% for note in page.notes %}
-		{% capture url %}/notes/{{ note }}/{% endcapture %}
-		{% for page in site.pages %}
-			{% if page.url == url %}
-				<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-			{% endif %}
-		{% endfor %}
-	{% endfor %}
-	</ul>
-	
-	{{ page.sidebar | markdownify }}
-
-</aside>
- -->
 
 <footer></footer>
 
