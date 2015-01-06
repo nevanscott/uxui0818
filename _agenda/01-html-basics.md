@@ -28,4 +28,4 @@ We'll discuss what to do with these in class. For now don't sweat it.
 
 Make sure you have downloaded a copy of [Sublime Text](http://www.sublimetext.com/). You'll want version 2.0. This is the text editor we'll all be using in class, just so we're on the same page. There are a lot of great text editors out there.
 
-Also, if you haven't already, please install [Chrome](http://www.google.com/chrome/). Same reasoning: we all want to be using the same tools in class. If you have a different preferred browser, totally cool.
+Also, if you haven't already, please install [Chrome](http://www.google.com/chrome/). Same reasoning: we all want to be using the same tools in class. If you have a different preferred browser for your personal use, totally cool. I just ask that we all use Chrome for class.
