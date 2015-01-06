@@ -1,13 +1,13 @@
 ---
 title: Startup Matchmaker
-assigned: Jan 6, 2015
-due: Monday, April 28, 2014 at 6:30pm
+assigned: Jan 22, 2015
+due: Jan 29, 2015
 ---
 
 Assignment
 ----------
 
-* Make a good-faith effort to get started on the Startup Matchmaker project. We'll work on it together in class on Monday.
+* Make a good-faith effort to get started on the Startup Matchmaker project. We'll work on it together in class.
 
 
 Details

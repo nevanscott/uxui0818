@@ -1,7 +1,7 @@
 ---
 title: Final Project Proposal
-assigned: Jan 6, 2015
-due: Thursday, May 15, 2014 at 11:59pm
+assigned: Feb 3, 2015
+due: Feb 17, 2015
 ---
 
 

@@ -1,13 +1,13 @@
 ---
 title: Fashion Blog
-assigned: Jan 22, 2015
-due: Jan 29, 2015
+assigned: Jan 20, 2015
+due: Jan 22, 2015
 ---
 
 Assignment
 ----------
 
-* Finish and submit the Fashion Blog project we started in class on Wednesday.
+* Finish and submit the Fashion Blog project we started in class.
 
 
 Details

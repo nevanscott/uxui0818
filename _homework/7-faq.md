@@ -1,7 +1,7 @@
 ---
 title: FAQ Page
-assigned: Jan 6, 2015
-due: Monday, May 12, 2014 at 6:30pm
+assigned: Feb 12, 2015
+due: Feb 17, 2015
 ---
 
 Assignment

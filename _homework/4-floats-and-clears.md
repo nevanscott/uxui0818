@@ -1,13 +1,13 @@
 ---
 title: Floats and Clears
-assigned: Jan 6, 2015
-due: Monday, April 21, 2014 at 6:30pm
+assigned: Jan 20, 2015
+due: Jan 22, 2015
 ---
 
 Assignment
 ----------
 
-1. Please read the following on floats (and clears) in preparation for next Monday's class:
+1. Please read the following on floats (and clears) in preparation for Thursday's class:
   * [All About Floats](http://css-tricks.com/all-about-floats/) by Chris Coyier
   * [CSS Floats 101](http://alistapart.com/article/css-floats-101) by Noah Stokes
 
