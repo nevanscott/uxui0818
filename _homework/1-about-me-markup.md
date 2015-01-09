@@ -26,7 +26,10 @@ Give the folder your name instead of mine, but please stick to using lowercase a
 
 **[Check out this example]({{ site.baseurl }}/projects/wendy_bite_markup/)** that we'll be working on next week, and you'll get the idea.
 
-When you are finished, make a `.zip` of your project folder and upload it to the "Dropbox" for the assignment on Schoology. (Not to be confused with the Dropbox file sharing service.)
+When you are finished:
+
+1. Upload your project to your folder on the FTP server that we started using on Tuesday. (I suggest making a `projects` folder in your personal folder on the server to match the ones we made yesterday.)
+2. On Schoology, let us know that you've finished putting your project on the server by submitting a link to the page.
 
 Links
 -----

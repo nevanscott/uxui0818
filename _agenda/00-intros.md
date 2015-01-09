@@ -64,6 +64,6 @@ Sublime Text will be our text editor of choice for this class. It's available on
 
 Chrome will be our web browser of choice. For the duration of the class, I suggest that you set it as your default web browser.
 
-### FileZilla
+### Cyberduck
 
-FileZilla is a free FTP client, which we will use to upload our work to a web-accesible server.
+Cyberduck is a free (donation-ware) FTP client, which we will use to upload our work to a web-accesible server.

@@ -5,6 +5,7 @@ class_date: Jan 8, 2015
 
 ## Agenda
 
+* Learning Experience
 * Web Development WTF?
 * Sublime Text
 * Basic HTML
