@@ -22,6 +22,8 @@ nevan_scott/
 	resume.html
 ```
 
+For this assignment, you should only be worrying about the content and how it is marked up with HTML. We'll start worrying about the presentation of the content with CSS next week.
+
 Give the folder your name instead of mine, but please stick to using lowercase and no spaces for the folder and file names. Instead of spaces, developers typically use either hyphens (-) or underscores (_).
 
 **[Check out this example]({{ site.baseurl }}/projects/wendy_bite_markup/)** that we'll be working on next week, and you'll get the idea.
