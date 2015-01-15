@@ -13,6 +13,8 @@ Agenda
 Starter Files
 -------------
 
+For the beginning of class, we'll continue working on the Wendy Bite project.
+
 ### Wendy Bite <small>([download]({{ site.baseurl }}/starters/wendy_bite.zip)) ([markup preview]({{ site.baseurl }}/projects/wendy_bite_markup/)) ([design preview]({{ site.baseurl }}/projects/wendy_bite/))</small>
 
 
