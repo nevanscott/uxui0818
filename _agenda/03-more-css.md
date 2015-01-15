@@ -10,6 +10,13 @@ Agenda
 * We'll explore more in-depth some of the CSS properties that we started to look at in the last class, and expand on them.
 
 
+Starter Files
+-------------
+
+### Wendy Bite <small>([download]({{ site.baseurl }}/starters/wendy_bite.zip)) ([markup preview]({{ site.baseurl }}/projects/wendy_bite_markup/)) ([design preview]({{ site.baseurl }}/projects/wendy_bite/))</small>
+
+
+
 Notes
 -----
 

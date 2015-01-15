@@ -31,7 +31,12 @@ Give the folder your name instead of mine, but please stick to using lowercase a
 
 **[Check out this example]({{ site.baseurl }}/projects/wendy_bite/)** for an idea of what a completed site might be like.
 
-When you are finished, make a `.zip` of your project folder and upload it to the "Dropbox" for the assignment on Schoology.
+When you are finished:
+
+1. Upload your project to your folder on the FTP server.
+2. Update your student page to include a link to the project index page.
+3. Let the class know you're done by sharing your link on Slack.
+4. On Schoology, let us know that you've finished putting your project on the server by submitting a link to the page, so we know you're ready for us to look at it.
 
 
 Resources for CSS
