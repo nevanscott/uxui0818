@@ -28,7 +28,7 @@ Notes
 
 ### Backgrounds in CSS
 
-We made use of various longhand `background` properties in class, including `background-color`, `background-image`, `background-repeat`, and `background-position`.
+We'll make use of various longhand `background` properties in class, including `background-color`, `background-image`, `background-repeat`, and `background-position`.
 
 Keep in mind that with `background-position` in particular, things may not work exactly as our intuitions may guide us.
 
