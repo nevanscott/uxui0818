@@ -3,12 +3,11 @@ title: Exploring CSS
 class_date: Jan 15, 2015
 ---
 
-**Note:** I'm posting this in retrospect of yesterday's class.
-
 Agenda
 ------
 
-We explored more in-depth some of the CSS properties that we started to look at in the last class, and expand on them.
+* Work on Wendy Bite
+* We'll explore more in-depth some of the CSS properties that we started to look at in the last class, and expand on them.
 
 
 Notes
