@@ -7,7 +7,8 @@ class_date: Jan 20, 2015
 Agenda
 ------
 
-* Box Model <small>(as a class)</small>
+* Classes and IDs <small>(as a class)</small>
+* Basic Page Layout <small>(as a class)</small>
 * Getting Started with the Fashion Blog <small>(as a class)</small>
 * Fashion Blog Alpha <small>(in pairs)</small>
 
@@ -15,9 +16,13 @@ Agenda
 Starter Files
 -------------
 
-### Box Model <small>([download]({{ site.baseurl }}/starters/box_model.zip))</small>
+### Class and IDs <small>([on Codepen](http://codepen.io/nevan/pen/JoNvWJ))</small>
 
-We'll work as a class to explore `margin`, `border`, and `padding` a bit more.
+We'll work as a class to explore the `class` and `id` attributes.
+
+### Basic Page Layout <small>([on Codepen](http://codepen.io/nevan/pen/xbdjdd))</small>
+
+We'll start using `float` for very basic page layouts (to be used more next class).
 
 ### Fashion Blog Alpha <small>([download]({{ site.baseurl }}/starters/fashion_blog_alpha.zip)) ([preview]({{ site.baseurl }}/projects/fashion_blog_alpha/))</small>
 
