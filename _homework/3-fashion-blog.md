@@ -7,7 +7,7 @@ due: Jan 22, 2015
 Assignment
 ----------
 
-* Finish and submit the Fashion Blog project we started in class.
+* Finish and submit the Fashion Blog project we started in class. (We'll be spending the first part of class on Thursday working on this.)
 
 
 Details
