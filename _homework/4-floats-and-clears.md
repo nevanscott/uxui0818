@@ -16,4 +16,4 @@ Assignment
 
 3. Get some sleep and then reread and rewatch.
 
-4. Eat something healthy for lunch on Monday, and come to class in a good mood.
+4. Eat something healthy for lunch on Thursday, and come to class in a good mood.
