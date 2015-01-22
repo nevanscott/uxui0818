@@ -6,15 +6,19 @@ class_date: Jan 22, 2015
 Agenda
 ------
 
+* Work on Fashion Blog site <small>(individually)</small>
 * Nav Example <small>(as a class)</small>
 * Discuss the Fashion Blog Redesign <small>(as a class)</small>
 * Fashion Blog <small>(in pairs)</small>
 * Discuss the Startup Matchmaker website <small>(as a class)</small>
-* Startup Matchmaker <small>(in pairs)</small>
 
 
 Starter Files
 -------------
+
+### Fashion Blog Alpha <small>([download]({{ site.baseurl }}/starters/fashion_blog_alpha.zip)) ([preview]({{ site.baseurl }}/projects/fashion_blog_alpha/))</small>
+
+1-column design for "Sartre's List".
 
 ### Fashion Blog <small>([download]({{ site.baseurl }}/starters/fashion_blog.zip)) ([preview]({{ site.baseurl }}/projects/fashion_blog/))</small>
 
