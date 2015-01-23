@@ -7,7 +7,7 @@ due: Jan 29, 2015
 Assignment
 ----------
 
-* Make a good-faith effort to get started on the Startup Matchmaker project. We'll work on it together in class.
+* Make a good-faith effort to get started on the Startup Matchmaker project. We'll work on it together in class on Tuesday.
 
 
 Details
@@ -19,7 +19,7 @@ Download the starter files, which will include the image(s) that you need. Use t
 
 ### Getting Started
 
-My advice: start by drawing diagrams of the homepage, then proceed from the top of the page down.
+My advice: start by drawing diagrams of the homepage, then proceed from the top of the page down. Finish out the homepage first before moving on to the other pages.
 
 ### Fonts
 
