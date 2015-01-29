@@ -1,6 +1,6 @@
 ---
 title: CSS Lab
-class_date: Jan 27, 2015
+class_date: Jan 29, 2015
 ---
 
 Agenda

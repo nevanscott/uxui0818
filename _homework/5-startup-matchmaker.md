@@ -1,7 +1,7 @@
 ---
 title: Startup Matchmaker
 assigned: Jan 22, 2015
-due: Jan 29, 2015
+due: Feb 3, 2015
 ---
 
 Assignment

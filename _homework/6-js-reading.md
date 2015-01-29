@@ -1,7 +1,7 @@
 ---
 title: JS Reading
-assigned: Jan 29, 2015
-due: Feb 5, 2015
+assigned: Feb 3, 2015
+due: Feb 10, 2015
 ---
 
 Assignment

@@ -1,6 +1,6 @@
 ---
 title: To-Do List
-class_date: Feb 26, 2015
+class_date: Mar 3, 2015
 ---
 
 TK

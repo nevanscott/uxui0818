@@ -1,6 +1,6 @@
 ---
 title: JS Basics
-class_date: Jan 29, 2015
+class_date: Feb 3, 2015
 ---
 
 Agenda

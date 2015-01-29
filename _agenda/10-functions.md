@@ -1,6 +1,6 @@
 ---
 title: Functions
-class_date: Feb 10, 2015
+class_date: Feb 12, 2015
 ---
 
 Agenda

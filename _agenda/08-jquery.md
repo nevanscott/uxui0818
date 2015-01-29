@@ -1,6 +1,6 @@
 ---
 title: jQuery
-class_date: Feb 3, 2015
+class_date: Feb 5, 2015
 ---
 
 Agenda
