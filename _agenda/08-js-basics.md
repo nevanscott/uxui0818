@@ -1,6 +1,6 @@
 ---
 title: JS Basics
-class_date: Feb 3, 2015
+class_date: Feb 5, 2015
 ---
 
 Agenda
@@ -19,7 +19,6 @@ Starter Files
 
 We will be discussing this exercise as a class before you get started, but please keep in mind that no designs for how this will work or look are being provided. The files provided simply offer a simple scaffolding to get you started.
 
-{% comment %}
 
 Before Class
 ------------
@@ -30,5 +29,3 @@ Read Chapters 1 & 2 of [Eloquent JavaScript](http://eloquentjavascript.net/conte
 * Chapter 2: [Basic JavaScript: values, variables, and control flow](http://eloquentjavascript.net/chapter2.html)
 
 Don't worry if this doesn't all make total sense. The text is dense, so please focus more on familiarizing yourself with some of the concepts throughout. The work we do in class together will draw from the material covered especially in Chapter 2.
-
-{% endcomment %}
