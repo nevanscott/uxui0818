@@ -6,10 +6,11 @@ class_date: Feb 5, 2015
 Agenda
 ------
 
-* Review [Color Scheme Switcher](http://codepen.io/nevan/pen/rFnDm)
-* Refactored [Color Scheme Switcher](http://codepen.io/nevan/pen/LsEIh)
-* Finish [Score Keeper](http://codepen.io/nevan/pen/hAjtq) <small>(individually)</small>
-* Build [Compare Two Numbers](http://codepen.io/nevan/pen/BkdqI) <small>(as a class)</small>
+* Review [Color Scheme Switcher](http://codepen.io/nevan/pen/pvWOrQ)
+* Refactored [Color Scheme Switcher](http://codepen.io/nevan/pen/xbXoeB)
+* Build [Say Something](http://codepen.io/nevan/pen/LEzJzG) <small>(as a class)</small>
+* Finish [Score Keeper](http://codepen.io/nevan/pen/qEPMPO) <small>(individually)</small>
+* Build [Compare Two Numbers](http://codepen.io/nevan/pen/zxEJdg) <small>(as a class)</small>
 * Build a Temperature Converter <small>(in pairs)</small>
 
 Starter Files
