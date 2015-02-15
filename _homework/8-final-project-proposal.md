@@ -1,7 +1,7 @@
 ---
 title: Final Project Proposal
-assigned: Feb 3, 2015
-due: Feb 17, 2015
+assigned: Feb 17, 2015
+due: Feb 24, 2015
 ---
 
 
@@ -17,7 +17,7 @@ If you're shooting too high, we'll tell you, and ask that you cut back. We'd pre
 
 ### Description
 
-Your description need not be overly lengthy, but please try to provide us enough detail to understand your intentions. In general, I'd say these should be roughly 2 paragraphs, often accompanied by some bullet points.
+Your description need not be overly lengthy, but please try to provide us enough detail to understand your intentions. In general, I'd say these should be roughly 2 paragraphs,  accompanied by some bullet points.
 
 
 ### Wireframes
