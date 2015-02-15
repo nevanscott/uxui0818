@@ -3,4 +3,8 @@ title: JS Lab
 class_date: Feb 17, 2015
 ---
 
-TK
+Agenda
+------
+
+* Discuss Final Project proposals (due next week)
+* Lab time: Divided Times
