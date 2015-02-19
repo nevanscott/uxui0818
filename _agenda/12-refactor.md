@@ -3,4 +3,8 @@ title: Review & Refactor
 class_date: Feb 19, 2015
 ---
 
-TK
+Agenda
+------
+
+* FAQ project
+* Debugging in the console
