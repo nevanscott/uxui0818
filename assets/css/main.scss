@@ -8,7 +8,7 @@ $sans:		system-ui, sans-serif;
 $lh:			1.7;
 
 $brand:		#F3F2EF;
-$brand:		hsl(190, 15%, 95%);
+$brand:		hsl(300, 15%, 95%);
 
 /* General */
 
@@ -42,7 +42,7 @@ a {
 }
 a:hover, a:focus, a:active {
 	outline: none;
-	color: #900;
+	color: #009;
 }
 
 .current a {
@@ -237,7 +237,7 @@ article {
 #nav {
   border-top: 2px solid darken($brand, 30%);
   li {
-		margin: .2em*$lh 0;  
+		margin: .2em*$lh 0;
   }
   background: $brand;
 }
@@ -369,11 +369,6 @@ table.calendar {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(
-      rgba(0,0,0,0),
-      rgba(0,0,0,.1) 10%,
-      rgba(0,0,0,.1) 90%,
-      rgba(0,0,0,0)
-    );
+    background: rgba(0,0,0,.1);
   }
 }
