@@ -7,12 +7,7 @@
 	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.data.course.abbreviation }} {{ site.data.course.iteration }} @ {{ site.data.course.school.abbreviation }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="noindex">
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/charter/stylesheet.css">
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/franklin/stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6747292/744824/css/fonts.css" />
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
 	<script>window.onload = function(){ document.body.className += " loaded"; }</script>
 </head>
 <body>
@@ -28,11 +23,11 @@
   <nav>
     <ul>
       {% for item in site.data.course.nav %}
-        
+
         {% assign item_url = item | prepend:"/" | append:"/" | replace:"HOME/","" %}
         {% assign url_parts = page.url | split:"/" %}
         {% assign section_slug = url_parts[1] %}
-                
+
         {% if item_url == page.url %}
           {% assign c = "current" %}
         {% elsif item == section_slug %}
@@ -46,7 +41,7 @@
             <li class="{{ c }}"><a href="{{ site.baseurl }}{{ p.url }}">{% if p.nav_title %}{{ p.nav_title }}{% else %}{{ p.title }}{% endif %}</a></li>
           {% endif %}
         {% endfor %}
-        
+
       {% endfor %}
     </ul>
   </nav>
