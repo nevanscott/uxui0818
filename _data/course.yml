@@ -10,21 +10,22 @@ nav:
   - agenda
   - homework
   - notes
-start_date: January 6, 2015
-end_date: March 17, 2015
+  - about
+start_date: August 20, 2018
+end_date: October 19, 2018
 calendar:
   -
-    month: January
-    year: 2015
-    start: 5
+    month: August
+    year: 2018
+    start: 20
     end: 31
   -
-    month: February
-    year: 2015
+    month: September
+    year: 2018
     start: 1
-    end: 28
+    end: 30
   -
-    month: March
-    year: 2015
+    month: October
+    year: 2018
     start: 1
-    end: 20
+    end: 19
