@@ -1,8 +1,10 @@
-title: Front-end Web Development
-abbreviation: FEWD
-iteration: 49
-city: New York
-location: GA West, Studio 2
+title: User Experience and User Interface Design
+abbreviation: UX/UI
+iteration: 0818
+city: Barcelona
+school:
+  name: Ironhack
+  abbreviation: IH
 nav:
   - HOME
   - agenda
