@@ -20,10 +20,4 @@ defaults:
     values:
       layout: "homework"
 relative_permalinks: false
-markdown: redcarpet
 future: false
-redcarpet:
-  extensions:
-    - 'autolink'
-    - 'smart'
-    - 'hard_wrap'
