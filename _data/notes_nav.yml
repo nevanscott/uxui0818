@@ -1,24 +1,4 @@
 -
-  section: HTML
+  section: Example
   notes:
-    - starter-elements
-    - images
-    - filenames
--
-  section: CSS
-  notes:
-    - starter-properties
-    - colors
-    - css-placement
-    - reset-and-normalize
--
-  section: JavaScript
-  notes:
-    - functions
--
-  section: jQuery
-  notes:
-    - jquery-function
-    - dom-manipulation
-    - starter-methods
-
+    - example
