@@ -19,7 +19,8 @@
         {% capture dow %}{{ date_xml | date:"%A" }}{% endcapture %}
         {% unless dow == "Saturday" or dow == "Sunday" %}
           {% if dow == "Monday" %}<tr class="{% cycle 'odd', 'even' %}">{% endif %}
-            <td class="
+            <td data-date="{{ date_xml }}" class="
+              calendar-date
               {% if date_xml < today %}past{% endif %}
               {% if date_xml == today %}today{% endif %}
               {{ date_xml | date:"%B" | downcase }}
@@ -72,3 +73,21 @@
     {% endfor %}
   </tbody>
 </table>
+<script type="text/javascript">
+  var today = new Date();
+  var cells = document.querySelectorAll('.calendar-date');
+  for (var i = 0; i < cells.length; i++) {
+    var cell = cells[i];
+    var date = new Date(cell.dataset.date);
+    console.log(date.getYear());
+    if (date.getYear() === today.getYear()) {
+      cell.classList.add('this-year');
+      if (date.getMonth() === today.getMonth()) {
+        cell.classList.add('this-month');
+        if (date.getDate() === today.getDate()) {
+          cell.classList.add('today');
+        }
+      }
+    }
+  }
+</script>

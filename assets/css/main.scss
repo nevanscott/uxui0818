@@ -250,7 +250,7 @@ table.calendar {
   padding: 1em;
 }
 // .calendar td.past { opacity: 0.5; }
-// .calendar td.today .date { font-weight: bold; }
+.calendar td.today .date { font-weight: bold; }
 .calendar .date { overflow: hidden; }
 
 .calendar {
@@ -278,7 +278,7 @@ table.calendar {
 	}
 }
 
-// .calendar .today { background: #FFFDC7; }
+.calendar .today { background: #FFFDC7; }
 
 .calendar .month { float: left; }
 .calendar .day { float: right; }
