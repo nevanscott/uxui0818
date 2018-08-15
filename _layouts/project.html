@@ -15,7 +15,7 @@ layout: default
 <aside id="nav">
 	<h4>Projects</h4>
 	<ol>
-		{% assign projects = site.projects | sort:'due' %}
+		{% assign projects = site.projects | date_sort:'due' %}
 		{% for post in projects %}
       {% if post.url == page.url %}
         {% assign c = "current" %}

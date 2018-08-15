@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 
 <ol>
-{% assign projects = site.projects | sort:'due' %}
+{% assign projects = site.projects | date_sort: 'due' %}
 {% for post in projects %}
 	<li>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
