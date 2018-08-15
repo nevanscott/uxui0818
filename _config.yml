@@ -6,6 +6,9 @@ collections:
   homework:
     output: true
     permalink: /:collection/:title/
+  projects:
+    output: true
+    permalink: /:collection/:title/
 defaults:
   -
     scope:
@@ -19,5 +22,11 @@ defaults:
       type: "homework"
     values:
       layout: "homework"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 relative_permalinks: false
 future: false

@@ -44,6 +44,36 @@
                   {% endif %}
                 {% endif %}
               {% endfor %}
+              {% for post in site.projects %}
+                {% assign post_date_xml = post.assigned | date_to_string | date_to_xmlschema %}
+                {% if post_date_xml == date_xml %}
+                  <div class="project">
+                  	<a href="{{ site.baseurl }}{{ post.url }}">
+                  		<div class="label">Project</div>
+                  		{{ post.title }}
+                  	</a>
+                  </div>
+                {% endif %}
+                {% if post.due %}
+                  {% assign due_date_xml = post.due | date_to_string | date_to_xmlschema %}
+                  {% if post_date_xml < date_xml and date_xml < due_date_xml %}
+                    <div class="project">
+                    	<a href="{{ site.baseurl }}{{ post.url }}">
+                    		<div class="label">Project</div>
+                    		{{ post.title }}
+                    	</a>
+                    </div>
+                  {% endif %}
+                  {% if due_date_xml == date_xml %}
+                    <div class="project">
+                    	<a href="{{ site.baseurl }}{{ post.url }}">
+                    		<div class="label">Project Due</div>
+                    		{{ post.title }}
+                    	</a>
+                    </div>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
               {% for post in site.homework %}
                 {% assign post_date_xml = post.assigned | date_to_string | date_to_xmlschema %}
                 {% if post_date_xml == date_xml %}
