@@ -1,0 +1,19 @@
+<header id="page-header">
+  <div class="info">
+    <h1>
+      <a href="/">
+        {{ .Site.Title }}
+      </a>
+    </h1>
+	</div>
+  <nav class="sidebar-nav">
+    <ul>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      <li>
+        <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

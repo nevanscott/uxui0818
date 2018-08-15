@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <main id="main">
+    <h1>
+      {{ .Title }}
+    </h1>
+    {{ range .Data.Pages.GroupByDate "January 2, 2006" }}
+      <h3>{{ .Key }}</h3>
+      <ul>
+        {{ range .Pages }}
+            {{ .Render "li"}}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </main>
+{{ end }}

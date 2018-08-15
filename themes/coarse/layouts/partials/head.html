@@ -1,0 +1,15 @@
+<head>
+	<meta charset="utf-8">
+  <title>
+    {{ block "title" . }}
+      {{ .Title }} — {{ .Site.Title }}
+    {{ end }}
+  </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+  {{ if .IsHome -}}
+    <link rel="manifest" href="manifest.json">
+  {{- end }}
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<script>window.onload = function(){ document.body.classList.add('loaded'); }</script>
+</head>
