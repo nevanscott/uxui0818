@@ -15,8 +15,8 @@ layout: default
 <aside id="nav">
 	<h4>On the Agenda</h4>
 	<ol>
-		{% assign agenda = site.agenda | date_sort:'class_date' %}
-		{% for post in agenda %}
+		{% assign lessons = site.lessons | date_sort:'class_date' %}
+		{% for post in lessons %}
       {% if post.url == page.url %}
         {% assign c = "current" %}
       {% else %}

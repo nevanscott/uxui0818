@@ -1,13 +1,13 @@
 ---
-layout: agenda
-title: On the Agenda
-nav_title: Agenda
-permalink: /agenda/
+layout: lesson
+title: Lessons
+nav_title: Lessons
+permalink: /lessons/
 ---
 
 <ol>
-{% assign agenda = site.agenda | date_sort:'class_date' %}
-{% for post in agenda %}
+{% assign lessons = site.lessons | date_sort:'class_date' %}
+{% for post in lessons %}
 	<li>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
 		<small>{{ post.class_date | date: "%b. %-d, %Y" }}</small>

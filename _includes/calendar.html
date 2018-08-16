@@ -31,7 +31,7 @@
                 {% endif %}
                 <span class="day">{{ i }}</span>
               </div>
-              {% for post in site.agenda %}
+              {% for post in site.lessons %}
                 {% if post.class_date %}
                   {% assign class_date_xml = post.class_date | date_to_string | date_to_xmlschema %}
                   {% if class_date_xml == date_xml %}

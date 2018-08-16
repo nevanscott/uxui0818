@@ -1,6 +1,6 @@
 permalink: /:categories/:title/
 collections:
-  agenda:
+  lessons:
     output: true
     permalink: /:collection/:title/
   homework:
@@ -13,9 +13,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "agenda"
+      type: "lessons"
     values:
-      layout: "agenda"
+      layout: "lesson"
   -
     scope:
       path: ""
