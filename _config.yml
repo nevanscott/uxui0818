@@ -57,4 +57,4 @@ defaults:
       unit: 5
 relative_permalinks: false
 future: false
-include: "_redirects"
+include: ["_redirects"]
