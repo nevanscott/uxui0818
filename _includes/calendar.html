@@ -39,7 +39,7 @@
                     <div class="homework">
                     	<a href="{{ site.baseurl }}{{ post.url }}">
                     		<div class="label">Homework Due</div>
-                    		{{ post.title }}
+                    		{{ post.title | markdownify | strip_html }}
                     	</a>
                     </div>
                   {% endif %}
@@ -52,7 +52,7 @@
                     <div class="agenda">
                     	<a href="{{ site.baseurl }}{{ post.url }}">
                     		<div class="label">Class</div>
-                    		{{ post.title }}
+                    		{{ post.title | markdownify | strip_html }}
                     	</a>
                     </div>
                   {% endif %}
@@ -64,7 +64,7 @@
                   <div class="project">
                   	<a href="{{ site.baseurl }}{{ post.url }}">
                   		<div class="label">Project</div>
-                  		{{ post.title }}
+                  		{{ post.title | markdownify | strip_html }}
                   	</a>
                   </div>
                 {% endif %}
@@ -74,7 +74,7 @@
                     <div class="project">
                     	<a href="{{ site.baseurl }}{{ post.url }}">
                     		<div class="label">Project</div>
-                    		{{ post.title }}
+                    		{{ post.title | markdownify | strip_html }}
                     	</a>
                     </div>
                   {% endif %}
@@ -82,7 +82,7 @@
                     <div class="project">
                     	<a href="{{ site.baseurl }}{{ post.url }}">
                     		<div class="label">Project Due</div>
-                    		{{ post.title }}
+                    		{{ post.title | markdownify | strip_html }}
                     	</a>
                     </div>
                   {% endif %}
@@ -94,7 +94,7 @@
                   <div class="homework">
                   	<a href="{{ site.baseurl }}{{ post.url }}">
                   		<div class="label">Homework</div>
-                  		{{ post.title }}
+                  		{{ post.title | markdownify | strip_html }}
                   	</a>
                   </div>
                 {% endif %}

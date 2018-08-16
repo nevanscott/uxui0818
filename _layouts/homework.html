@@ -4,7 +4,7 @@ layout: default
 
 <article>
 	<h1>
-		{{ page.title | textilize | strip_html }}
+		{{ page.title | markdownify | strip_html }}
 		{% if page.due %}
 			<small>due {{ page.due | date: "%B %-d, %Y" }}</small>
 		{% endif %}
@@ -23,7 +23,7 @@ layout: default
         {% assign c = "" %}
       {% endif %}
 			<li class="{{ c }}">
-				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | strip_html }}</a>
 				<small>due {{ post.due | date: "%b. %-d, %Y" }}</small>
 			</li>
 		{% endfor %}
