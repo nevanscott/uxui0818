@@ -64,6 +64,7 @@ h1 small {
 	margin-top: .3em;
 }
 h2 {
+	font-size: 1.25em;
 	margin-top: 1em * $lh;
 }
 h3 {
@@ -100,7 +101,7 @@ ol {
 }
 
 li {
-  margin: .5em*$lh 0;
+  margin: .125em*$lh 0;
 }
 li p {
   margin: .5em*$lh 0;
@@ -113,6 +114,14 @@ dd {
 	margin: 0 1em*$lh 1em*$lh;
 	p {
 		margin: .5em*$lh 0;
+	}
+}
+
+img {
+	max-width: 100%;
+	&.aside {
+		float: right;
+		max-width: 50%;
 	}
 }
 
