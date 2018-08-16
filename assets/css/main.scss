@@ -20,7 +20,7 @@ body {
 	font-family: $sans;
 	font-size: 87.5%;
 	line-height: $lh;
-	padding: 0 0 10%;
+	padding: 0;
 	background: white;
 	color: #333;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 #main, #main-nav, #secondary {
-	margin: 0 5%;
+	margin: 0 2em*$lh;
 }
 
 a {
@@ -137,7 +137,7 @@ small a {
   background: $brand;
   background: darken($brand, 40%);
   color: white;
-  padding: 1em 5%;
+  padding: 1em 2em*$lh;
   overflow: hidden;
 	a {
 		color: inherit;
@@ -338,7 +338,6 @@ table.calendar {
 @media screen and (min-width: 55em) {
   #page-header {
     text-align: left;
-    position: fixed;
     z-index: 2;
     top: 0;
     left: 0;
@@ -354,36 +353,23 @@ table.calendar {
     	}
     }
   }
-  #main {
-  	margin-top: 6em;
-  }
+	#main {
+		display: grid;
+		grid-template-columns: 7fr 3fr;
+		margin: 0;
+	}
+	#main.wide {
+		display: block;
+		margin: 1em*$lh 2em*$lh;
+	}
   article {
-    float: left;
-    width: 65%;
+		margin: 1em*$lh 2em*$lh;
   }
   #nav {
-    float: right;
-    width: 30%;
     font-size: .875em;
-    padding-left: 2%;
-    padding-bottom: 1.2em*$lh;
-    margin-top: 1em*$lh;
+		margin: 0;
+		padding: 0 2em*$lh 1em*$lh 1.2em*$lh;
     border: none;
-    position: fixed;
-    right: 0;
-    top: 2.5em;
-    bottom: 0;
-    width: 30%;
-    overflow: scroll;
-  }
-  #nav:before {
-    display: block;
-    content: ' ';
-    width: 1px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,.1);
+		border-left: 1px solid rgba(0,0,0,.1);
   }
 }
