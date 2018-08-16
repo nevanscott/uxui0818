@@ -8,7 +8,7 @@ $sans:		system-ui, sans-serif;
 $lh:			1.7;
 
 $brand:		#F3F2EF;
-$brand:		hsl(300, 15%, 95%);
+$brand:		hsl(300, 35%, 95%);
 
 /* General */
 
@@ -147,7 +147,7 @@ small a {
 	h1 {
 		border: none;
 		margin: 0;
-		font-weight: bold;
+		font-weight: 900;
 		font-size: 1em;
 	}
 	h4 {
@@ -157,6 +157,7 @@ small a {
 	.info {
 	}
 	nav {
+		font-weight: 700;
 		float: left;
 		clear: left;
 		li {
@@ -170,7 +171,7 @@ small a {
 			&.current a {
 				color: #900;
 				color: white;
-				font-weight: normal;
+				font-weight: inherit;
 			}
 		}
 	}
@@ -250,6 +251,7 @@ article {
   }
 	h4 {
 		small {
+			color: darken($brand, 55%);
 			display: block;
 			font-weight: 700;
 		}
@@ -325,7 +327,7 @@ table.calendar {
   	text-transform: uppercase;
   	font-weight: bold;
 		border-radius: 4px 4px 0 0;
-  	color: darken($brand, 40%);
+  	color: darken($brand, 45%);
   	letter-spacing: .1em;
   }
 }
