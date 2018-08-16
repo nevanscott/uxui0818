@@ -248,6 +248,12 @@ article {
   li {
 		margin: .2em*$lh 0;
   }
+	h4 {
+		small {
+			display: block;
+			font-weight: 700;
+		}
+	}
   background: $brand;
 }
 

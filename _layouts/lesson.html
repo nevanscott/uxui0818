@@ -13,19 +13,27 @@ layout: default
 </article>
 
 <aside id="nav">
-	<h4>On the Agenda</h4>
-	<ol>
-		{% assign lessons = site.lessons | date_sort:'class_date' %}
-		{% for post in lessons %}
-      {% if post.url == page.url %}
-        {% assign c = "current" %}
-      {% else %}
-        {% assign c = "" %}
-      {% endif %}
-			<li class="{{ c }}">
-				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
-				<small>{{ post.class_date | date: "%b. %-d, %Y" }}</small>
-			</li>
-		{% endfor %}
-	</ol>
+	{% assign units = site.units | sort:'order' %}
+	{% for unit in units %}
+		<h4>
+			<small>Unit {{ unit.order }}</small>
+			{{ unit.title }}
+		</h4>
+		<ul>
+			{% assign lessons = site.lessons | date_sort:'class_date' %}
+			{% for post in lessons %}
+	      {% if post.url == page.url %}
+	        {% assign c = "current" %}
+	      {% else %}
+	        {% assign c = "" %}
+	      {% endif %}
+				{% if post.unit == unit.order %}
+					<li class="{{ c }}">
+						<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | textilize | strip_html }}</a>
+						<small>{{ post.class_date | date: "%b. %-d, %Y" }}</small>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	{% endfor %}
 </aside>

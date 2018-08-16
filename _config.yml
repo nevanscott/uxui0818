@@ -1,5 +1,7 @@
 permalink: /:categories/:title/
 collections:
+  units:
+    output: false
   lessons:
     output: true
     permalink: /:collection/:title/
@@ -28,5 +30,30 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: "_lessons/design-thinking"
+    values:
+      unit: 1
+  -
+    scope:
+      path: "_lessons/interaction-design"
+    values:
+      unit: 2
+  -
+    scope:
+      path: "_lessons/information-architecture"
+    values:
+      unit: 3
+  -
+    scope:
+      path: "_lessons/web-development"
+    values:
+      unit: 4
+  -
+    scope:
+      path: "_lessons/review"
+    values:
+      unit: 5
 relative_permalinks: false
 future: false
