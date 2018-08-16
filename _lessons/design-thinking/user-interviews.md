@@ -18,3 +18,9 @@ Resources
 ---------
 
 - [Interviewing Humans](https://alistapart.com/article/interviewing-humans) by Erika Hall (from her book [Just Enough Research](http://www.abookapart.com/products/just-enough-research))
+
+
+Further Reading
+---------------
+
+- [When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/) by Christian Rohrer
