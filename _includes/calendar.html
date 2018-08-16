@@ -31,6 +31,20 @@
                 {% endif %}
                 <span class="day">{{ i }}</span>
               </div>
+              {% for post in site.homework %}
+                {% assign post_date_xml = post.assigned | date_to_string | date_to_xmlschema %}
+                {% if post.due %}
+                  {% assign due_date_xml = post.due | date_to_string | date_to_xmlschema %}
+                  {% if due_date_xml == date_xml %}
+                    <div class="homework">
+                    	<a href="{{ site.baseurl }}{{ post.url }}">
+                    		<div class="label">Homework Due</div>
+                    		{{ post.title }}
+                    	</a>
+                    </div>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
               {% for post in site.lessons %}
                 {% if post.class_date %}
                   {% assign class_date_xml = post.class_date | date_to_string | date_to_xmlschema %}
@@ -83,17 +97,6 @@
                   		{{ post.title }}
                   	</a>
                   </div>
-                {% endif %}
-                {% if post.due %}
-                  {% assign due_date_xml = post.due | date_to_string | date_to_xmlschema %}
-                  {% if due_date_xml == date_xml %}
-                    <div class="homework">
-                    	<a href="{{ site.baseurl }}{{ post.url }}">
-                    		<div class="label">Due</div>
-                    		{{ post.title }}
-                    	</a>
-                    </div>
-                  {% endif %}
                 {% endif %}
               {% endfor %}
             </td>
