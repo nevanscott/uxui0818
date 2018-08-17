@@ -31,3 +31,13 @@ Further Reading
 ---------------
 
 - [Learning to See](https://ia.net/topics/learning-to-see) by Oliver Reichenstein
+
+
+Tools
+-----
+
+- [Paletton](http://paletton.com/)
+- [Adobe Color CC](https://color.adobe.com/create/color-wheel/)
+- [Contrast Checker](https://contrastchecker.com) for colors <small>(more information on WebAIM's similar [Color Contrast Checker](https://webaim.org/resources/contrastchecker/))
+- [Google Fonts](https://fonts.google.com)
+- [SkyFonts](https://skyfonts.com) to sync web fonts from Google Fonts
