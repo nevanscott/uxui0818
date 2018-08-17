@@ -274,55 +274,37 @@ table.calendar {
 .calendar td.today .date { font-weight: bold; }
 .calendar .date { overflow: hidden; }
 
-.calendar {
-	.january,
-	.march,
-	.may,
-	.july,
-	.september,
-	.november {
-		background: $brand;
-		a {
-			background: darken($brand, 10%);
-		}
-	}
-	.february,
-	.april,
-	.june,
-	.august,
-	.october,
-	.december {
-		background: darken($brand, 5%);
-		a {
-			background: darken($brand, 15%);
-		}
-	}
-}
-
 .calendar .today { background: #FFFDC7; }
 
 .calendar .month { float: left; }
 .calendar .day { float: right; }
-.calendar tr {
-  border-left: 1px solid white;
+.calendar th {
+	border-bottom: 1px solid darken($brand, 5%);
 }
 .calendar td {
   height: 12em;
   vertical-align: top;
   width: 20%;
   padding: 1rem;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
+  border-right: 1px solid darken($brand, 5%);
+  border-bottom: 1px solid darken($brand, 5%);
+}
+.calendar td:last-of-type {
+	border-right: none;
+}
+.calendar tr:last-of-type td {
+	border-bottom: none;
 }
 .calendar a {
   display: block;
 	color: inherit;
+	background: lighten($brand, 1%);
 	font-weight: 500;
   margin: 0.5rem -0.5rem;
   padding: .25rem 1rem;
 	border-radius: 4px;
-	border: 1px solid darken($brand, 25%);
-	transition: background-color 200ms;
+	border: 1px solid darken($brand, 10%);
+	transition: background-color 200ms, border-color 200ms;
   text-decoration: none;
   .label {
   	display: block;
@@ -337,6 +319,7 @@ table.calendar {
 }
 .calendar a:hover {
 	background: white;
+	border-color: darken($brand, 20%);
 }
 
 /* Bigger Screens */
