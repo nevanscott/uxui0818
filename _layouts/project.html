@@ -13,19 +13,27 @@ layout: default
 </article>
 
 <aside id="nav">
-	<h4>Projects</h4>
-	<ol>
-		{% assign projects = site.projects | date_sort:'due' %}
-		{% for post in projects %}
-      {% if post.url == page.url %}
-        {% assign c = "current" %}
-      {% else %}
-        {% assign c = "" %}
-      {% endif %}
-			<li class="{{ c }}">
-				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | strip_html | strip }}</a>
-				<small>due {{ post.due | date: "%b. %-d, %Y" }}</small>
-			</li>
-		{% endfor %}
-	</ol>
+	{% assign units = site.units | sort:'order' %}
+	{% for unit in units %}
+		<h4>
+			<small>Unit {{ unit.order }}</small>
+			{{ unit.title }}
+		</h4>
+		<ul>
+			{% assign projects = site.projects | date_sort:'due' %}
+			{% for post in projects %}
+	      {% if post.url == page.url %}
+	        {% assign c = "current" %}
+	      {% else %}
+	        {% assign c = "" %}
+	      {% endif %}
+				{% if post.unit == unit.order %}
+					<li class="{{ c }}">
+						<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | strip_html | strip }}</a>
+						<small>due {{ post.due | date: "%b. %-d, %Y" }}</small>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	{% endfor %}
 </aside>
