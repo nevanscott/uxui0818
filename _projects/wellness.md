@@ -6,6 +6,8 @@ summary: |
   Interview potential customers to identify an opportunity to improve their well-being with a thoughtful mobile app. Remember: you are not your user.
 ---
 
+<img class="illo aside" src="/assets/images/zen.png" alt="Screen flow for an example app called Moment of Zen" />
+
 
 Setup
 -----
