@@ -22,7 +22,6 @@ Resources
 ---------
 
 - [A CRAP way to improve usability](https://www.userfocus.co.uk/articles/A_CRAP_way_to_improve_usability.html) by David Travis
-- [7 Rules for Creating Gorgeous UI (Part 1)](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda) and [Part 2](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96) by Erik Kennedy
 - Explore colors with [Dribbble color search](https://dribbble.com/colors/)
 - Explore typographic layouts at [Typewolf](https://www.typewolf.com)
 
