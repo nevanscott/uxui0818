@@ -1,7 +1,15 @@
-UX/UI 08/18 Course Website
-==========================
+UX/UI Bootcamp
+==============
 
-This is the source code for the course website of the UX/UI bootcamp at Ironhack in Barcelona, August–October 2018.
+This is the source code for https://uxui0818.nevan.org, the course website of the UX/UI bootcamp at Ironhack in Barcelona, August–October 2018. [Nevan Scott](http://nevanscott.com/) teaches this 9-week bootcamp at [Ironhack Barcelona](http://www.ironhack.com/en/locations/barcelona).
+
+
+License
+-------
+
+The content on this site is copyright © 2018 Nevan Scott. Referenced readings and quotations are attributed to their respective authors.
+
+This work is available under an [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
 
 Installation

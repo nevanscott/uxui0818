@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<header id="page-header">
+<header class="page-header">
   <div class="info">
     <h1>
       <a href="{{ site.baseurl }}/">
@@ -51,7 +51,7 @@
 {{ content }}
 </section>
 
-<footer></footer>
+{% include footer.html %}
 
 <script>
 if (navigator.serviceWorker && !navigator.serviceWorker.controller) {

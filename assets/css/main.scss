@@ -136,7 +136,7 @@ small a {
 	color: darken($brand, 40%);
 }
 
-#page-header {
+.page-header {
   background: $brand;
   background: darken($brand, 40%);
   color: white;
@@ -178,6 +178,12 @@ small a {
 			}
 		}
 	}
+}
+
+.page-footer {
+	background: lighten($brand, 1%);
+	border-top: 1px solid darken($brand, 10%);
+  padding: 1em 0.75em*$lh;
 }
 
 #main {
@@ -334,7 +340,7 @@ table.calendar {
 	}
 }
 @media screen and (min-width: 55em) {
-  #page-header {
+  .page-header {
 		padding: 1em 2em*$lh;
     text-align: left;
     z-index: 2;
@@ -352,6 +358,9 @@ table.calendar {
     	}
     }
   }
+	.page-footer {
+		padding: 1em 2em*$lh;
+	}
 	#main {
 		display: grid;
 		grid-template-columns: 7fr 3fr;
