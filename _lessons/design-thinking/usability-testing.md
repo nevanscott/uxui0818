@@ -22,6 +22,8 @@ Resources
 
 - [Usability as a design framework](http://learn.ironhack.com/#/learning_unit/5040) from Ironhack Learning Platform
 - [Concept testing](http://learn.ironhack.com/#/learning_unit/5041) from Ironhack Learning Platform
+- [Ideation](http://learn.ironhack.com/#/learning_unit/5016) from Ironhack Learning Platform
+- [Design Studio](http://learn.ironhack.com/#/learning_unit/5017) from Ironhack Learning Platform
 
 
 Tools
