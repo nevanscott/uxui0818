@@ -20,6 +20,9 @@ Resources
 - [How to Run an Unmoderated Remote Usability Test](https://www.youtube.com/watch?v=vthW7mmn854) from UX Mastery
 - [Usability Testing](https://www.usability.gov/how-to-and-tools/methods/usability-testing.html) at usability.gov
 
+- [Usability as a design framework](http://learn.ironhack.com/#/learning_unit/5040) from Ironhack Learning Platform
+- [Concept testing](http://learn.ironhack.com/#/learning_unit/5041) from Ironhack Learning Platform
+
 
 Tools
 -----
