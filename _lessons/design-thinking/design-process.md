@@ -18,4 +18,5 @@ Resources
 - [The Double Diamond: Strategy + Execution of the Right Solution](https://www.thoughtworks.com/insights/blog/double-diamond) by Jonny Schneider at Thoughtworks
 - For something more in-depth, read [A study of the design process](https://www.designcouncil.org.uk/sites/default/files/asset/document/ElevenLessons_Design_Council%20(2).pdf) from the Design Council in the UK, which resulted in the double diamond model.
 
+- [Introduction to User Research](http://learn.ironhack.com/#/learning_unit/4992) from Ironhack Learning Platform
 - [Double diamond & Problem Statement](http://learn.ironhack.com/#/learning_unit/5014) from the Ironhack Learning Platform.
