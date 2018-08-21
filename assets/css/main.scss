@@ -142,8 +142,7 @@ small a {
   padding: 1em 0.75em*$lh;
 	display: grid;
 	align-items: center;
-	grid-template-columns: auto 1fr auto;
-	grid-gap: 2em;
+	grid-gap: 0.5em 2em;
 	a {
 		color: inherit;
 		text-decoration: none;
@@ -381,6 +380,7 @@ table.calendar {
 @media screen and (min-width: 55em) {
   .page-header {
 		padding: 1em 2em*$lh;
+		grid-template-columns: auto 1fr auto;
   }
 	.page-footer {
 		padding: 1em 2em*$lh;
