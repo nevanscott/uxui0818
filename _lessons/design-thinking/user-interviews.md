@@ -18,8 +18,8 @@ Resources
 ---------
 
 - [Interviewing Humans](https://alistapart.com/article/interviewing-humans) by Erika Hall (from her book [Just Enough Research](http://www.abookapart.com/products/just-enough-research))
-- [User interviews](http://learn.ironhack.com/#/learning_unit/4995)
-- [Creating an interview guide](http://learn.ironhack.com/#/learning_unit/4996)
+- [User interviews](http://learn.ironhack.com/#/learning_unit/4995) from Ironhack Learning Platform
+- [Creating an interview guide](http://learn.ironhack.com/#/learning_unit/4996) from Ironhack Learning Platform
 
 
 Further Reading
