@@ -21,12 +21,10 @@
           {% if dow == "Monday" %}<tr class="{% cycle 'odd', 'even' %}">{% endif %}
             <td data-date="{{ date_xml }}" class="
               calendar-date
-              {% if date_xml < today %}past{% endif %}
-              {% if date_xml == today %}today{% endif %}
               {{ date_xml | date:"%B" | downcase }}
             ">
               <div class="date">
-                {% if dow == "Monday" or i == 1 or date_xml == today %}
+                {% if dow == "Monday" or i == 1 %}
                 <span class="month">{{ month.month }}</span>
                 {% endif %}
                 <span class="day">{{ i }}</span>
@@ -119,6 +117,7 @@
         cell.classList.add('this-month');
         if (date.getDate() === today.getDate()) {
           cell.classList.add('today');
+          // TODO: Show the month on the today cell
         }
       }
     }
