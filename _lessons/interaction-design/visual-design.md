@@ -24,6 +24,12 @@ Resources
 - [A CRAP way to improve usability](https://www.userfocus.co.uk/articles/A_CRAP_way_to_improve_usability.html) by David Travis
 - Explore colors with [Dribbble color search](https://dribbble.com/colors/)
 - Explore typographic layouts at [Typewolf](https://www.typewolf.com)
+- [UI design elements](http://learn.ironhack.com/#/learning_unit/5034) from Ironhack Learning Platform
+- [Analyzing aesthetics](http://learn.ironhack.com/#/learning_unit/5063) from Ironhack Learning Platform
+- [Moodboard](http://learn.ironhack.com/#/learning_unit/5064) from Ironhack Learning Platform
+- [Color](http://learn.ironhack.com/#/learning_unit/5068) from Ironhack Learning Platform
+- [Typography](http://learn.ironhack.com/#/learning_unit/5069) from Ironhack Learning Platform
+- [Sketch recap](http://learn.ironhack.com/#/learning_unit/5061) from Ironhack Learning Platform
 
 
 Further Reading
