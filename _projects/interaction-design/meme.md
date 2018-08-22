@@ -42,3 +42,7 @@ Your presentation should answer the following questions:
 ## Extra Mile
 
 If you have time, string together some of your screens into a working prototype. Make it even more realistic by adding some animations!
+
+## *Extra* Extra Mile
+
+Show how this feature might integrate with Google Image Search on the desktop website.
