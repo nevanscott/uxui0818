@@ -3,7 +3,7 @@ title: Desirability Testing
 class_date: Sept 10, 2018
 ---
 
-Resources
-----------
+Ironhack Learning Platform
+--------------------------
 
-- [Desirability testing](http://learn.ironhack.com/#/learning_unit/5100) from Ironhack Learning Platform
+- [Desirability testing](http://learn.ironhack.com/#/learning_unit/5100)
