@@ -30,4 +30,4 @@ Tools
 Ironhack Learning Platform
 --------------------------
 
-- [Designing surveys](http://learn.ironhack.com/#/learning_unit/4993) from Ironhack Learning Platform
+- [Designing surveys](http://learn.ironhack.com/#/learning_unit/4993)
