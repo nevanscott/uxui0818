@@ -31,10 +31,10 @@ Further Reading
 Ironhack Learning Platform
 ---------------------------
 
-- [User interface design principles](http://learn.ironhack.com/#/learning_unit/5033) from Ironhack Learning Platform
-- [User interface fundamentals](http://learn.ironhack.com/#/learning_unit/5060) from Ironhack Learning Platform
-- [Design systems](http://learn.ironhack.com/#/learning_unit/5079) from Ironhack Learning Platform
-- [Landing pages](http://learn.ironhack.com/#/learning_unit/5098) from Ironhack Learning Platform
-- [Forms & icons](http://learn.ironhack.com/#/learning_unit/5072) from Ironhack Learning Platform
-- [Designing multistate screens](http://learn.ironhack.com/#/learning_unit/5075) from Ironhack Learning Platform
-- [Lighting, shadows and consistency](http://learn.ironhack.com/#/learning_unit/5076) from Ironhack Learning Platform
+- [User interface design principles](http://learn.ironhack.com/#/learning_unit/5033)
+- [User interface fundamentals](http://learn.ironhack.com/#/learning_unit/5060)
+- [Design systems](http://learn.ironhack.com/#/learning_unit/5079)
+- [Landing pages](http://learn.ironhack.com/#/learning_unit/5098)
+- [Forms & icons](http://learn.ironhack.com/#/learning_unit/5072)
+- [Designing multistate screens](http://learn.ironhack.com/#/learning_unit/5075)
+- [Lighting, shadows and consistency](http://learn.ironhack.com/#/learning_unit/5076)
