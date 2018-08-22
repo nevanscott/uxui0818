@@ -21,6 +21,10 @@ Resources
 - [7 Rules for Creating Gorgeous UI (Part 1)](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda) and [Part 2](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96) by Erik Kennedy
 - [Dribbble](https://dribbble.com)
 - [Microcopy: Tiny Words With A Huge UX Impact](https://uxplanet.org/microcopy-tiny-words-with-a-huge-ux-impact-90140acc6e42) by Nick Babich
+- [User interface design principles](http://learn.ironhack.com/#/learning_unit/5033) from Ironhack Learning Platform
+- [User interface fundamentals](http://learn.ironhack.com/#/learning_unit/5060) from Ironhack Learning Platform
+- [Design systems](http://learn.ironhack.com/#/learning_unit/5079) from Ironhack Learning Platform
+- [Landing pages](http://learn.ironhack.com/#/learning_unit/5098) from Ironhack Learning Platform
 
 
 Further Reading
