@@ -18,13 +18,18 @@ Resources
 ---------
 
 - [Interviewing Humans](https://alistapart.com/article/interviewing-humans) by Erika Hall (from her book [Just Enough Research](http://www.abookapart.com/products/just-enough-research))
-- [User interviews](http://learn.ironhack.com/#/learning_unit/4995) from Ironhack Learning Platform
-- [Creating an interview guide](http://learn.ironhack.com/#/learning_unit/4996) from Ironhack Learning Platform
-- [Affinity diagram](http://learn.ironhack.com/#/learning_unit/5002) from Ironhack Learning Platform
-- [Feature prioritization](http://learn.ironhack.com/#/learning_unit/5019) from Ironhack Learning Platform
 
 
 Further Reading
 ---------------
 
 - [When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/) by Christian Rohrer
+
+
+Ironhack Learning Platform
+---------------------------
+
+- [User interviews](http://learn.ironhack.com/#/learning_unit/4995) 
+- [Creating an interview guide](http://learn.ironhack.com/#/learning_unit/4996)
+- [Affinity diagram](http://learn.ironhack.com/#/learning_unit/5002)
+- [Feature prioritization](http://learn.ironhack.com/#/learning_unit/5019)
