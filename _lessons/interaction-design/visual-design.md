@@ -25,14 +25,6 @@ Resources
 - Explore colors with [Dribbble color search](https://dribbble.com/colors/)
 - Explore typographic layouts at [Typewolf](https://www.typewolf.com)
 
-- [Intro to interaction design](http://learn.ironhack.com/#/learning_unit/5031) from Ironhack Learning Platform
-- [UI design elements](http://learn.ironhack.com/#/learning_unit/5034) from Ironhack Learning Platform
-- [Analyzing aesthetics](http://learn.ironhack.com/#/learning_unit/5063) from Ironhack Learning Platform
-- [Moodboard](http://learn.ironhack.com/#/learning_unit/5064) from Ironhack Learning Platform
-- [Color](http://learn.ironhack.com/#/learning_unit/5068) from Ironhack Learning Platform
-- [Typography](http://learn.ironhack.com/#/learning_unit/5069) from Ironhack Learning Platform
-- [Sketch recap](http://learn.ironhack.com/#/learning_unit/5061) from Ironhack Learning Platform
-
 
 Further Reading
 ---------------
@@ -48,3 +40,15 @@ Tools
 - [Contrast Checker](https://contrastchecker.com) for colors <small>(more information on WebAIM's similar [Color Contrast Checker](https://webaim.org/resources/contrastchecker/))
 - [Google Fonts](https://fonts.google.com)
 - [SkyFonts](https://skyfonts.com) to sync web fonts from Google Fonts
+
+
+Ironhack Learning Platform
+---------------------------
+
+- [Intro to interaction design](http://learn.ironhack.com/#/learning_unit/5031)
+- [UI design elements](http://learn.ironhack.com/#/learning_unit/5034)
+- [Analyzing aesthetics](http://learn.ironhack.com/#/learning_unit/5063)
+- [Moodboard](http://learn.ironhack.com/#/learning_unit/5064)
+- [Color](http://learn.ironhack.com/#/learning_unit/5068)
+- [Typography](http://learn.ironhack.com/#/learning_unit/5069)
+- [Sketch recap](http://learn.ironhack.com/#/learning_unit/5061) 
