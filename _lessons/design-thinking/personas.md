@@ -14,6 +14,15 @@ Learning Objectives
 - Develop a persona based on findings from user interviews
 
 
+Learning Objectives
+-------------------
+
+- [User persona](http://learn.ironhack.com/#/learning_unit/5005) from Ironhack Learning Platform
+- [Empathy map](http://learn.ironhack.com/#/learning_unit/5004) from Ironhack Learning Platform
+- [Storyboard](http://learn.ironhack.com/#/learning_unit/5010) from Ironhack Learning Platform
+- [User journey](http://learn.ironhack.com/#/learning_unit/5011) from Ironhack Learning Platform
+
+
 Further Reading
 ---------------
 
