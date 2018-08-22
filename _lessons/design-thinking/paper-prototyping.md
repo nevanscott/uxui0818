@@ -24,3 +24,4 @@ Resources
 ---------
 
 - [Wireframes](http://learn.ironhack.com/#/learning_unit/5043) from Ironhack Learning Platform
+- [Concept sketching for UX](http://learn.ironhack.com/#/learning_unit/5036) from Ironhack Learning Platform
