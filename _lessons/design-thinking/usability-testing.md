@@ -24,6 +24,7 @@ Resources
 - [Concept testing](http://learn.ironhack.com/#/learning_unit/5041) from Ironhack Learning Platform
 - [Ideation](http://learn.ironhack.com/#/learning_unit/5016) from Ironhack Learning Platform
 - [Design Studio](http://learn.ironhack.com/#/learning_unit/5017) from Ironhack Learning Platform
+- [Mindmapping / Brainstorming](http://learn.ironhack.com/#/learning_unit/5008) from Ironhack Learning Platform
 
 
 Tools
