@@ -4,7 +4,7 @@ class_date: Sept 25, 2018
 ---
 
 
-Resources
----------
+Ironhack Learning Platform
+---------------------------
 
-- [User stories](http://learn.ironhack.com/#/learning_unit/5020) from Ironhack Learning Platform
+- [User stories](http://learn.ironhack.com/#/learning_unit/5020)
