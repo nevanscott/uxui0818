@@ -16,6 +16,7 @@ Resources
 ---------
 
 - [The Lean Survey Canvas](http://www.christhelwell.com/live/the-lean-survey-canvas/#.W3TZ3i-B3OQ) by Chris Thelwell
+- [Designing surveys](http://learn.ironhack.com/#/learning_unit/4993) from Ironhack Learning Platform
 
 
 Tools
