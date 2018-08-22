@@ -41,4 +41,4 @@ Your presentation should answer the following questions:
 
 ## Extra Mile
 
-If you have time, strong together some of your screens into a working prototype. Make it even more realistic by adding some animations!
+If you have time, string together some of your screens into a working prototype. Make it even more realistic by adding some animations!
