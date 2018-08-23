@@ -180,23 +180,28 @@ small a {
 	box-sizing: border-box;
 	width: 100%;
 	padding: .5em 1em;
-	background: rgba(255, 255, 255, 0.75);
+	background: rgba(255, 255, 255, 0.6);
+	border: solid 1px rgba(0,0,0,0.4);
+	box-shadow: inset 0 0 0 1px rgba(255,255,255,0.75);
 	&:focus {
 		background: white;
+		border-color: rgba(0,0,0,0.6);
+		outline: 0.25em solid rgba(0,0,0,0.15);
 	}
 }
 
+$placeholder-color: rgba(0, 0, 0, 0.6);
 ::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
+  color: $placeholder-color;
 }
 ::-moz-placeholder {
-	color: rgba(0, 0, 0, 0.5);
+	color: $placeholder-color;
 }
 :-ms-input-placeholder {
-	color: rgba(0, 0, 0, 0.5);
+	color: $placeholder-color;
 }
 :-moz-placeholder {
-	color: rgba(0, 0, 0, 0.5);
+	color: $placeholder-color;
 }
 
 #results-container {
