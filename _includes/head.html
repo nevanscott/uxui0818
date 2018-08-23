@@ -3,5 +3,5 @@
 	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.data.course.abbreviation }} {{ site.data.course.iteration }} @ {{ site.data.course.school.abbreviation }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="noindex">
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v{{ site.time | date_to_xmlschema }}">
 </head>
