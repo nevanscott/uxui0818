@@ -13,7 +13,7 @@ Learning Objectives
 
 
 Resources
----------
+----------
 
 - [The Lean Survey Canvas](http://www.christhelwell.com/live/the-lean-survey-canvas/#.W3TZ3i-B3OQ) by Chris Thelwell
 
@@ -25,3 +25,9 @@ Tools
 - [Typeform](https://www.typeform.com)
 - [Optimal Workshop Questions](https://www.optimalworkshop.com/questions)
 - [Survey Monkey](https://www.surveymonkey.com)
+
+
+Ironhack Learning Platform
+--------------------------
+
+- [Designing surveys](http://learn.ironhack.com/#/learning_unit/4993)

@@ -14,7 +14,6 @@ Learning Objectives
 - Describe what microcopy is and its role in interface design
 
 
-
 Resources
 ---------
 
@@ -27,3 +26,15 @@ Further Reading
 ---------------
 
 - [Interface Writing: Code for Humans](https://www.nicolefenton.com/interface-writing/)
+
+
+Ironhack Learning Platform
+---------------------------
+
+- [User interface design principles](http://learn.ironhack.com/#/learning_unit/5033)
+- [User interface fundamentals](http://learn.ironhack.com/#/learning_unit/5060)
+- [Design systems](http://learn.ironhack.com/#/learning_unit/5079)
+- [Landing pages](http://learn.ironhack.com/#/learning_unit/5098)
+- [Forms & icons](http://learn.ironhack.com/#/learning_unit/5072)
+- [Designing multistate screens](http://learn.ironhack.com/#/learning_unit/5075)
+- [Lighting, shadows and consistency](http://learn.ironhack.com/#/learning_unit/5076)
