@@ -2,14 +2,7 @@
 ---
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.data.course.abbreviation }} {{ site.data.course.iteration }} @ {{ site.data.course.school.abbreviation }}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="noindex">
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-	<script>window.onload = function(){ document.body.classList.add('loaded'); }</script>
-</head>
+{% include head.html %}
 <body>
 
 {% include header.html %}
@@ -20,20 +13,6 @@
 
 {% include footer.html %}
 
-<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
-<script>
-if (navigator.serviceWorker && !navigator.serviceWorker.controller) {
-	navigator.serviceWorker.register('/serviceworker.js');
-}
-
-document.addEventListener("DOMContentLoaded", function(event) {
-  var sjs = SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.baseurl }}/search.json',
-		searchResultTemplate: '<li><a href="{url}"><small>{label}</small> {title}</a></li>'
-  })
-});
-</script>
+{% include scripts.html %}
 </body>
 </html>
