@@ -1,0 +1,37 @@
+---
+layout: null
+---
+[
+  {% for post in site.lessons %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ,
+  {% for post in site.homework %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ,
+  {% for post in site.projects %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "content"  : "{{ post.content | strip_html | strip_newlines }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
