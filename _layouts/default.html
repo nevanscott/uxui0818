@@ -20,10 +20,19 @@
 
 {% include footer.html %}
 
+<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
 <script>
 if (navigator.serviceWorker && !navigator.serviceWorker.controller) {
 	navigator.serviceWorker.register('/serviceworker.js');
 }
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/search.json'
+  })
+});
 </script>
 </body>
 </html>
