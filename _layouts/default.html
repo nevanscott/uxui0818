@@ -8,7 +8,7 @@
 {% include header.html %}
 
 <section id="main"{% if page.wide %} class="wide"{% endif %}>
-{{ content }}
+{% if page.wide %}<div class="page">{{ content }}</div>{% else %}{{ content }}{% endif %}
 </section>
 
 {% include footer.html %}

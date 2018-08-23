@@ -1,0 +1,64 @@
+table.calendar {
+  width: 100%;
+}
+.calendar th {
+  text-align: right;
+  padding: 1em;
+}
+// .calendar td.past { opacity: 0.5; }
+.calendar td.today .date { font-weight: bold; }
+.calendar .date { overflow: hidden; }
+
+.calendar .today { background: #FFFDC7; }
+
+.calendar .month { float: left; }
+.calendar .day { float: right; }
+.calendar th {
+	border-bottom: 1px solid darken($brand, 5%);
+}
+.calendar td {
+  height: 12em;
+  vertical-align: top;
+  width: 20%;
+  padding: 1rem;
+  border-right: 1px solid darken($brand, 5%);
+  border-bottom: 1px solid darken($brand, 5%);
+}
+.calendar td:last-of-type {
+	border-right: none;
+}
+.calendar tr:last-of-type td {
+	border-bottom: none;
+}
+.calendar a {
+  display: block;
+	color: inherit;
+	background: lighten($brand, 1%);
+	font-weight: 500;
+  margin: 0.5rem -0.5rem;
+  padding: .25rem 0.5rem;
+	border-radius: 4px;
+	border: 1px solid darken($brand, 10%);
+	transition: background-color 200ms, border-color 200ms;
+  text-decoration: none;
+  .label {
+  	display: block;
+  	font-size: .8em;
+		font-weight: 600;
+  	text-transform: uppercase;
+  	font-weight: bold;
+		border-radius: 4px 4px 0 0;
+  	color: darken($brand, 45%);
+  	letter-spacing: .1em;
+  }
+}
+.calendar a:hover {
+	background: white;
+	border-color: darken($brand, 20%);
+}
+
+@media screen and (min-width: 30em) {
+	.calendar {
+	  font-size: .75em;
+	}
+}
