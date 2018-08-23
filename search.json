@@ -4,6 +4,7 @@ layout: null
 [
   {% for post in site.lessons %}
     {
+      "label"    : "Lesson",
       "title"    : "{{ post.title | smartify | escape }}",
       "content"  : "{{ post.content | strip_html | strip_newlines | escape }}",
       "category" : "{{ post.category }}",
@@ -15,6 +16,7 @@ layout: null
   ,
   {% for post in site.homework %}
     {
+      "label"    : "Homework",
       "title"    : "{{ post.title | smartify | escape }}",
       "content"  : "{{ post.content | strip_html | strip_newlines | escape }}",
       "category" : "{{ post.category }}",
@@ -26,6 +28,7 @@ layout: null
   ,
   {% for post in site.projects %}
     {
+      "label"    : "Project",
       "title"    : "{{ post.title | smartify | escape }}",
       "content"  : "{{ post.content | strip_html | strip_newlines | escape }}",
       "category" : "{{ post.category }}",

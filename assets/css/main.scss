@@ -207,18 +207,25 @@ $placeholder-color: rgba(0, 0, 0, 0.6);
 #results-container {
 	position: absolute;
 	background: white;
-	border: 1px solid darken($brand, 40%);
+	border: 1px solid darken($brand, 35%);
 	box-shadow: 0 1px 1px rgba(0,0,0,0.25);
 	list-style: none;
 	margin: 0;
-	padding: 0.5em 1em;
+	padding: 0;
 	&:empty {
 		display: none;
 	}
 	a {
 		color: black;
+		font-weight: 700;
+		line-height: 1.3;
+		padding: 0.5em 1em;
 		&:hover {
-			text-decoration: underline;
+			background: lighten($brand, 1%);
+		}
+		small {
+			display: block;
+			font-weight: 600;
 		}
 	}
 }

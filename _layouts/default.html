@@ -30,7 +30,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var sjs = SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.baseurl }}/search.json'
+    json: '{{ site.baseurl }}/search.json',
+		searchResultTemplate: '<li><a href="{url}"><small>{label}</small> {title}</a></li>'
   })
 });
 </script>
