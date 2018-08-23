@@ -27,3 +27,11 @@ The HIG is... detailed. You're not going to read through it all in one go. Here'
 [Navigation Bars]: https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/
 [Tab Bars]: https://developer.apple.com/design/human-interface-guidelines/ios/bars/tab-bars/
 [Toolbars]: https://developer.apple.com/design/human-interface-guidelines/ios/bars/toolbars/
+
+
+Ironhack Learning Platform
+---------------------------
+- [iOs vs Material design](http://learn.ironhack.com/#/learning_unit/5085)
+- [iOs Human interface guidelines](http://learn.ironhack.com/#/learning_unit/5091)
+- [iOs Human interface guidelines advanced](http://learn.ironhack.com/#/learning_unit/5092)
+- [iOs icons and images](http://learn.ironhack.com/#/learning_unit/5093)
