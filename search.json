@@ -4,7 +4,7 @@ layout: null
 [
   {% for post in site.lessons %}
     {
-      "title"    : "{{ post.title | escape }}",
+      "title"    : "{{ post.title | smartify | escape }}",
       "content"  : "{{ post.content | strip_html | strip_newlines | escape }}",
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
@@ -15,7 +15,7 @@ layout: null
   ,
   {% for post in site.homework %}
     {
-      "title"    : "{{ post.title | escape }}",
+      "title"    : "{{ post.title | smartify | escape }}",
       "content"  : "{{ post.content | strip_html | strip_newlines | escape }}",
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
@@ -26,7 +26,7 @@ layout: null
   ,
   {% for post in site.projects %}
     {
-      "title"    : "{{ post.title | escape }}",
+      "title"    : "{{ post.title | smartify | escape }}",
       "content"  : "{{ post.content | strip_html | strip_newlines | escape }}",
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
