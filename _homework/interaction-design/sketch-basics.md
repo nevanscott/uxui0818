@@ -1,10 +1,10 @@
 ---
 title: Sketch Basics
-assigned: Aug 24, 2018
-due: Aug 28, 2018
+assigned: Aug 28, 2018
+due: Aug 29, 2018
 ---
 
-Video Tutorials to watch
+Video tutorials to watch
 ----------------------
 
 - [Intro to Sketch Basics](https://www.youtube.com/watch?v=qywB0JHQeC4)
@@ -12,7 +12,7 @@ Video Tutorials to watch
 - [5 Essential Sketch App Tricks](https://www.youtube.com/watch?v=ZCypZWzCr84)
 
 
-Exercise to hand in before Tuesday 28th
+Exercise to hand in
 ------------------
 
 In order to continue leveling up your Sketch skills, we are going to kick off with a simple tracing exercise. Intructions below:
@@ -26,15 +26,18 @@ In order to continue leveling up your Sketch skills, we are going to kick off wi
 7. Find a font that is as similar as possible and adjust the size and spacing as needed. (You likely won't find the exact font, so don't worry!)
 8. Keep an eye on the details! Watch out for gradients, drop shadows, icon size and weight, etc. 
 9. Have fun!
-10. UPLOAD your final Sketch files [HERE] (https://drive.google.com/drive/u/1/folders/1G_-aPVu9x5xdNUEJDG_tHRnsb2ym300Y) in the "Completed Work" folder.
+10. UPLOAD your final Sketch files [HERE](https://drive.google.com/drive/u/1/folders/1zqIDUMYJ9Om5BRzHFvFFZ_BPeCiEFpOV) in the "Completed Work" folder.
 
 
 Suggested resources
 --------------------
 
-In order to be ready before we start using Sketch more frequently, we strongly encourage you to read these files from the Sketch website:
+In order to be ready before we start using Sketch more frequently, we strongly encourage you to read these files from the Sketch website.
 
-- [Sketch App Learning Docs](https://www.sketchapp.com/docs/)
+All learning docs are located [HERE](https://www.sketchapp.com/docs/).
+
+But we recommend starting off with these first:
+
 - [Pages & Artboards](https://www.sketchapp.com/docs/the-interface/layer-list/)
 - [Grids & Layout](https://www.sketchapp.com/docs/canvas/rulers-guides-grids/)
 - [Text Styles](https://www.sketchapp.com/docs/text/text-styles/)
