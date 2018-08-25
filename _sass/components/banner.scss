@@ -46,7 +46,7 @@
       }
 			&.current {
 				color: white;
-        border-bottom: 3px solid;
+        border-bottom: 3px solid $secondary;
 				font-weight: inherit;
 			}
 			&:last-of-type {
