@@ -14,7 +14,6 @@ a {
 	color: black;
 }
 a:hover, a:focus, a:active {
-	outline: none;
 	color: #009;
 }
 
@@ -28,12 +27,14 @@ h1, h2, h3, h4, dt, #nav {
 }
 
 h1 {
-	font-weight: 800;
+	font-family: $display;
+	font-weight: 900;
 	border-bottom: 1px solid darken($brand, 5%);
 	font-size: 1.75em;
 }
 h1 small {
 	float: right;
+	font-family: $sans;
 	margin-top: .3em;
 	font-weight: 500;
 }
@@ -54,7 +55,7 @@ h4 {
 }
 
 p {
-  margin: 1em*$lh 0;
+  margin: 0.5em*$lh 0;
 }
 
 blockquote {
