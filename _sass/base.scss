@@ -30,14 +30,14 @@ h1 {
 	font-family: $serif;
 	font-style: italic;
 	font-weight: 900;
-	border-bottom: 1px solid darken($brand, 5%);
 	font-size: 1.75em;
+	line-height: 1.3;
 }
 h1 small {
-	float: right;
+	display: block;
 	font-family: $sans;
+	font-size: 0.5em;
 	font-style: normal;
-	margin-top: .3em;
 	font-weight: 500;
 }
 h2 {
@@ -159,10 +159,8 @@ nav ul {
 	}
   h1 {
     font-size: 2.25em;
-    line-height: 1.2;
     small {
-      font-size: 0.5em;
-      margin-top: 1em;
+			display: inline;
     }
   }
   h2 {
