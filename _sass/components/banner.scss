@@ -1,10 +1,16 @@
 .page-header {
+  $path: polygon(0 0, 100% 0, 100% 95%, 95% 90%, 25% 100%, 0 95%);
   background: darken($brand, 40%);
   color: white;
   padding: 1em 0.75em*$lh;
 	display: grid;
 	align-items: center;
 	grid-gap: 0.5em 2em;
+  -webkit-clip-path: $path;
+  clip-path: $path;
+  position: relative;
+  z-index: 10;
+  margin-bottom: -1em;
 	a {
 		color: inherit;
 		text-decoration: none;
@@ -100,5 +106,7 @@ $placeholder-color: rgba(0, 0, 0, 0.6);
   .page-header {
 		padding: 1em 2em*$lh 3em;
 		grid-template-columns: auto 1fr auto;
+    position: static;
+    margin-bottom: 0;
   }
 }
