@@ -34,7 +34,8 @@ table.calendar {
   display: block;
 	color: inherit;
 	background: lighten($brand, 1%);
-	font-weight: 450;
+  font-family: $serif;
+	font-weight: 500;
   margin: 0.5rem -0.5rem;
   padding: .25rem 0.5rem;
   border: 1px solid darken($brand, 10%);
@@ -42,13 +43,13 @@ table.calendar {
   text-decoration: none;
   .label {
   	display: block;
+    font-family: $display;
   	font-size: .8em;
-		font-weight: 450;
+		font-weight: 600;
   	text-transform: uppercase;
-  	font-weight: bold;
 		border-radius: 4px 4px 0 0;
   	color: darken($brand, 45%);
-  	letter-spacing: .1em;
+  	letter-spacing: .04em;
   }
 }
 .calendar a:hover {

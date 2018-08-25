@@ -4,10 +4,21 @@
 		margin: .2em*$lh 0;
   }
 	h4 {
+		color: darken($brand, 55%);
+		font-family: $serif;
+		font-weight: 600;
+		font-size: 1.25em;
+		letter-spacing: normal;
+		line-height: 1.2;
+		text-transform: none;
 		small {
-			color: darken($brand, 55%);
+			font-family: $display;
+			font-size: 0.7em;
+			color: darken($brand, 40%);
 			display: block;
-			font-weight: 700;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
 		}
 	}
 }
