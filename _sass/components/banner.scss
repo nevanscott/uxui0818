@@ -1,23 +1,36 @@
 .page-header {
-  $path: polygon(0 0, 100% 0, 100% 95%, 95% 90%, 25% 100%, 0 95%);
-  background: darken($brand, 40%);
   color: white;
   padding: 1em 0.75em*$lh;
 	display: grid;
 	align-items: center;
 	grid-gap: 0.5em 2em;
-  -webkit-clip-path: $path;
-  clip-path: $path;
   position: relative;
   z-index: 10;
   margin-bottom: -1em;
-  $radius: 6%;
-  $color: darken($brand, 45%);
-  background-image: radial-gradient($color $radius, transparent $radius),
-                    radial-gradient($color $radius, transparent $radius),
-                    radial-gradient($color $radius, transparent $radius);
-  background-size: 96px 96px, 103px 103px, 122px 122px;
-  background-position: 0 0, 17px 24px, 83px 83px;
+  &::before {
+    $path: polygon(0 0, 100% 0, 100% 50%, 95% 0%, 25% 100%, 0 50%);
+    $path: polygon(0 0, 100% 0, 100% 95%, 95% 90%, 25% 100%, 0 95%);
+    background: darken($brand, 40%);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-clip-path: $path;
+    clip-path: $path;
+    $radius: 6%;
+    $color: darken($brand, 45%);
+    background-image: radial-gradient($color $radius, transparent $radius),
+                      radial-gradient($color $radius, transparent $radius),
+                      radial-gradient($color $radius, transparent $radius);
+    background-size: 96px 96px, 103px 103px, 122px 122px;
+    background-position: 0 0, 17px 24px, 83px 83px;
+  }
 	a {
 		color: inherit;
 		text-decoration: none;
@@ -89,7 +102,7 @@ $placeholder-color: rgba(0, 0, 0, 0.6);
 
 #results-container {
 	position: absolute;
-  z-index: 3;
+  z-index: 20;
 	background: white;
 	border: 1px solid darken($brand, 35%);
 	box-shadow: 0 1px 1px rgba(0,0,0,0.25);
@@ -118,7 +131,7 @@ $placeholder-color: rgba(0, 0, 0, 0.6);
   .page-header {
 		padding: 1em 2em*$lh 3em;
 		grid-template-columns: auto 1fr auto;
-    position: static;
     margin-bottom: 0;
+    z-index: auto;
   }
 }

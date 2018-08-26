@@ -5,8 +5,6 @@
   padding: 1em 0.75em*$lh;
   -webkit-clip-path: $path;
   clip-path: $path;
-  position: relative;
-  z-index: 10;
   margin-top: -1em;
   $radius: 6%;
   $color: darken($secondary, 12%);
@@ -27,6 +25,5 @@
 	.page-footer {
 		padding: 3em 2em*$lh 1em;
     margin-top: 0;
-    position: static;
 	}
 }
