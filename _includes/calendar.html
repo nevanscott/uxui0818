@@ -110,7 +110,6 @@
   for (var i = 0; i < cells.length; i++) {
     var cell = cells[i];
     var date = new Date(cell.dataset.date);
-    console.log(date.getYear());
     if (date.getYear() === today.getYear()) {
       cell.classList.add('this-year');
       if (date.getMonth() === today.getMonth()) {
