@@ -1,0 +1,24 @@
+<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
+<script>
+  if (navigator.serviceWorker && !navigator.serviceWorker.controller) {
+  	navigator.serviceWorker.register('/serviceworker.js');
+  }
+
+  window.onload = function(){ document.body.classList.add('loaded'); }
+
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '{{ site.baseurl }}/search.json',
+  		searchResultTemplate: '<li><a href="{url}"><small>{label}</small> {title}</a></li>'
+    })
+  });
+
+  // Open external links in a new tab
+  for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+    var b = c[a];
+    b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+  }
+
+</script>

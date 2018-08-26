@@ -2,61 +2,17 @@
 ---
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.data.course.abbreviation }} {{ site.data.course.iteration }} @ {{ site.data.course.school.abbreviation }}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="noindex">
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-	<script>window.onload = function(){ document.body.classList.add('loaded'); }</script>
-</head>
+{% include head.html %}
 <body>
 
-<header class="page-header">
-  <div class="info">
-    <h1>
-      <a href="{{ site.baseurl }}/">
-        {{ site.data.course.abbreviation }} {{ site.data.course.iteration }}
-      </a>
-    </h1>
-	</div>
-  <nav>
-    <ul>
-      {% for item in site.data.course.nav %}
-
-        {% assign item_url = item | prepend:"/" | append:"/" | replace:"HOME/","" %}
-        {% assign url_parts = page.url | split:"/" %}
-        {% assign section_slug = url_parts[1] %}
-
-        {% if item_url == page.url %}
-          {% assign c = "current" %}
-        {% elsif item == section_slug %}
-          {% assign c = "current" %}
-        {% else %}
-          {% assign c = "" %}
-        {% endif %}
-
-        {% for p in site.pages %}
-          {% if p.url == item_url %}
-            <li class="{{ c }}"><a href="{{ site.baseurl }}{{ p.url }}">{% if p.nav_title %}{{ p.nav_title }}{% else %}{{ p.title }}{% endif %}</a></li>
-          {% endif %}
-        {% endfor %}
-
-      {% endfor %}
-    </ul>
-  </nav>
-</header>
+{% include header.html %}
 
 <section id="main"{% if page.wide %} class="wide"{% endif %}>
-{{ content }}
+{% if page.wide %}<div class="page">{{ content }}</div>{% else %}{{ content }}{% endif %}
 </section>
 
 {% include footer.html %}
 
-<script>
-if (navigator.serviceWorker && !navigator.serviceWorker.controller) {
-	navigator.serviceWorker.register('/serviceworker.js');
-}
-</script>
+{% include scripts.html %}
 </body>
 </html>

@@ -1,0 +1,104 @@
+.page-header {
+  background: darken($brand, 40%);
+  color: white;
+  padding: 1em 0.75em*$lh;
+	display: grid;
+	align-items: center;
+	grid-gap: 0.5em 2em;
+	a {
+		color: inherit;
+		text-decoration: none;
+		display: block;
+	}
+	h1 {
+		border: none;
+		margin: 0;
+		font-weight: 900;
+		font-size: 1.2em;
+	}
+	h4 {
+		margin: 0;
+	}
+	nav {
+		font-weight: 700;
+		display: flex;
+		a {
+			display: block;
+			color: rgba(255,255,255,.75);
+			margin-right: 1em;
+      &:hover {
+        color: white;
+      }
+			&.current {
+				color: white;
+        border-bottom: 3px solid;
+				font-weight: inherit;
+			}
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+#search-input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: .5em 1em;
+	background: rgba(255, 255, 255, 0.75);
+	border: solid 1px darken($brand, 55%);
+	box-shadow: inset 0 0 0 1px rgba(255,255,255,0.75);
+	&:focus {
+		background: white;
+		border-color: darken($brand, 60%);
+		outline: 0.25em solid rgba(0,0,0,0.15);
+	}
+}
+
+$placeholder-color: rgba(0, 0, 0, 0.6);
+::-webkit-input-placeholder {
+  color: $placeholder-color;
+}
+::-moz-placeholder {
+	color: $placeholder-color;
+}
+:-ms-input-placeholder {
+	color: $placeholder-color;
+}
+:-moz-placeholder {
+	color: $placeholder-color;
+}
+
+#results-container {
+	position: absolute;
+  z-index: 3;
+	background: white;
+	border: 1px solid darken($brand, 35%);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	&:empty {
+		display: none;
+	}
+	a {
+		color: black;
+		font-weight: 700;
+		line-height: 1.3;
+		padding: 0.5em 1em;
+		&:hover {
+			background: lighten($brand, 1%);
+		}
+		small {
+			display: block;
+			font-weight: 600;
+		}
+	}
+}
+
+@media screen and (min-width: 55em) {
+  .page-header {
+		padding: 1em 2em*$lh 3em;
+		grid-template-columns: auto 1fr auto;
+  }
+}

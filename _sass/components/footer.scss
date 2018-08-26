@@ -1,0 +1,14 @@
+.page-footer {
+  background: darken($brand, 10%);
+  border-top: solid 1px darken($brand, 15%);
+  padding: 1em 0.75em*$lh;
+  p {
+    margin: 0.25em*$lh 0;
+  }
+}
+
+@media screen and (min-width: 55em) {
+	.page-footer {
+		padding: 3em 2em*$lh 1em;
+	}
+}

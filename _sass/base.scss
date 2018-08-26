@@ -1,0 +1,168 @@
+html {
+	min-height: 100%;
+}
+body {
+	font-family: $sans;
+	font-size: 87.5%;
+	line-height: $lh;
+	padding: 0;
+  background: $brand;
+	color: #333;
+}
+
+a {
+	color: black;
+}
+a:hover, a:focus, a:active {
+	outline: none;
+	color: #009;
+}
+
+.current a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, dt, #nav {
+	font-family: $sans;
+}
+
+h1 {
+	font-weight: 800;
+	border-bottom: 1px solid darken($brand, 5%);
+	font-size: 1.75em;
+}
+h1 small {
+	float: right;
+	margin-top: .3em;
+	font-weight: 500;
+}
+h2 {
+	font-size: 1.25em;
+	margin-top: 1em * $lh;
+}
+h3 {
+	margin-top: 1.25em * $lh;
+	margin-bottom: -.25em * $lh;
+}
+h4 {
+	margin-top: 2em;
+	font-weight: 800;
+	color: darken($brand, 40%);
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+p {
+  margin: 1em*$lh 0;
+}
+
+blockquote {
+	color: #666;
+	border-left: 2px solid darken($brand, 5%);
+	margin: 1em*$lh 1em*$lh 1em*$lh .5em*$lh;
+	padding: 0 0 0 .75em;
+}
+
+ul {
+	list-style: square;
+	padding: 0;
+	margin-left: 1em*$lh;
+}
+ol {
+	padding: 0;
+	margin-left: 1em*$lh;
+}
+
+li {
+  margin: .125em*$lh 0;
+}
+li p {
+  margin: .5em*$lh 0;
+}
+
+dt {
+	font-weight: bold;
+}
+dd {
+	margin: 0 1em*$lh 1em*$lh;
+	p {
+		margin: .5em*$lh 0;
+	}
+}
+
+img {
+	max-width: 100%;
+	&.aside {
+		clear: right;
+		float: right;
+		max-width: 50%;
+		margin: 0 0 1em 1em;
+	}
+}
+
+small {
+	color: darken($brand, 35%);
+	font-weight: normal;
+}
+small a {
+	color: darken($brand, 40%);
+}
+
+pre, code {
+	font-family: monospace;
+}
+
+pre {
+  overflow-x: scroll;
+}
+
+code {
+	border: 1px solid darken($brand, 5%);
+	background: $brand;
+	border-radius: 5px;
+	padding: 1px 5px;
+	font-size: 1.1em;
+}
+
+pre code {
+	border: none;
+	background: none;
+	padding: 0;
+	font-size: 1em;
+}
+
+.highlight {
+	border: 1px solid darken($brand, 5%);
+	background: lighten($brand, 3%);
+	padding: 0 1em;
+	border-radius: 5px;
+	margin: 1em 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 30em) {
+	body {
+	  font-size: 100%;
+	}
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    small {
+      font-size: 0.5em;
+      margin-top: 1em;
+    }
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}

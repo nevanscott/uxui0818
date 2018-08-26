@@ -27,3 +27,14 @@ Tools
 - [UserZoom](https://www.userzoom.com)
 - [Chalkmark](https://www.optimalworkshop.com/chalkmark)
 - [Silverback](https://silverbackapp.com)
+
+
+Ironhack Learning Platform
+--------------------------
+
+- [Usability as a design framework](http://learn.ironhack.com/#/learning_unit/5040)
+- [Concept testing](http://learn.ironhack.com/#/learning_unit/5041)
+- [Ideation](http://learn.ironhack.com/#/learning_unit/5016)
+- [Design Studio](http://learn.ironhack.com/#/learning_unit/5017)
+- [Mindmapping / Brainstorming](http://learn.ironhack.com/#/learning_unit/5008)
+
