@@ -1,4 +1,4 @@
-$border-color: hsl(hue($secondary), 30%, 92%);
+$border-color: hsl(hue($neutral), 20%, 85%);
 
 table.calendar {
   width: 100%;
@@ -17,7 +17,9 @@ table.calendar {
   overflow: hidden;
 }
 
-.calendar .today { background: #FFFDC7; }
+.calendar .today {
+  background: darken($neutral, 3%);
+}
 
 .calendar .month { float: left; }
 .calendar .day { float: right; }
@@ -68,7 +70,10 @@ table.calendar {
   }
 }
 .calendar a:hover {
-  background-color: $brand;
+  background-color: darken($neutral, 3%);
+}
+.calendar .today a:hover {
+  background-color: white;
 }
 
 @media screen and (min-width: 30em) {
