@@ -1,5 +1,5 @@
 ---
-title: Ideas for individual projects
+title: Ideas for "Add a Feature"
 assigned: Sept 4, 2018
 due: Sept 5, 2018
 ---
