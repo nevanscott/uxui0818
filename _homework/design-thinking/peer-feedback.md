@@ -12,6 +12,7 @@ Instructions
 - To do so, go to the Google Drive file `"Student's Work" > "Group retrospective"`. In this file, look for your groupmate file and on one of the empty table, complete at least one aspect to start doing, stop doing and continue doing for their next group work
 - Remember the golden rules of feedback that you can read below
 
+
 Feedback Golden Rules
 ---------------------
 
