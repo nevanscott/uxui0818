@@ -75,6 +75,19 @@ table.calendar {
 .calendar .today a:hover {
   background-color: white;
 }
+.calendar .project-due a {
+  background: darken($secondary, 5%);
+  color: white;
+  &::before {
+    background-color: saturate(darken($brand, 25%), 25%);
+  }
+  .label {
+    color: inherit;
+  }
+  &:hover {
+    background: darken($secondary, 15%);
+  }
+}
 
 @media screen and (min-width: 30em) {
 	.calendar {

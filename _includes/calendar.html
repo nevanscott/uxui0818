@@ -77,7 +77,7 @@
                     </div>
                   {% endif %}
                   {% if due_date_xml == date_xml %}
-                    <div class="project">
+                    <div class="project project-due">
                     	<a href="{{ site.baseurl }}{{ post.url }}">
                     		<div class="label">Project Due</div>
                     		{{ post.title | markdownify | strip_html | strip }}
