@@ -7,7 +7,7 @@
   clip-path: $path;
   margin-top: -1em;
   $radius: 6%;
-  $color: darken($secondary, 12%);
+  $color: darken($secondary, 14%);
   background-image: radial-gradient($color $radius, transparent $radius),
                     radial-gradient($color $radius, transparent $radius),
                     radial-gradient($color $radius, transparent $radius);
