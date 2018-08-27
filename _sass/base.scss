@@ -6,7 +6,7 @@ body {
 	font-size: 87.5%;
 	line-height: $lh;
 	padding: 0;
-  background: $brand;
+	background: darken($neutral, 3%);
 	color: #333;
 }
 
@@ -14,7 +14,6 @@ a {
 	color: black;
 }
 a:hover, a:focus, a:active {
-	outline: none;
 	color: #009;
 }
 
@@ -28,13 +27,17 @@ h1, h2, h3, h4, dt, #nav {
 }
 
 h1 {
-	font-weight: 800;
-	border-bottom: 1px solid darken($brand, 5%);
+	font-family: $serif;
+	font-style: italic;
+	font-weight: 900;
 	font-size: 1.75em;
+	line-height: 1.3;
 }
 h1 small {
-	float: right;
-	margin-top: .3em;
+	display: block;
+	font-family: $sans;
+	font-size: 0.5em;
+	font-style: normal;
 	font-weight: 500;
 }
 h2 {
@@ -54,7 +57,7 @@ h4 {
 }
 
 p {
-  margin: 1em*$lh 0;
+  margin: 0.5em*$lh 0;
 }
 
 blockquote {
@@ -155,14 +158,12 @@ nav ul {
 	  font-size: 100%;
 	}
   h1 {
-    font-size: 2.5em;
-    line-height: 1.2;
+    font-size: 2.25em;
     small {
-      font-size: 0.5em;
-      margin-top: 1em;
+			display: inline;
     }
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 }
