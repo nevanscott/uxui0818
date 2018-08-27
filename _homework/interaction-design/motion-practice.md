@@ -1,7 +1,7 @@
 ---
 title: Motion Practice
-assigned: Aug 30, 2018
-due: Aug 31, 2018
+assigned: Aug 31, 2018
+due: Sept 3, 2018
 ---
 
 

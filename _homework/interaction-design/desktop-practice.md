@@ -1,11 +1,11 @@
 ---
-title: Sketch Exercise Desktop
+title: Sketch Exercise
 assigned: Aug 29, 2018
 due: Aug 30, 2018
 ---
 
 
-Exercise to hand in on Thusday 30th
-------------------
+Exercise
+--------
 
 - Copy screen exercise desktop instructions
