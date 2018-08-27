@@ -14,7 +14,6 @@ Sketch Tutorials
 Exercise
 --------
 
-- Airbnb exercise
 
 
 Resources
