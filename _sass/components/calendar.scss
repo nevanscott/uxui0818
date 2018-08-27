@@ -42,6 +42,9 @@ table.calendar {
 	border-bottom: none;
 }
 .calendar a {
+  $path: polygon(0 9%, 3% 0, 96% 0, 100% 4%, 100% 91%, 98% 100%, 7% 100%, 0 96%);
+  -webkit-clip-path: $path;
+  clip-path: $path;
   color: inherit;
   display: block;
   font-family: $serif;
