@@ -1,7 +1,7 @@
 ---
 title: Competencies Self-assessment
-assigned: Aug. 28, 2018
-due: Aug. 29, 2018
+assigned: Aug. 29, 2018
+due: Aug. 30, 2018
 ---
 
 In preparation for your first 1-on-1 with Nevan, please
