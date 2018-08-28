@@ -16,6 +16,12 @@ Learning Objectives
 - Use proximity to make relationships clear
 
 
+Starter Files
+-------------
+
+- Type and Composition <small>(<a download href="{{ site.baseurl }}/files/Type and Composition.sketch">Download</a>)</small>
+
+
 Resources
 ---------
 
