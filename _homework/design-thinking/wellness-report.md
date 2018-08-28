@@ -1,6 +1,6 @@
 ---
 title: Wellness App Design Report
-assigned: Aug 28, 2018
+assigned: Aug 29, 2018
 due: Sept 3, 2018
 ---
 
