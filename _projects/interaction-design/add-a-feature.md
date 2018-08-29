@@ -19,23 +19,22 @@ Materials
 
 - Sketch
 - Invision
-- Principle <small>(or Flinto)</small>
-- Google Docs
 - Google Slides
 
 
 Background
 ----------
 
-As a new designer joining a team, you’ll often have to rapidly come up to speed on your product, your users, and quickly iterate on solutions under tight timelines. Your other stakeholders will all have opinions and you’ll have to get into the practice of supporting your claims.
+As a new designer joining a team, you’ll often have to rapidly come up to speed on your product, your users, and quickly iterate on proposed solutions under tight timelines. Your other stakeholders will all have opinions, and you’ll have to get into the practice of supporting your claims and finding ways to incorporate new features into the existing platform. 
 
 
 Aspects to Consider
 -------------------
-- Who are the users? What are the user goals? How does the assigned scenario fit into their day? How can you quickly learn about them?
-- What are the user’s tasks? What’s the hypothesis about how the new functionality will change their behaviors?
+- Who are the users and what are their goals? How can you quickly learn about them? How does the assigned scenario fit into their day? 
+- What’s the hypothesis about how the new functionality will change their behaviors?
 - How should the new functionality tie into the navigation of the product? You are expected to try variations.
-- You must be able to defend your design decisions. How will you test and gather evidence to support your work?
+- You must be able to defend your design decisions based on research and testing.
+- The company already has an established aesthetic and defined look and feel. How will you maintain this in your hi-fidelity prototype?
 
 Target Device
 -------------
@@ -82,7 +81,7 @@ Your report will gather all of your work from this project into a single PDF. Yo
 Design Thinking
 ---------------
 
-Remember that design challenges are tackled by alternating divergent and convergent thinking modes. You are expected to conduct exploratory research and narrow down the scope of the problem. Then generate multiple possible solutions. Evaluate. Test. Repeat. You’ll have the opportunity to show these iterations in the report.
+Remember that design challenges are tackled by alternating divergent and convergent thinking modes. You are expected to conduct exploratory research and narrow down the scope of the problem within the realm of the proposed feature. Then generate multiple possible solutions. Evaluate. Test. Repeat. You’ll have the opportunity to show these iterations in the report.
 
 
 Tips
@@ -93,5 +92,6 @@ Tips
 - Get feedback early & often
 - Iterate
 - Perfect is the enemy of good
+- Document your work and add it to your individual folder on the Google Drive
 - Build out your presentation deck and your report as you go
 - Work fast; have fun
