@@ -1,10 +1,10 @@
 ---
 title: Sketch Practice
-assigned: Aug 29, 2018
-due: Aug 30, 2018
+assigned: Aug 30, 2018
+due: Aug 31, 2018
 ---
 
-Now that you've reviewed some Sketch basics and gotten practice with tracing, we are going to stretch your skills even further.
+Now that you've reviewed some Sketch basics and gotten practice with tracing, we are going to stretch your skills even further. We'll have some time in class during the afternoon to get a jumpstart on this. 
 
  **Upload your final Sketch files** [to the Google Drive](https://drive.google.com/drive/u/1/folders/1OJWSXlXKHCHchXesu9GJhFflCIS-RvV0) in the "Completed Work" folder.
 
