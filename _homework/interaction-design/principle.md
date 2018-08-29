@@ -13,7 +13,7 @@ due: Aug 31, 2018
   - Import, Screen and Sharing
   - Components
 
-4. Watch Pablo Stanley's [Principle Crash Course] (https://www.youtube.com/playlist?list=PLWlUJU11tp4deQOnSFNn_ekpS9GA5_7yP)
+4. Watch Pablo Stanley's [Principle Crash Course](https://www.youtube.com/playlist?list=PLWlUJU11tp4deQOnSFNn_ekpS9GA5_7yP)
    On this crash course you will be able to see how to do the following: 
    - Connecting Screens 
    - Using Events
