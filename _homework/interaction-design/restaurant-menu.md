@@ -1,7 +1,7 @@
 ---
 title: Restaurant Menu Redesign
-assigned: Aug. 29, 2018
-due: Aug. 30, 2018
+assigned: Aug. 30, 2018
+due: Aug. 31, 2018
 ---
 
 To start practicing your typography and composition chops, we're going to take a break from designing for the screen and turn our attention to print.
