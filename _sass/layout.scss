@@ -1,0 +1,60 @@
+#main-nav, #secondary {
+	margin: 0 0.75em*$lh;
+}
+
+.page {
+	background: white;
+	padding: 1em*$lh 0.75em*$lh 2em*$lh;
+}
+
+article {
+	background: white;
+	font-family: $serif;
+	font-size: 1.2em;
+  max-width: 45em;
+	padding: 0.5em*$lh 0.5em*$lh 1em*$lh;
+	$path: polygon(0 0, 100% 0, 100% 99.5%, 72% 99%, 0 99.8%);
+  -webkit-clip-path: $path;
+  clip-path: $path;
+  header {
+  	h1, h2, h3, h4 {
+  		margin: 0;
+  	}
+  	h4 {
+			font-weight: normal;
+			font-size: .8em;
+			color: darken($brand, 40%);
+			a {
+				color: inherit;
+			}
+  	}
+  	margin: 1em*$lh 0;
+  }
+}
+
+@media screen and (min-width: 55em) {
+	#main {
+		display: grid;
+		grid-template-columns: 7fr 3fr;
+		margin: 0;
+	}
+	#main.wide {
+		display: block;
+	}
+	.page {
+		box-shadow: 0 0 5px rgba(0,0,0,0.25);
+		margin: -2em 2em;
+		padding: 0.25em*$lh 1em*$lh 2em*$lh;
+		position: relative;
+		z-index: 10;
+	}
+  article {
+		box-shadow: 0 0 5px rgba(0,0,0,0.25);
+		margin: -2em 0 -2em 2em;
+		padding: 1.5em*$lh 2em*$lh;
+		position: relative;
+		z-index: 10;
+		-webkit-clip-path: none;
+		clip-path: none;
+  }
+}

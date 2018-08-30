@@ -1,0 +1,7 @@
+.admin {
+	opacity: 0;
+	margin-bottom: -1em * $lh;
+	&:hover {
+		opacity: 1;
+	}
+}

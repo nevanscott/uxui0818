@@ -7,7 +7,7 @@
     </h1>
 	</div>
   <div class="search">
-    <input type="search" id="search-input" placeholder="Search...">
+    <input type="search" inputmode="search" spellcheck="false" id="search-input" placeholder="Search...">
     <ul id="results-container"></ul>
   </div>
   <nav>
@@ -34,13 +34,3 @@
     {% endfor %}
   </nav>
 </header>
-
-
-<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
-<script>
-var sjs = SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
-})
-</script>

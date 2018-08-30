@@ -9,8 +9,6 @@ Learning Objectives
 -------------------
 
 - Analyze a design according to principles: contrast, repetition, alignment, and proximity (CRAP)
-- Establish a basic color palette with a primary color and a bank of neutral colors
-- Check for appropriate contrast between text and background colors
 - Differentiate between display typefaces and text typefaces
 - Identify features of fonts appropriate for interfaces
 - Establish basic typographic hierarchy
@@ -18,11 +16,16 @@ Learning Objectives
 - Use proximity to make relationships clear
 
 
+Starter Files
+-------------
+
+- Type and Composition <small>(<a download href="{{ site.baseurl }}/files/Type and Composition.sketch">Download</a>)</small>
+
+
 Resources
 ---------
 
 - [A CRAP way to improve usability](https://www.userfocus.co.uk/articles/A_CRAP_way_to_improve_usability.html) by David Travis
-- Explore colors with [Dribbble color search](https://dribbble.com/colors/)
 - Explore typographic layouts at [Typewolf](https://www.typewolf.com)
 
 
@@ -35,9 +38,6 @@ Further Reading
 Tools
 -----
 
-- [Paletton](http://paletton.com/)
-- [Adobe Color CC](https://color.adobe.com/create/color-wheel/)
-- [Contrast Checker](https://contrastchecker.com) for colors <small>(more information on WebAIM's similar [Color Contrast Checker](https://webaim.org/resources/contrastchecker/))
 - [Google Fonts](https://fonts.google.com)
 - [SkyFonts](https://skyfonts.com) to sync web fonts from Google Fonts
 
@@ -49,6 +49,5 @@ Ironhack Learning Platform
 - [UI design elements](http://learn.ironhack.com/#/learning_unit/5034)
 - [Analyzing aesthetics](http://learn.ironhack.com/#/learning_unit/5063)
 - [Moodboard](http://learn.ironhack.com/#/learning_unit/5064)
-- [Color](http://learn.ironhack.com/#/learning_unit/5068)
 - [Typography](http://learn.ironhack.com/#/learning_unit/5069)
-- [Sketch recap](http://learn.ironhack.com/#/learning_unit/5061) 
+- [Sketch recap](http://learn.ironhack.com/#/learning_unit/5061)
