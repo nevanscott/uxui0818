@@ -26,3 +26,4 @@ due: Aug 31, 2018
    - Parallax Effect 
    - Exporting your Designs
     
+5. Remember that these Tutorials & Videos will help you with this weekend's Homework. 
