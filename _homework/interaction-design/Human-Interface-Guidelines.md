@@ -12,7 +12,7 @@ Human interface guidelines (HIG) are software development documents which offer 
 Articles to read
 ---------------------
 
-The HIG is... detailed. You're not going to read through it all in one go. Here's where I recommend starting:
+The HIG is... detailed. You're not going to read through it all in one go. Please start with the below links in preparation for Monday's class.
 
 - [Interface Essentials](https://developer.apple.com/design/human-interface-guidelines/ios/overview/interface-essentials/)
 - [Navigation](https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/navigation/)
