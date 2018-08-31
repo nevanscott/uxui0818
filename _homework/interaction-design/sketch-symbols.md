@@ -12,7 +12,7 @@ Now that you have built some cards and changed photos, descriptions and titles u
 1st Deliverable: Design a Button System
 -------------------------------------------------
 
-1. Watch [Creating a Button System with Nested Symbols on Sketch App](https://www.youtube.com/watch?v=_bjqVF7Fvg4&t=794s) from Sketch Together <small>Duration: 30:39</small>
+1. Watch [Creating a Button System with Nested Symbols on Sketch App](https://www.youtube.com/watch?v=_bjqVF7Fvg4) from Sketch Together <small>Duration: 30:39</small>
 2. Create your own button system using nested symbols, masks, and overrides. 
 3. Get creative! Use colors, icons and text of your choice. 
 
