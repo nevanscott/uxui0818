@@ -32,6 +32,8 @@ Now that you have built some cards and changed photos, descriptions and titles u
 
 For this exercise, you will create a bottom nav bar for a mobile app similar to one of these:
 
+<img src="/assets/images/bottom-nav-bar.png" alt="Sample bottom nav bars on mobile apps" />
+
 ### Requirements
 
 - 5 tabs with icons and text
