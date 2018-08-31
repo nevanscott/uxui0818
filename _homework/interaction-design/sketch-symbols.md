@@ -32,17 +32,22 @@ Now that you have built some cards and changed photos, descriptions and titles u
 
 For this exercise, you will create a bottom nav bar for a mobile app similar to one of these:
 
-<img src="/assets/images/bottom-nav-bar.png" alt="Sample bottom nav bars on mobile apps" />
+<img src="/assets/images/bottom-nav-bar-small.png" alt="Sample bottom nav bars on mobile apps" />
 
 ### Requirements
 
 - 5 tabs with icons and text
 - Use of nested symbols so that various icons and colors can be swapped in and out
-- Show what the pressed state looks like for each 5 tabs. 
+- Show what the pressed state looks like for each of the 5 tabs
+
+### Nice to Have
+
+- Indication of a notification within a particular tab (i.e. new messages, items in cart, etc.)
 
 
 Resources
 ---------
 
 - [More Flexibility with Buttons in Sketch](https://medium.com/sketch-app-sources/more-flexibility-with-buttons-in-sketch-cc496b125017) by Wolfram Thurm
+- [Deep Nesting with Symbols in Sketch](https://medium.com/ux-power-tools/this-is-without-a-doubt-the-coolest-sketch-technique-youll-see-all-day-ddefa65ea959) by Jon Moore
 
