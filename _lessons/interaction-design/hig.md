@@ -13,7 +13,7 @@ Learning Objectives
 - Identify features of an app which follow and violate guidelines.
 
 
-Where to start
+Resources
 --------------
 
 The HIG is... detailed. You're not going to read through it all in one go. Here's where I recommend starting:
