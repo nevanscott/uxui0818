@@ -95,8 +95,3 @@ Tips
 - Document your work and add it to your individual folder on the Google Drive
 - Build out your presentation deck and your report as you go
 - Work fast; have fun
-
-
-Bank of ideas
---------------
- -[Enter your ideas here](https://docs.google.com/spreadsheets/d/1Ma59kH1PLg6k97zi1T_wyh--qhb7T9IREI9RuS9WU-Y/edit#gid=0)
