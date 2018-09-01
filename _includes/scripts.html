@@ -1,7 +1,12 @@
 <script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
 <script>
   if (navigator.serviceWorker && !navigator.serviceWorker.controller) {
-  	navigator.serviceWorker.register('/serviceworker.js');
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      for (var i = 0; i < registrations.length; i++) {
+        var registration = registrations[i];
+        registration.unregister();
+      }
+    })
   }
 
   window.onload = function(){ document.body.classList.add('loaded'); }
