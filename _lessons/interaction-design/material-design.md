@@ -46,6 +46,18 @@ Where to Start
 [theming]: https://material.io/design/material-theming/overview.html
 
 
+Tools
+-----
+
+- [Material Theme Editor](https://material.io/tools/theme-editor/)
+
+
+Resources
+---------
+
+- [Getting started with Material Theme Editor](https://www.youtube.com/watch?v=BLrgDgd_1c0) video from Google Design
+
+
 Ironhack Learning Platform
 --------------------------
 
