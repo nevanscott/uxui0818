@@ -4,6 +4,20 @@ class_date: Sept 5, 2018
 ---
 
 
+Learning Objectives
+-------------------
+
+- Describe the purpose of Google's Material Design system
+- Define [lateral][], [forward][], and [reverse][] navigation
+- Identify when to use [bottom bars][bottom-bar], [top bars][top-bar], [tabs][], and [nav drawers][nav-drawer]
+- Create a screen in Sketch using the Baseline Material Theme
+- Adapt the Baseline Material Theme
+
+[lateral]: https://material.io/design/navigation/understanding-navigation.html#lateral-navigation
+[forward]: https://material.io/design/navigation/understanding-navigation.html#forward-navigation
+[reverse]: https://material.io/design/navigation/understanding-navigation.html#reverse-navigation
+
+
 Where to Start
 --------------
 
@@ -14,6 +28,7 @@ Where to Start
   - [Floating action button][fab]
 - [Understanding navigation][] and navigational components:
   - Bars: [Bottom][bottom-bar] and [Top][top-bar]
+  - [Tabs][tabs]
   - [Bottom Nav][bottom-nav]
   - [Nav drawer][nav-drawer]
 - [Navigation transitions][]
