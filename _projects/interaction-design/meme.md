@@ -30,6 +30,7 @@ Google is leveraging its powerful image search to enter the market for meme gene
 - You’ll have to make some quick assumptions in order to get started on this project. Acknowledge the assumptions by creating a a proto-persona.
 - Make several variations on your design before deciding on a direction. Ask for feedback and input from your colleagues!
 - Be careful not to rely too much on symbols while exploring design concepts. When you get closer to a confident final design, start cleaning up your document with a system of symbols and well-named layer groups.
+- Use the [Material Design Library](https://www.sketchappsources.com/free-source/874-material-design-google-sketch-freebie-resource.html)
 
 ## Presentation (6 minutes)
 
