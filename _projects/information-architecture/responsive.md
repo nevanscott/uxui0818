@@ -55,4 +55,4 @@ Your presentation should answer the following questions:
 
 Animation's in your re-design's. 
 
-<img src="/assests/dwight.jpg"images>
+<img src="/assets/dwight.jpg"images>
