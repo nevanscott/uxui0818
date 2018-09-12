@@ -36,6 +36,12 @@ Remember that this is a responsive redesign which means that your users will be 
 
 ## Suggestions
 - Since you will not have access to stakeholders. We recommend to deconstruct the website with your group and break down the content of the website. Try to come up with different versions of the website in order to do some user testing and see what is working and what can be improved. 
+- Timebox your work
+- Get feedback early & often
+- Iterate
+- Perfect is the enemy of good
+- Build out your presentation deck as you go
+- Work fast; have fun
 
 ## Presentation (6 minutes)
 
@@ -49,4 +55,4 @@ Your presentation should answer the following questions:
 
 Animation's in your re-design's. 
 
-<img href=https://www.google.es/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjk2vC007XdAhXMKsAKHT4tDGAQjRx6BAgBEAU&url=https%3A%2F%2Fmakeameme.org%2Fmeme%2Fgood-luck-youve&psig=AOvVaw11EjebRND7EtrTp1cBObsK&ust=1536848071519838></img>
+<img src="/assests/dwight.jpg"images>
