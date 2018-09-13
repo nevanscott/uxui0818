@@ -34,11 +34,11 @@ Target Device
 Requirements
 ------------
 
-- Visit to the local retail store for an on-site research visit in order to get a feel for the needs and behaviors of users
+- In-person visit to the local retail store in order to get a feel for the needs and behaviors of users
 - User flow for discovery of a product
 - User flow for the checkout and purchase process 
-- Evaluate your design against heuristics and CRAP principles
 - Clear hierarchy and organization of product content 
+- Evaluate your design against heuristics and CRAP principles
 - Digitized screens (at a minimum of mid-fidelity) 
 - Provide evidence for key decisions through research and testing
 
