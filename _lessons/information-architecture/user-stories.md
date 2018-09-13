@@ -1,5 +1,5 @@
 ---
-title: User Stories
+title: User Stories & Feature Prioritization
 class_date: Sept 25, 2018
 ---
 
