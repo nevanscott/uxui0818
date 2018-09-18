@@ -71,5 +71,5 @@ Tips
 - Iterate
 - Perfect is the enemy of good
 - Document your work and add it to your group folder on the Google Drive
-- Build out your presentation deck and your report as you go
+- Build out your presentation deck as you go
 - Work fast; have fun
