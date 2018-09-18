@@ -64,6 +64,7 @@ Considerations to assist in determining where to focus:
 - Is this area dysfunctional? = The system is in place but lots of complaints, not well executed, working poorly. How can we make this better and compete in the space? It is a good area to explore
 - Is this area ad Hoc (thrown together) or non-existent? = Not yet a complete system or process, nothing concrete in place. There is a lot of room for innovation and ideation and it is a good area to explore. 
 
+
 ## Suggestions
 
 - Find someone you want to talk to and in your initial conversation investigate the above and narrow down the pain points to determine in which area to focus on. This is generative research. 
@@ -73,13 +74,20 @@ Considerations to assist in determining where to focus:
 - Run usability tests with real users in coworking spaces (WeWork, Spaces)
 - Early in the week try to visit companies and shadow employees to observe their current process, behaviors and pain points
 
-## Presentation (6 minutes)
+
+## Presentation for the Jury (6 minutes)
+
+You will present in front of a jury panel composed of 1 UX and 1 UI expert. Think of this as an opportunity to get an outside opinion from someone who is actively and currently working in the field. Working in a high pressure situation in a safe environment is going to be great practice for you ahead of job interviews. 
 
 Your presentation should answer the following questions:
 
-1. 
-
-You will present in front of a jury panel composed of 1 UX and 1 UI expert. Think of this as an opportunity go get an outside opinion from someone who is actively and currently working in the field. Working in a high pressure situation in a safe environment is going to be a great practice for you before you run for interviews. 
+1. What did your research show you?
+2. What variations on your design did you explore?
+3. How were your design decisions connected to your research findings?
+4. How would a user operate your final design?
+5. How did your design change based on testing with users?
+6. What features are on your 3–6 month roadmap?
+7. How did you determine which features to ship first?
 
 
 ## Bonus
