@@ -1,5 +1,5 @@
 ---
-title: Content First
+title: Information Architecture & Content Strategy
 class_date: Sept 13, 2018
 ---
 
