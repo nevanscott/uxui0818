@@ -36,6 +36,7 @@ Remember that this is a responsive redesign which means that your users will be 
 
 - High fidelity re-design of the website for **two** devices <small>(mobile and desktop/laptop)</small>
 - Working prototype of at least one target size <small>(with representative screens of the other)</small>
+- Style Tile 
 - Presentation of iterations and final proposal
 
 
