@@ -1,5 +1,5 @@
 ---
-title: Task analysis, use cases, and scenarios
+title: Task Analysis, Use Cases, and Scenarios
 class_date: Sept 24, 2018
 ---
 
