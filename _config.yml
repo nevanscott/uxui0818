@@ -11,6 +11,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  meetings:
+    output: true
+    permalink: /:collection/:title/
 defaults:
   -
     scope:
@@ -30,6 +33,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "meetings"
+    values:
+      layout: "meeting"
   -
     scope:
       path: "*/design-thinking"
