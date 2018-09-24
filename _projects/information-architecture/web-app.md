@@ -75,6 +75,45 @@ Considerations to assist in determining where to focus:
 - Early in the week try to visit companies and shadow employees to observe their current process, behaviors and pain points
 
 
+## Roadmap
+
+Monday:
+- Interviews and observation
+- Choose the category to focus on
+- Competitive Analysis
+- Gather information
+- Affinity Diagram
+- User Persona
+- Problem Statement
+
+Tuesday:
+- User Stories / Task Analysis / Scenarios / Use cases 
+- Design Studio / Ideation
+- Feature prioritization (MoSCoW)
+- Card Sorting
+- User Flow
+- Paper Prototype
+- Test
+- Iterate
+
+Wednesday:
+- Digital Wireframes
+- Test
+- Iterate
+- Style Tile
+- Start with high-fi screens
+- Desirability Testing
+
+Thursday:
+- Finish High-fi
+- Test
+- Build presentation
+
+Friday:
+- Practice presentation
+- Be fabulous in front of the jury!
+
+
 ## Presentation for the Jury (6 minutes)
 
 You will present in front of a jury panel composed of 1 UX and 1 UI expert. Think of this as an opportunity to get an outside opinion from someone who is actively and currently working in the field. Working in a high pressure situation in a safe environment is going to be great practice for you ahead of job interviews. 
