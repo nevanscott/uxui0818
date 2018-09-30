@@ -3,6 +3,13 @@ title: CSS Grid and Media Queries
 class_date: Oct 3, 2018
 ---
 
+Schedule of the day
+----------
+
+- Exercise Review
+- Intro to CSS Grid
+- Intro to Media Queries and Responsive(fluid) Design
+- Workshop - Add CSS to your own webpage
 
 Exercise
 ----------

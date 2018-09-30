@@ -3,6 +3,14 @@ title: CSS Basics and Flexbox
 class_date: Oct 2, 2018
 ---
 
+Schedule of the day
+----------
+
+- Exercise Review
+- Whiteboard Session - CSS
+- Intro to CSS
+- Intro to Flexbox
+- Workshop - Clone Slack website (pair programming with Web Devs)
 
 Exercises
 ---------
@@ -15,7 +23,7 @@ Resources
 
 CSS Basics
 
-- [MDN's documentation ]()
+- [MDN's documentation ](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Anatomy of a CSS rule](https://ironion.com/blog/2015/06/12/anatomy-of-a-css-rule/)
 - [CSS Reference](https://cssreference.io/)
 
