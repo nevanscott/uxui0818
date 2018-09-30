@@ -8,21 +8,21 @@ Resources
 ----------
 
 The road so far
-- [The history of the internet](https://sciencenode.org/feature/a-brief-history-of-the-internet-2018.php)
-- [The first website](http://info.cern.ch/)
+  - [The history of the internet](https://sciencenode.org/feature/a-brief-history-of-the-internet-2018.php)
+  - [The first website](http://info.cern.ch/)
 
 HTML 
 - [MDN's documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [HTML validator](https://validator.w3.org)
 - [Best practices](https://www.themelocation.com/best-html5-practices/)
 
-- Acessibility
+Acessibility
 - [A11y](https://a11yproject.com/)
-- [Contrast checker](https://contrastchecker.com/)
+- [Contrast Checker](https://contrastchecker.com/)
 - [How blind people see the internet](https://gizmodo.com/5620079/giz-explains-how-blind-people-see-the-internet)
 
 
-- [HTML boilerplate](https://github.com/raphamontenegro/uxui-codeweek/blob/master/boiler-plates/index.html)
+- [HTML Boilerplate](https://github.com/raphamontenegro/uxui-codeweek/blob/master/boiler-plates/index.html)
 
 
 Ironhack Learning Platform

@@ -6,15 +6,14 @@ class_date: Oct 3, 2018
 
 Exercise
 ----------
--[Grid Garden](https://cssgridgarden.com/)
+- [Grid Garden](https://cssgridgarden.com/)
 
 Resources
 ----------
 
-
 Responsive Design and Media Queries
--[Principles of Responsive Design](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
--[Media Query Snippets](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+- [Principles of Responsive Design](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
+- [Media Query Snippets](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 Ironhack Learning Platform
 ----------
