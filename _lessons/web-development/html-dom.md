@@ -22,6 +22,7 @@ Acessibility
 - [How blind people see the internet](https://gizmodo.com/5620079/giz-explains-how-blind-people-see-the-internet)
 
 
+Boilerplate
 - [HTML Boilerplate](https://github.com/raphamontenegro/uxui-codeweek/blob/master/boiler-plates/index.html)
 
 
