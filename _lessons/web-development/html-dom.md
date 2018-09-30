@@ -4,6 +4,15 @@ class_date: Oct 1, 2018
 ---
 
 
+Schedule of the day
+----------
+
+- Week intro
+- The road so far - A brief history of the world wide web
+- Intro to HTML
+- The DOM
+- Workshop - Structure your web
+
 Resources
 ----------
 
