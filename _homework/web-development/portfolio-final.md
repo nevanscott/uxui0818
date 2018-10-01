@@ -1,5 +1,5 @@
 ---
-title: Add CSS to your webpage
+title: Finish your webpage
 assigned: Oct 4, 2018
 due: Oct 4, 2018
 ---
