@@ -1,5 +1,5 @@
 ---
-title: CSS Animations and Javascript Basics
+title: CSS Animations
 class_date: Oct 4, 2018
 ---
 
