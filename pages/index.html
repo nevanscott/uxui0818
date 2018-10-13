@@ -4,18 +4,5 @@ title: Calendar
 permalink: /
 wide: true
 ---
-{% comment %}
-{% for post in site.categories.agenda limit:1 %}
-  Next Class:
-  {{ post.class_date | date:"%B %-d" }}
-  <a href="{{ post.url }}">{{ post.title }}</a>
-{% endfor %}
-
-{% for post in site.categories.agenda limit:1 offset:1 %}
-  Last Class:
-  {{ post.class_date | date:"%B %-d" }}
-  <a href="{{ post.url }}">{{ post.title }}</a>
-{% endfor %}
-{% endcomment %}
 
 {% include calendar.html %}

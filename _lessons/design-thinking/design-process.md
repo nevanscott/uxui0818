@@ -1,6 +1,6 @@
 ---
 title: Design Process
-class_date: August 20, 2018
+day: 1
 ---
 
 Learning Objectives

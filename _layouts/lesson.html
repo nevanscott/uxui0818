@@ -5,8 +5,8 @@ layout: default
 <article>
 	<h1>
 		{{ page.title | markdownify | strip_html | strip }}
-		{% if page.class_date %}
-			<small>{{ page.class_date | date: "%B&nbsp;%-d,&nbsp;%Y" }}</small>
+		{% if page.day %}
+			<small>{{ page.day | class_date: site.data.course.start_date | date: "%B&nbsp;%-d,&nbsp;%Y" }}</small>
 		{% endif %}
 	</h1>
 	{{ content }}
@@ -20,7 +20,7 @@ layout: default
 			{{ unit.title }}
 		</h4>
 		<ul>
-			{% assign lessons = site.lessons | date_sort:'class_date' %}
+			{% assign lessons = site.lessons | sort:'day' %}
 			{% for post in lessons %}
 	      {% if post.url == page.url %}
 	        {% assign c = "current" %}
@@ -30,7 +30,7 @@ layout: default
 				{% if post.unit == unit.order %}
 					<li class="{{ c }}">
 						<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | strip_html | strip }}</a>
-						<small>{{ post.class_date | date: "%b.&nbsp;%-d,&nbsp;%Y" }}</small>
+						<small>{{ post.day | class_date: site.data.course.start_date | date: "%b.&nbsp;%-d,&nbsp;%Y" }}</small>
 					</li>
 				{% endif %}
 			{% endfor %}

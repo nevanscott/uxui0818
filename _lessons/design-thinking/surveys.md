@@ -1,6 +1,6 @@
 ---
 title: Surveys
-class_date: Aug 24, 2018
+day: 5
 ---
 
 Learning Objectives

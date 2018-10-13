@@ -1,7 +1,7 @@
 ---
 title: Reading on Personas
-assigned: Aug 24, 2018
-due: Aug 27, 2018
+assigned: 5
+due: 6
 ---
 
 Readings

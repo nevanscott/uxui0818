@@ -1,6 +1,6 @@
 ---
 title: Personas
-class_date: Aug 27, 2018
+day: 6
 ---
 
 Learning Objectives
@@ -17,9 +17,9 @@ Learning Objectives
 Ironhack Learning Platform
 -------------------
 
-- [User persona](http://learn.ironhack.com/#/learning_unit/5005) 
+- [User persona](http://learn.ironhack.com/#/learning_unit/5005)
 - [Empathy map](http://learn.ironhack.com/#/learning_unit/5004)
-- [Storyboard](http://learn.ironhack.com/#/learning_unit/5010) 
+- [Storyboard](http://learn.ironhack.com/#/learning_unit/5010)
 - [User journey](http://learn.ironhack.com/#/learning_unit/5011)
 
 

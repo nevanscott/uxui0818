@@ -1,7 +1,7 @@
 ---
 title: Sketch Basics
-assigned: Aug 29, 2018
-due: Aug 30, 2018
+assigned: 8
+due: 9
 ---
 
 If you haven't already

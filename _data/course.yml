@@ -11,20 +11,4 @@ nav:
   - projects
   - homework
 start_date: August 20, 2018
-end_date: October 19, 2018
-calendar:
-  -
-    month: August
-    year: 2018
-    start: 20
-    end: 31
-  -
-    month: September
-    year: 2018
-    start: 1
-    end: 30
-  -
-    month: October
-    year: 2018
-    start: 1
-    end: 19
+days: 45

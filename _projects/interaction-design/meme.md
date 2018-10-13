@@ -1,7 +1,7 @@
 ---
 title: Google Meme
-assigned: Sept 5, 2018
-due: Sept 6, 2018
+assigned: 13
+due: 14
 ---
 
 Google is leveraging its powerful image search to enter the market for meme generation. Demonstrate how a standalone product might work following Material Design.

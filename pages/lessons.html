@@ -6,11 +6,11 @@ permalink: /lessons/
 ---
 
 <ol>
-{% assign lessons = site.lessons | date_sort:'class_date' %}
+{% assign lessons = site.lessons | sort:'day' %}
 {% for post in lessons %}
 	<li>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | strip_html | strip }}</a>
-		<small>{{ post.class_date | date: "%b. %-d, %Y" }}</small>
+		<small>{{ post.day | class_date: site.data.course.start_date | date: "%b. %-d, %Y" }}</small>
 	</li>
 {% endfor %}
 </ol>

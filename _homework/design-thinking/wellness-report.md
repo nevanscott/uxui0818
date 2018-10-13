@@ -1,7 +1,7 @@
 ---
 title: Wellness App Design Report
-assigned: Aug 29, 2018
-due: Sept 3, 2018
+assigned: 8
+due: 11
 ---
 
 Write a report about your [Wellness App]({{ site.baseurl }}{% link _projects/design-thinking/wellness.md %}). This may be similar to a written version of your presentation, but you'll have the opportunity to go into more detail.

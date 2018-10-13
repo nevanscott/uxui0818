@@ -1,7 +1,7 @@
 ---
 title: Add a Feature
-assigned: Sept 7, 2018
-due: Sept 12, 2018
+assigned: 15
+due: 18
 ---
 
 You will be developing a new feature for an existing app based on an area of functionality to explore. Your work will culminate in a high-fidelity prototype that reflects your best path forward based on research, iteration, and testing. For apps that have both Android and iOS implementations, you may choose either platform.
@@ -25,12 +25,12 @@ Materials
 Background
 ----------
 
-As a new designer joining a team, you’ll often have to rapidly come up to speed on your product, your users, and quickly iterate on proposed solutions under tight timelines. Your other stakeholders will all have opinions, and you’ll have to get into the practice of supporting your claims and finding ways to incorporate new features into the existing platform. 
+As a new designer joining a team, you’ll often have to rapidly come up to speed on your product, your users, and quickly iterate on proposed solutions under tight timelines. Your other stakeholders will all have opinions, and you’ll have to get into the practice of supporting your claims and finding ways to incorporate new features into the existing platform.
 
 
 Aspects to Consider
 -------------------
-- Who are the users and what are their goals? How can you quickly learn about them? How does the assigned scenario fit into their day? 
+- Who are the users and what are their goals? How can you quickly learn about them? How does the assigned scenario fit into their day?
 - What’s the hypothesis about how the new functionality will change their behaviors?
 - How should the new functionality tie into the navigation of the product? You are expected to try variations.
 - You must be able to defend your design decisions based on research and testing.

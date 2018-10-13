@@ -1,4 +1,4 @@
 ---
 title: Navigation & Card sorting
-class_date: Sept 18, 2018
+day: 22
 ---

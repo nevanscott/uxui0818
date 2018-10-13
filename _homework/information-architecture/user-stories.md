@@ -1,7 +1,7 @@
 ---
 title: User Stories Reading
-assigned: Sept 24, 2018
-due: Sept 25, 2018
+assigned: 30
+due: 31
 ---
 
 

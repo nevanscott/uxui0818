@@ -1,7 +1,7 @@
 ---
 title: Wellness App
-assigned: Aug 24, 2018
-due: Aug 29, 2018
+assigned: 5
+due: 8
 summary: |
   Interview potential customers to identify an opportunity to improve their well-being with a thoughtful mobile app. Remember: you are not your user.
 ---

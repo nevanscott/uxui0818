@@ -1,7 +1,7 @@
 ---
 title: Case Studies Reading
-assigned: Aug 24, 2018
-due: Aug 28, 2018
+assigned: 5
+due: 7
 ---
 
 

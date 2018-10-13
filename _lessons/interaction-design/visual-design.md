@@ -1,6 +1,6 @@
 ---
 title: Visual Design
-class_date: Aug 29, 2018
+day: 8
 ---
 
 <img class="illo aside" src="/assets/images/crap.png" alt="Illustration of CRAP design principles: contrast, repetition, alignment, and proximity" />

@@ -1,7 +1,7 @@
 ---
 title: Adaptive Interfaces Reading
-assigned: Sept 25, 2018
-due: Sept 26, 2018
+assigned: 31
+due: 32
 ---
 
 

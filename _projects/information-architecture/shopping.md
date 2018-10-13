@@ -1,13 +1,13 @@
 ---
 title: E-commerce
-assigned: Sept 18, 2018
-due: Sept 21, 2018
+assigned: 22
+due: 25
 ---
 
 
-A local retail chain has decided to expand into e-commerce. Help organize their products and adapt their in-store experience and brand for the web. 
+A local retail chain has decided to expand into e-commerce. Help organize their products and adapt their in-store experience and brand for the web.
 
-Bear in mind that the retail store you are assigned to may already have an e-commerce platform, but we'd like you to focus on designing your own platform without taking the current one into account. 
+Bear in mind that the retail store you are assigned to may already have an e-commerce platform, but we'd like you to focus on designing your own platform without taking the current one into account.
 
 
 Setup
@@ -22,7 +22,7 @@ Materials
 
 - Sketch
 - Invision
-- Google Slides or Keynote Presentation 
+- Google Slides or Keynote Presentation
 
 
 Target Device
@@ -37,8 +37,8 @@ Requirements
 - In-person visit to the local retail store in order to get a feel for the needs and behaviors of users
 - Mid-fidelity click-through prototype (focus is on information architecture and user flow)  
 - User flow for discovery of a product
-- User flow for the checkout and purchase process 
-- Clear hierarchy and organization of product content 
+- User flow for the checkout and purchase process
+- Clear hierarchy and organization of product content
 - Evaluate your design against heuristics and CRAP principles
 - Provide evidence for key decisions through research and testing
 

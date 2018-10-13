@@ -1,6 +1,6 @@
 ---
 title: Usability Testing
-class_date: Aug. 21, 2018
+day: 2
 ---
 
 Learning Objectives
@@ -37,4 +37,3 @@ Ironhack Learning Platform
 - [Ideation](http://learn.ironhack.com/#/learning_unit/5016)
 - [Design Studio](http://learn.ironhack.com/#/learning_unit/5017)
 - [Mindmapping / Brainstorming](http://learn.ironhack.com/#/learning_unit/5008)
-

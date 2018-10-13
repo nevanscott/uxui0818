@@ -1,6 +1,6 @@
 ---
 title: Review TBD
-class_date: Oct 12, 2018
+day: 40
 ---
 
 While working on the final projects, we will review topics together as a class. The topics will be decided on together as we approach the final weeks.
