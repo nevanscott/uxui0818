@@ -54,7 +54,7 @@ wide: true
 - [Lightwire](http://lightwireplugin.com): create mobile wireframes with preset screens
 
 
-## Icons:
+## Icons
 
 - [Flat Icon](https://www.flaticon.com/)
 - [The Noun Project](https://thenounproject.com/)
@@ -62,14 +62,14 @@ wide: true
 - [Icon Finder](https://www.iconfinder.com/)
 
 
-## Gradients:
+## Gradients
 
 - [UI Gradients](https://uigradients.com/)
 - [Web Gradients](https://webgradients.com/)
 - [CSS Gradient](https://cssgradient.io/gradient-backgrounds/)
 
 
-## Color Schemes:
+## Color Schemes
 
 - [Coolors](https://coolors.co/)
 - [Paletton](http://paletton.com/)
@@ -81,14 +81,14 @@ wide: true
 - [Brand Colors](https://brandcolors.net/)
 
 
-## Photos:
+## Photos
 
 - [Unsplash](https://unsplash.com/)
 - [iStock Photo](https://www.istockphoto.com/es)
 - [UI Faces](https://uifaces.co/) for avatars
 
 
-## Fonts:
+## Fonts
 
 - [Google Fonts](https://fonts.google.com/)
 - [Dafont](https://www.dafont.com/)
@@ -103,7 +103,7 @@ wide: true
 - [Grilli Type](https://www.grillitype.com/typefaces)
 
 
-## Inspiration:
+## Inspiration
 
 - [Dribbble](https://dribbble.com/)
 - [Behance](https://www.behance.net/)
@@ -128,23 +128,23 @@ wide: true
 - [30 UI Card Examples](https://bashooka.com/inspiration/30-brilliant-examples-of-ui-cards/)
 
 
-## Usability:
+## Usability
 
 - [User On Boards](https://www.useronboard.com/)
 
 
-## Design Tools:
+## Design Tools
 
 - [Paparazzi](https://derailer.org/paparazzi/)
 
 
-## Animation:
+## Animation
 
 - [Principle Templates](http://principletemplates.com/)
 - [Easing Functions Cheat Sheet](https://easings.net/en)
 
 
-## Chrome extensions:
+## Chrome extensions
 
 - [Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
 - [Color Zilla](http://www.colorzilla.com/chrome/)
@@ -152,13 +152,13 @@ wide: true
 - [Muzli](https://muz.li/)
 
 
-## Portfolio:
+## Portfolio
 
 - [How I Made my Portfolio Stand Out](https://uxplanet.org/how-i-made-my-portfolio-stand-out-to-the-recruiters-bcd4512a778)
 - [A Portfolio Hiring Managers Can’t Deny](http://danmall.me/articles/portfolios/?ref=uxdesignweekly)
 
 
-## UX Case Study Examples:
+## UX Case Study Examples
 
 - [My Fitness Pal](https://medium.com/tradecraft-traction/myfitnesspal-a-ux-case-study-f377ff66a504)
 - [Foursquare](https://medium.com/haiiro-io/foursquare-a-ux-case-study-f606d4757d9b)
@@ -172,13 +172,13 @@ wide: true
 - [The Secret of Successful UX Writers](https://medium.muz.li/the-secret-of-successful-ux-writers-753972072add)
 
 
-## Books:
+## Books
 
 - [33 Books Every Designer Should Read](https://readinglist.design/)
 - [Don’t Make Me Think by Steve Krug](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
 
 
-## Articles:
+## Articles
 
 - [7 Practical Tips for Cheating at Design - Refactoring UI - Medium Post](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
 - [Empty States in Design - Medium Post](https://uxplanet.org/downplaying-empty-states-in-design-fc367212b493)
@@ -199,17 +199,17 @@ wide: true
 - [A Dao of Web Design](https://alistapart.com/article/dao)
 
 
-## Coding:
+## Coding
 
 - [CSS Tricks](https://css-tricks.com/)
 
 
-## Podcasts:
+## Podcasts
 
 - [Freelance Transformation](https://freelancetransformation.com/blog/podcast)
 
 
-## Extra Resources:
+## Extra Resources
 
 - [Smashing Magazine](http://www.smashingmagazine.com/category/uxdesign/) - online magazine for professional web designers and developers
 - [Nielsen Norman Group](http://www.nngroup.com/) - Veteran UX firm offering a huge collection of ‘evidence-based’ research, articles and reports.
