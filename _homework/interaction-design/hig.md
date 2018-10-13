@@ -1,16 +1,17 @@
 ---
-title: Human Interface Guidelines Readings 
-assigned: Aug 31, 2018
-due: Sept 03, 2018
+title: Human Interface Guidelines Readings
+assigned: 10
+due: 11
 ---
 
 Brief
------------
+-----
 
 Human interface guidelines (HIG) are software development documents which offer application developers a set of recommendations. Their aim is to improve the experience for the users by making application interfaces more intuitive, learnable, and consistent. Most guides limit themselves to defining a common look and feel for applications in a particular desktop or mobile environment.
 
+
 Articles to read
----------------------
+----------------
 
 The HIG is... detailed. You're not going to read through it all in one go. Please start with the below links in preparation for Monday's class.
 

@@ -1,7 +1,7 @@
 ---
 title: Watch Design Studio Talk
-assigned: Aug 22, 2018
-due: Aug 23, 2018
+assigned: 3
+due: 4
 ---
 
 Watch

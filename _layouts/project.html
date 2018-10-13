@@ -6,7 +6,7 @@ layout: default
 	<h1>
 		{{ page.title | markdownify | strip_html | strip }}
 		{% if page.due %}
-			<small>due&nbsp;{{ page.due | date: "%B&nbsp;%-d,&nbsp;%Y" }}</small>
+		<small>due&nbsp;{{ page.due | class_date: site.data.course.start_date | date: "%B&nbsp;%-d,&nbsp;%Y" }}</small>
 		{% endif %}
 	</h1>
 	{{ content }}
@@ -20,7 +20,7 @@ layout: default
 			{{ unit.title }}
 		</h4>
 		<ul>
-			{% assign projects = site.projects | date_sort:'due' %}
+			{% assign projects = site.projects | sort:'due' %}
 			{% for post in projects %}
 	      {% if post.url == page.url %}
 	        {% assign c = "current" %}
@@ -30,7 +30,7 @@ layout: default
 				{% if post.unit == unit.order %}
 					<li class="{{ c }}">
 						<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | strip_html | strip }}</a>
-						<small>due&nbsp;{{ post.due | date: "%b.&nbsp;%-d,&nbsp;%Y" }}</small>
+						<small>due&nbsp;{{ post.due | class_date: site.data.course.start_date | date: "%b.&nbsp;%-d,&nbsp;%Y" }}</small>
 					</li>
 				{% endif %}
 			{% endfor %}

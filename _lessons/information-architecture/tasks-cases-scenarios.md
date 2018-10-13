@@ -1,6 +1,6 @@
 ---
 title: Task Analysis, Use Cases, and Scenarios
-class_date: Sept 24, 2018
+day: 26
 ---
 
 Learning Objectives

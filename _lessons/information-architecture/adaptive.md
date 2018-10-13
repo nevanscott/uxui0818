@@ -1,6 +1,6 @@
 ---
 title: Adaptive Interfaces
-class_date: Sept 26, 2018
+day: 28
 ---
 
 Learning Objectives

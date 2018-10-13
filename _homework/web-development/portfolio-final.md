@@ -1,7 +1,7 @@
 ---
 title: Finish your webpage
-assigned: Oct 4, 2018
-due: Oct 5, 2018
+assigned: 34
+due: 35
 ---
 
 Tasks

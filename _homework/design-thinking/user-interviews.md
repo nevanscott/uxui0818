@@ -1,7 +1,7 @@
 ---
 title: Read "Interviewing Humans"
-assigned: Aug 21, 2018
-due: Aug 22, 2018
+assigned: 2
+due: 3
 ---
 
 Readings

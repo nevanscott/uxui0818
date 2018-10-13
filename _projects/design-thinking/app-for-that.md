@@ -1,7 +1,7 @@
 ---
 title: There's an app for that!
-assigned: Aug 22, 2018
-due: Aug 23, 2018
+assigned: 3
+due: 4
 ---
 
 <img class="illo aside" src="/assets/images/phone-home.png" alt="A thumb about to tap an app" />

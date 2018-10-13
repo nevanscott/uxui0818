@@ -1,7 +1,7 @@
 ---
 title: Ideas for "Add a Feature"
-assigned: Sept 4, 2018
-due: Sept 5, 2018
+assigned: 12
+due: 13
 ---
 
 

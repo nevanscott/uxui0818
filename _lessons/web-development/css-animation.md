@@ -1,6 +1,6 @@
 ---
 title: CSS Animations
-class_date: Oct 4, 2018
+day: 34
 ---
 
 Schedule of the day

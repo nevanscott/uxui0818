@@ -1,6 +1,6 @@
 ---
 title: CSS Grid and Media Queries
-class_date: Oct 3, 2018
+day: 33
 ---
 
 Schedule of the day

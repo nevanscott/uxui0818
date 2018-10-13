@@ -1,10 +1,10 @@
 ---
 title: "Nested Symbols in Sketch"
-assigned: Aug 31, 2018
-due: Sept 4, 2018
+assigned: 10
+due: 12
 ---
 
-Now that you have built some cards and changed photos, descriptions and titles using nested symbols, we'd like for you to see how else you can implement them in your designs! 
+Now that you have built some cards and changed photos, descriptions and titles using nested symbols, we'd like for you to see how else you can implement them in your designs!
 
 **Upload your final Sketch files** [to the Google Drive](https://drive.google.com/drive/u/2/folders/1Wpv1mBmNzGZXkI6kRgyEriD9w51kpDZS) in the "Completed Work" folder.
 
@@ -13,8 +13,8 @@ Now that you have built some cards and changed photos, descriptions and titles u
 -------------------------------------------------
 
 1. Watch [Creating a Button System with Nested Symbols on Sketch App](https://www.youtube.com/watch?v=_bjqVF7Fvg4) from Sketch Together <small>Duration: 30:39</small>
-2. Create your own button system using nested symbols, masks, and overrides. 
-3. Get creative! Use colors, icons and text of your choice. 
+2. Create your own button system using nested symbols, masks, and overrides.
+3. Get creative! Use colors, icons and text of your choice.
 
 ### Requirements
 
@@ -50,4 +50,3 @@ Resources
 
 - [More Flexibility with Buttons in Sketch](https://medium.com/sketch-app-sources/more-flexibility-with-buttons-in-sketch-cc496b125017) by Wolfram Thurm
 - [Deep Nesting with Symbols in Sketch](https://medium.com/ux-power-tools/this-is-without-a-doubt-the-coolest-sketch-technique-youll-see-all-day-ddefa65ea959) by Jon Moore
-

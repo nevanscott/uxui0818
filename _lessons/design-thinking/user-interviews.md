@@ -1,6 +1,6 @@
 ---
 title: User Interviews
-class_date: Aug 22, 2018
+day: 3
 ---
 
 Learning Objectives
@@ -29,7 +29,7 @@ Further Reading
 Ironhack Learning Platform
 ---------------------------
 
-- [User interviews](http://learn.ironhack.com/#/learning_unit/4995) 
+- [User interviews](http://learn.ironhack.com/#/learning_unit/4995)
 - [Creating an interview guide](http://learn.ironhack.com/#/learning_unit/4996)
 - [Affinity diagram](http://learn.ironhack.com/#/learning_unit/5002)
 - [Feature prioritization](http://learn.ironhack.com/#/learning_unit/5019)

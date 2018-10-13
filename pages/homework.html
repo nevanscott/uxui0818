@@ -6,11 +6,11 @@ permalink: /homework/
 ---
 
 <ol>
-{% assign homework = site.homework | date_sort:'due' %}
+{% assign homework = site.homework | sort:'due' %}
 {% for post in homework %}
 	<li>
 		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | markdownify | strip_html | strip }}</a>
-		<small>due {{ post.due | date: "%b. %-d, %Y" }}</small>
+		<small>due {{ post.due | class_date: site.data.course.start_date | date: "%b. %-d, %Y" }}</small>
 	</li>
 {% endfor %}
 </ol>

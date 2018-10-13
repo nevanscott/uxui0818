@@ -1,6 +1,6 @@
 ---
 title: Motion in user interfaces
-class_date: Aug 31, 2018
+day: 10
 ---
 
 Learning Objectives

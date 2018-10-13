@@ -1,7 +1,7 @@
 ---
 title: Create your own webpage
-assigned: Oct 1, 2018
-due: Oct 2, 2018
+assigned: 31
+due: 32
 ---
 
 

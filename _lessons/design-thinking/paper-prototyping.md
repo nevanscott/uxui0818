@@ -1,6 +1,6 @@
 ---
 title: Paper Prototyping
-class_date: Aug 23, 2018
+day: 4
 ---
 
 Learning Objectives

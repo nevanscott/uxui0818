@@ -1,7 +1,7 @@
 ---
 title: Read "A shorthand for designing UI flows"
-assigned: Aug 23, 2018
-due: Aug 24, 2018
+assigned: 4
+due: 5
 ---
 
 Readings

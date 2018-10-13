@@ -1,6 +1,6 @@
 ---
 title: HTML and the DOM
-class_date: Oct 1, 2018
+day: 31
 ---
 
 
@@ -20,7 +20,7 @@ The road so far
   - [The history of the internet](https://sciencenode.org/feature/a-brief-history-of-the-internet-2018.php)
   - [The first website](http://info.cern.ch/)
 
-HTML 
+HTML
 - [MDN's documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [HTML validator](https://validator.w3.org)
 - [Best practices](https://www.themelocation.com/best-html5-practices/)

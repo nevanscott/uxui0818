@@ -1,7 +1,7 @@
 ---
 title: Read "The Lean Survey Canvas"
-assigned: Aug 23, 2018
-due: Aug 24, 2018
+assigned: 4
+due: 5
 ---
 
 Readings

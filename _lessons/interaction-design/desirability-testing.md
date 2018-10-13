@@ -1,6 +1,6 @@
 ---
 title: Desirability Testing
-class_date: Sept 10, 2018
+day: 16
 ---
 
 Ironhack Learning Platform

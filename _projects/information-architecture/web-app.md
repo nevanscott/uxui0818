@@ -1,12 +1,12 @@
 ---
 title: Web App
-assigned: Sept 21, 2018
-due: Sept 28, 2018
+assigned: 25
+due: 30
 ---
 
-You are working for a new startup that is looking to launch a software as a service (SaaS) desktop web app for companies to use internally. You will be researching the market and meeting with employees to determine the needs of the business and then developing an MVP based upon your findings. 
+You are working for a new startup that is looking to launch a software as a service (SaaS) desktop web app for companies to use internally. You will be researching the market and meeting with employees to determine the needs of the business and then developing an MVP based upon your findings.
 
-Thus far, we have been designing for customers as the end user, but now you have to consider multiple kinds of users: 
+Thus far, we have been designing for customers as the end user, but now you have to consider multiple kinds of users:
 - Businesses that make the purchasing decisions, so you will need to convince them that this is a valuable service
 - Employees at the company who will actually be using the service
 
@@ -29,18 +29,18 @@ A good example of a SaaS is [Gusto](https://gusto.com/)
 
 ## Project Scope
 
-You will be designing a new solution. If the company is already using a product, then it is a competitor, and you should design a superior software. Don’t try to change the existing product. 
+You will be designing a new solution. If the company is already using a product, then it is a competitor, and you should design a superior software. Don’t try to change the existing product.
 
-Because you are launching this product, you need to ensure that this is a service that would be useful to multiple companies. 
+Because you are launching this product, you need to ensure that this is a service that would be useful to multiple companies.
 
 
 ## Deliverables
 
 - Prototype of the MVP for a desktop (hi-fidelity)
 - Roadmap for next 3-6 months (additional features beyond the MVP that will be rolled out in the future)
-- Landing page that explains what your product is (optional) 
+- Landing page that explains what your product is (optional)
 - Presentation of research and final proposal
-- Report 
+- Report
 
 
 ## Research
@@ -51,23 +51,23 @@ You are required to find people inside companies to talk to. You should focus on
 ## Suggested categories <small>Pick only one</small>
 
 - Vacation / Time-off Management
-- Performance Reviews 
-- Time Tracking 
-- Benefits Management 
-- Hiring Process 
+- Performance Reviews
+- Time Tracking
+- Benefits Management
+- Hiring Process
 - Filing Complaints Internally
-- Onboarding Process 
-- Professional Development 
+- Onboarding Process
+- Professional Development
 
 Considerations to assist in determining where to focus:
 - Is this area functional? = Is the system already in place and working well? If it is, rule out and move on
 - Is this area dysfunctional? = The system is in place but lots of complaints, not well executed, working poorly. How can we make this better and compete in the space? It is a good area to explore
-- Is this area ad Hoc (thrown together) or non-existent? = Not yet a complete system or process, nothing concrete in place. There is a lot of room for innovation and ideation and it is a good area to explore. 
+- Is this area ad Hoc (thrown together) or non-existent? = Not yet a complete system or process, nothing concrete in place. There is a lot of room for innovation and ideation and it is a good area to explore.
 
 
 ## Suggestions
 
-- Find someone you want to talk to and in your initial conversation investigate the above and narrow down the pain points to determine in which area to focus on. This is generative research. 
+- Find someone you want to talk to and in your initial conversation investigate the above and narrow down the pain points to determine in which area to focus on. This is generative research.
 - Expand your research to other companies based on the area you have decided to focus on
 - Find someone who works in HR to get their perspective, as well as employees (preferably low-level).
 - Look to LinkedIn, Slack or leverage your existing networks to find potential contacts and interviewees
@@ -87,7 +87,7 @@ Monday:
 - Problem Statement
 
 Tuesday:
-- User Stories / Task Analysis / Scenarios / Use cases 
+- User Stories / Task Analysis / Scenarios / Use cases
 - Design Studio / Ideation
 - Feature prioritization (MoSCoW)
 - Card Sorting
@@ -116,7 +116,7 @@ Friday:
 
 ## Presentation for the Jury (6 minutes)
 
-You will present in front of a jury panel composed of 1 UX and 1 UI expert. Think of this as an opportunity to get an outside opinion from someone who is actively and currently working in the field. Working in a high pressure situation in a safe environment is going to be great practice for you ahead of job interviews. 
+You will present in front of a jury panel composed of 1 UX and 1 UI expert. Think of this as an opportunity to get an outside opinion from someone who is actively and currently working in the field. Working in a high pressure situation in a safe environment is going to be great practice for you ahead of job interviews.
 
 Your presentation should answer the following questions:
 
@@ -133,4 +133,3 @@ Your presentation should answer the following questions:
 
 - Add some animation to your redesign
 - Responsiveness
-

@@ -1,6 +1,6 @@
 ---
 title: CSS Basics and Flexbox
-class_date: Oct 2, 2018
+day: 32
 ---
 
 Schedule of the day
