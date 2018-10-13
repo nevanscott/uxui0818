@@ -2,6 +2,9 @@ html {
 	min-height: 100%;
 }
 body {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
 	font-family: $sans;
 	font-size: 87.5%;
 	line-height: $lh;
