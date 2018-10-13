@@ -55,10 +55,10 @@ Requirements
 Timeline
 --------
 
-- Submit Project Plan <small>by Fri. 7 Sept. @ 4pm</small>
-- Deliver 3-minute mid-point presentation <small>Mon. 10 Sept. @ 4pm</small>
-- End-Of-Project Presentations will start <small>Wed. 12 Sept. @ 10am</small>
-- Submit a final report of your project <small>by Wed. 12 Sept. @ 6pm</small>
+- Submit Project Plan <small>by {{ page.assigned | class_date: site.data.course.start_date | date: "%a.&nbsp;%-d&nbsp;%b." }} @ 4pm</small>
+- Deliver 3-minute mid-point presentation <small>{{ page.assigned | plus:1 | class_date: site.data.course.start_date | date: "%a.&nbsp;%-d&nbsp;%b." }} @ 4pm</small>
+- End-Of-Project Presentations will start <small>{{ page.assigned | plus:3 | class_date: site.data.course.start_date | date: "%a.&nbsp;%-d&nbsp;%b." }} @ 10am</small>
+- Submit a final report of your project <small>by {{ page.assigned | plus:3 | class_date: site.data.course.start_date | date: "%a.&nbsp;%-d&nbsp;%b." }} @ 6pm</small>
 
 
 End-of-Project Presentation <small>(6 minutes)</small>
@@ -72,7 +72,7 @@ Your will have 6 minutes to summarize your work. We should get a strong sense of
 - Next steps
 
 
-Report <small>due Wed. 12 Sept. @ 6pm</small>
+Report <small>due {{ page.assigned | plus:3 | class_date: site.data.course.start_date | date: "%a.&nbsp;%-d&nbsp;%b." }} @ 6pm</small>
 ------
 
 Your report will gather all of your work from this project into a single PDF. You should also include a self-assessment based on how you think this project went.
