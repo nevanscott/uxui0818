@@ -12,6 +12,15 @@ The content on this site is copyright © 2018 Nevan Scott. Referenced readings a
 This work is available under an [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
 
+Contributors
+------------
+
+- [Leighton Bloomfield](https://github.com/lrbloomfield)
+- [Rapha Montenegro](https://github.com/raphamontenegro)
+- [Elise Monteu](https://github.com/elise2106)
+- [Diego Zito](https://github.com/dzc1)
+
+
 Installation
 ------------
 
