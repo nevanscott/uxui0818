@@ -9,6 +9,15 @@ nav:
   - HOME
   - lessons
   - projects
-  - resources
+  - notes
 start_date: August 20, 2018
 days: 45
+notes_nav:
+  -
+    section: Resources
+    notes:
+      - reading
+      - sketch-app
+      - ui-elements
+      - portfolio
+      - misc

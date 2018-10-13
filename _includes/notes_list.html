@@ -1,10 +1,10 @@
-{% for section in site.data.notes_nav %}
+{% for section in site.data.course.notes_nav %}
   <h4>{{ section.section }}</h4>
   <ul>
     {% for item in section.notes %}
-      
+
       {% assign item_url = item | prepend:"/notes/" | append:"/" %}
-      
+
       {% if item_url == page.url %}
         {% assign c = "current" %}
       {% else %}
@@ -16,7 +16,7 @@
           <li class="{{ c }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
         {% endif %}
       {% endfor %}
-      
+
     {% endfor %}
   </ul>
 {% endfor %}
