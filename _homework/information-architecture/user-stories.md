@@ -1,7 +1,7 @@
 ---
 title: User Stories Reading
-assigned: 30
-due: 31
+assigned: 26
+due: 27
 ---
 
 

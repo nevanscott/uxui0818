@@ -1,7 +1,7 @@
 ---
 title: Adaptive Interfaces Reading
-assigned: 31
-due: 32
+assigned: 27
+due: 28
 ---
 
 
