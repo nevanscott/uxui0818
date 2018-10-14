@@ -11,26 +11,31 @@
     <ul id="results-container"></ul>
   </div>
   <nav>
-    {% for item in site.data.course.nav %}
+    {% for item in site.data.course.nav -%}
 
-      {% assign item_url = item | prepend:"/" | append:"/" | replace:"HOME/","" %}
-      {% assign url_parts = page.url | split:"/" %}
-      {% assign section_slug = url_parts[1] %}
+      {%- assign item_url = item | prepend:"/" | append:"/" | replace:"HOME/","" -%}
+      {%- assign url_parts = page.url | split:"/" -%}
+      {%- assign section_slug = url_parts[1] -%}
 
-      {% if item_url == page.url %}
-        {% assign c = "current" %}
-      {% elsif item == section_slug %}
-        {% assign c = "current" %}
-      {% else %}
-        {% assign c = "" %}
-      {% endif %}
+      {%- if item_url == page.url -%}
+        {%- assign c = "current" -%}
+      {%- elsif item == section_slug -%}
+        {%- assign c = "current" -%}
+      {%- else -%}
+        {%- assign c = "" -%}
+      {%- endif -%}
 
-      {% for p in site.pages %}
-        {% if p.url == item_url %}
-          <a class="{{ c }}" href="{{ site.baseurl }}{{ p.url }}">{% if p.nav_title %}{{ p.nav_title }}{% else %}{{ p.title }}{% endif %}</a>
-        {% endif %}
-      {% endfor %}
+      {%- assign p = site.pages | where:"url",item_url | first -%}
+      {%- if p.size > 0 -%}
+        <a class="{{ c }}" href="{{ site.baseurl }}{{ p.url }}">
+          {%- if p.nav_title -%}
+            {{ p.nav_title }}
+          {%- else -%}
+            {{ p.title }}
+          {%- endif -%}
+        </a>
+      {%- endif -%}
 
-    {% endfor %}
+    {%- endfor %}
   </nav>
 </header>

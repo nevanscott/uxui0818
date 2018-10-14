@@ -92,6 +92,25 @@ table.calendar {
   }
 }
 
+.calendar a.day {
+  -webkit-clip-path: none;
+  clip-path: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border-radius: 2rem;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  &::before {
+    display: none;
+  }
+  &:hover {
+    color: #009;
+    text-decoration: underline;
+  }
+}
+
 @media screen and (min-width: 30em) {
 	.calendar {
 	}
