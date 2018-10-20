@@ -1,0 +1,105 @@
+---
+layout: default
+---
+
+<article>
+	<h1>
+    {% if page.day -%}
+      <small>Week {{ page.day | minus:1 | divided_by:5 | plus:1 }}</small>
+    {%- endif %}
+		{{ page.date | date: "%A, %B&nbsp;%-d,&nbsp;%Y" }}
+	</h1>
+  {% if page.day -%}
+		{%- assign date_xml = page.date | date_to_string | date_to_xmlschema -%}
+
+		{%- assign lessons = site.lessons | where: "day" , page.day -%}
+		{% if lessons.size > 0 -%}
+			<h4>Lessons</h4>
+			<ul>
+				{%- for post in lessons -%}
+					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+				{%- endfor -%}
+			</ul>
+		{%- endif %}
+
+		{%- assign meetings = site.meetings | where: "day" , page.day -%}
+		{% if meetings.size > 0 -%}
+			<h4>Meetings</h4>
+			<ul>
+				{%- for post in meetings -%}
+					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+				{%- endfor -%}
+			</ul>
+		{%- endif %}
+
+    {%- assign homework_due = site.homework | where: "due" , page.day -%}
+    {% if homework_due.size > 0 -%}
+      <h4>Homework Due</h4>
+      <ul>
+        {%- for post in homework_due -%}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    {%- endif %}
+
+		{%- for post in site.projects -%}
+			{%- assign post_date_xml = post.assigned | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema -%}
+			{%- if post_date_xml == date_xml -%}
+				<h4>Project</h4>
+				<div class="project">
+					<a href="{{ site.baseurl }}{{ post.url }}">
+						{{ post.title | markdownify | strip_html | strip }}
+					</a>
+				</div>
+			{%- endif -%}
+			{%- if post.due -%}
+				{%- assign due_date_xml = post.due | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema -%}
+				{%- if post_date_xml < date_xml and date_xml < due_date_xml -%}
+					<h4>Project</h4>
+					<div class="project">
+						<a href="{{ site.baseurl }}{{ post.url }}">
+							{{ post.title | markdownify | strip_html | strip }}
+						</a>
+					</div>
+				{%- endif -%}
+				{%- if due_date_xml == date_xml -%}
+					<h4>Project Due</h4>
+					<div class="project project-due">
+						<a href="{{ site.baseurl }}{{ post.url }}">
+							{{ post.title | markdownify | strip_html | strip }}
+						</a>
+					</div>
+				{%- endif -%}
+			{%- endif -%}
+		{%- endfor -%}
+
+    {%- assign homework_assigned = site.homework | where: "assigned" , page.day -%}
+    {% if homework_assigned.size > 0 -%}
+      <h4>Homework Assigned</h4>
+      <ul>
+        {% for post in homework_assigned -%}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    {%- endif %}
+  {%- endif %}
+</article>
+
+<aside id="nav">
+  {%- assign tomorrow = page.calendar_day | plus:1 -%}
+  {%- assign yesterday = page.calendar_day | minus:1 -%}
+  {%- assign next = site.pages | where:"category","days" | where:"calendar_day",tomorrow | first -%}
+  {%- assign previous = site.pages | where:"category","days" | where:"calendar_day",yesterday | first -%}
+  {% if next -%}
+    <a class="card" href="{{ site.baseurl }}{{ next.url }}">
+      <div class="label">Next</div>
+      {{ next.date | date: "%A, %B&nbsp;%-d,&nbsp;%Y" }}
+    </a>
+  {%- endif %}
+  {% if previous -%}
+    <a class="card" href="{{ site.baseurl }}{{ previous.url }}">
+      <div class="label">Previous</div>
+      {{ previous.date | date: "%A, %B&nbsp;%-d,&nbsp;%Y" }}
+    </a>
+  {%- endif %}
+</aside>

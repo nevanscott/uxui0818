@@ -10,106 +10,97 @@
     </tr>
   </thead>
   <tbody>
-    {% for day in (1..site.data.course.days) %}
-      {% assign date_xml = day | class_date: site.data.course.start_date | date_to_xmlschema %}
-      {% capture dow %}{{ date_xml | date:"%A" }}{% endcapture %}
-      {% capture dom %}{{ date_xml | date:"%-d" }}{% endcapture %}
-      {% unless dow == "Saturday" or dow == "Sunday" %}
-        {% if dow == "Monday" %}<tr class="{% cycle 'odd', 'even' %}">{% endif %}
+    {%- for day in (1..site.data.course.days) -%}
+      {%- assign date_xml = day | class_date: site.data.course.start_date | date_to_xmlschema -%}
+      {%- capture dow -%}{{ date_xml | date:"%A" }}{%- endcapture -%}
+      {%- capture dom -%}{{ date_xml | date:"%-d" }}{%- endcapture -%}
+      {%- unless dow == "Saturday" or dow == "Sunday" -%}
+        {%- if dow == "Monday" -%}<tr class="{%- cycle 'odd', 'even' -%}">{%- endif -%}
           <td data-date="{{ date_xml }}" class="
             calendar-date
             {{ date_xml | date:"%B" | downcase }}
           ">
             <div class="date">
-              {% if dow == "Monday" or dom == "1" %}
-              <span class="month">{{ date_xml | date:"%B" }}</span>
-              {% endif %}
+              <span class="month">
+                {%- if dow == "Monday" or dom == "1" -%}
+                  {{ date_xml | date:"%B" }}
+                {%- endif -%}
+              </span>
+              {%- comment -%}
+                <a href="{{ site.baseurl }}/{{ date_xml | date:"%Y-%m-%d" }}/" class="day">{{ dom }}</a>
+              {%- endcomment -%}
               <span class="day">{{ dom }}</span>
             </div>
-            {% for post in site.homework %}
-              {% if post.due %}
-                {% assign due_date_xml = post.due | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema %}
-                {% if due_date_xml == date_xml %}
-                  <div class="homework">
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                      <div class="label">Homework Due</div>
-                      {{ post.title | markdownify | strip_html | strip }}
-                    </a>
-                  </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            {% for post in site.lessons %}
-              {% if post.day %}
-                {% assign class_date_xml = post.day | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema %}
-                {% if class_date_xml == date_xml %}
-                  <div class="agenda">
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                      <div class="label">Class</div>
-                      {{ post.title | markdownify | strip_html | strip }}
-                    </a>
-                  </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            {% for post in site.projects %}
-              {% assign post_date_xml = post.assigned | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema %}
-              {% if post_date_xml == date_xml %}
+            {%- assign homework_due = site.homework | where: "due" , day -%}
+            {%- for post in homework_due -%}
+              <div class="homework">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <div class="label">Homework Due</div>
+                  {{ post.title | markdownify | strip_html | strip }}
+                </a>
+              </div>
+            {%- endfor -%}
+            {%- assign lessons = site.lessons | where: "day" , day -%}
+            {%- for post in lessons -%}
+              <div class="agenda">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <div class="label">Class</div>
+                  {{ post.title | markdownify | strip_html | strip }}
+                </a>
+              </div>
+            {%- endfor -%}
+            {%- for post in site.projects -%}
+              {%- assign post_date_xml = post.assigned | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema -%}
+              {%- if post_date_xml == date_xml -%}
                 <div class="project">
                   <a href="{{ site.baseurl }}{{ post.url }}">
                     <div class="label">Project</div>
                     {{ post.title | markdownify | strip_html | strip }}
                   </a>
                 </div>
-              {% endif %}
-              {% if post.due %}
-                {% assign due_date_xml = post.due | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema %}
-                {% if post_date_xml < date_xml and date_xml < due_date_xml %}
+              {%- endif -%}
+              {%- if post.due -%}
+                {%- assign due_date_xml = post.due | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema -%}
+                {%- if post_date_xml < date_xml and date_xml < due_date_xml -%}
                   <div class="project">
                     <a href="{{ site.baseurl }}{{ post.url }}">
                       <div class="label">Project</div>
                       {{ post.title | markdownify | strip_html | strip }}
                     </a>
                   </div>
-                {% endif %}
-                {% if due_date_xml == date_xml %}
+                {%- endif -%}
+                {%- if due_date_xml == date_xml -%}
                   <div class="project project-due">
                     <a href="{{ site.baseurl }}{{ post.url }}">
                       <div class="label">Project Due</div>
                       {{ post.title | markdownify | strip_html | strip }}
                     </a>
                   </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            {% for post in site.meetings %}
-              {% if post.day %}
-                {% assign class_date_xml = post.day | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema %}
-                {% if class_date_xml == date_xml %}
-                  <div class="agenda">
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                      <div class="label">Meeting</div>
-                      {{ post.title | markdownify | strip_html | strip }}
-                    </a>
-                  </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            {% for post in site.homework %}
-              {% assign post_date_xml = post.assigned | class_date: site.data.course.start_date | date_to_string | date_to_xmlschema %}
-              {% if post_date_xml == date_xml %}
-                <div class="homework">
-                  <a href="{{ site.baseurl }}{{ post.url }}">
-                    <div class="label">Homework</div>
-                    {{ post.title | markdownify | strip_html | strip }}
-                  </a>
-                </div>
-              {% endif %}
-            {% endfor %}
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- assign meetings = site.meetings | where: "day" , day -%}
+            {%- for post in meetings -%}
+              <div class="agenda">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <div class="label">Meeting</div>
+                  {{ post.title | markdownify | strip_html | strip }}
+                </a>
+              </div>
+            {%- endfor -%}
+            {%- assign homework_assigned = site.homework | where: "assigned" , day -%}
+            {%- for post in homework_assigned -%}
+              <div class="homework">
+                <a href="{{ site.baseurl }}{{ post.url }}">
+                  <div class="label">Homework</div>
+                  {{ post.title | markdownify | strip_html | strip }}
+                </a>
+              </div>
+            {%- endfor -%}
           </td>
-        {% if dow == "Friday" %}</tr>{% endif %}
-      {% endunless %}
-    {% endfor %}
+        {%- if dow == "Friday" -%}</tr>{%- endif -%}
+      {%- endunless -%}
+    {%- endfor -%}
   </tbody>
 </table>
 <script type="text/javascript">
