@@ -18,6 +18,8 @@ permalink: /notes/misc/
 [Flow Mapp](https://flowmapp.com)
 : Online tool for creating interactive sitemaps and user flows for web development and planning better UX.
 
+[100 Days of Product Design](https://100days.design/index.php/100-days-product-design/)
+
 
 ## Usability
 
