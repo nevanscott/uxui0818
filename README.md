@@ -17,7 +17,7 @@ Contributors
 
 - [Leighton Bloomfield](https://github.com/lrbloomfield)
 - [Rapha Montenegro](https://github.com/raphamontenegro)
-- [Elise Monteu](https://github.com/elise2106)
+- [Elise Mateu](https://github.com/elise2106)
 - [Diego Zito](https://github.com/dzc1)
 
 
